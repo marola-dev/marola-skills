@@ -30,3 +30,19 @@ jobs:
     uses: marola-dev/marola-devkit/.github/workflows/agents-check.yml@v0.12.0
     with:
       devkit-ref: v0.12.0
+
+  # A job added later must join needs:, or ci-rule stops covering it.
+  ci-ok:
+    if: always()
+    needs: [python, agents]
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions: {}
+    steps:
+      - name: every needed job passed or was skipped
+        env:
+          RESULTS: ${{ join(needs.*.result, ' ') }}
+        run: |
+          for r in $RESULTS; do
+            case "$r" in success|skipped) ;; *) echo "::error::a needed job ended $r"; exit 1 ;; esac
+          done
