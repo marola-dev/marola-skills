@@ -17,7 +17,7 @@ import sys
 import urllib.error
 import urllib.request
 from base64 import b64decode, b64encode
-from datetime import date, timedelta
+from datetime import UTC, date, datetime, timedelta
 from fnmatch import fnmatch
 from pathlib import Path
 
@@ -27,7 +27,7 @@ SKILL_GLOBS = ("SKILL.md", "*/SKILL.md")
 AGENT_GLOBS = (".claude/agents/*.md", "plugins/*/agents/*.md")
 LOCK_GLOBS = (".claude/skills/skills.lock", "plugins/*/skills/skills.lock")
 LOCK_FIELDS = ("upstream", "path", "commit", "hold", "local_edits")
-SKIP_DIRS = ("node_modules/", ".devkit/", "vendor/", "test/", "tests/", "fixtures/")
+SKIP_DIRS = ("node_modules/", ".devkit/", "vendor/", "test/", "tests/", "fixtures/", "evals/")
 
 
 def kind_of(path):
@@ -191,14 +191,23 @@ def refresh(gh, sources, state):
     old_repos, old_skills = state.get("repos", {}), state.get("skills", {})
     old_locks = state.get("locks", {})
     listings, repos = dict(state.get("listings", {})), {}
+    active = sources.get("active_days", {})
     for group in ("own", "watch"):
         for entry in sources[group]:
             if "/" in entry:
                 r = one_repo(gh, entry)
-                r = old_repos.get(entry) if r is None else r
+                # Keyed by the entry, not full_name: a renamed repo's 304 must still find it.
+                if r is None:
+                    r = listings.get(f"repo:{entry}") or old_repos.get(entry)
+                else:
+                    listings[f"repo:{entry}"] = r
                 listed = [r] if r else []
             else:
                 listed = list_repos(gh, entry, listings)
+                if entry in active:
+                    since = datetime.now(UTC) - timedelta(days=active[entry])
+                    cutoff = since.strftime("%Y-%m-%dT%H:%M:%SZ")
+                    listed = [r for r in listed if r["pushed_at"] >= cutoff]
             for r in listed:
                 repos[r["repo"]] = {**r, "group": group, "owner": entry.split("/")[0]}
     skills, locks = {}, {}
@@ -641,6 +650,24 @@ def self_test():
     assert p["review"] == "new", p
     assert s["me/a:.claude/agents/rev.md"]["review"] == "changed since review"
     assert "me/f" not in idx["repos"], "forks are skipped"
+    stale = {
+        **responses,
+        "/users/me/repos?per_page=100&page=1": [
+            {
+                **responses["/users/me/repos?per_page=100&page=1"][0],
+                "pushed_at": "2000-01-01T00:00:00Z",
+            }
+        ],
+    }
+    moved = {
+        "/repos/old/n": {"full_name": "new/n", "default_branch": "main", "pushed_at": "t"},
+        "/repos/new/n/git/trees/main?recursive=1": {"tree": []},
+    }
+    first_run = refresh(Fake(moved), {"own": [], "watch": ["old/n"]}, {})
+    second_run = refresh(Fake({"/repos/old/n": None}), {"own": [], "watch": ["old/n"]}, first_run)
+    assert "new/n" in second_run["repos"], "a renamed watched repo survives a 304"
+    quiet = refresh(Fake(stale), {"own": ["me"], "watch": [], "active_days": {"me": 15}}, {})
+    assert not quiet["repos"], "active_days drops repos not pushed within the window"
     first = gh.calls
 
     unchanged = {

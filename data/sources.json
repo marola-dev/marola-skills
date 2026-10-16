@@ -6,17 +6,20 @@
  "watch": [
   "anthropics/skills",
   "Leonxlnx/taste-skill",
-  "emilkowalski/skill",
-  "forrestchang/andrej-karpathy-skills",
+  "emilkowalski/skills",
+  "multica-ai/andrej-karpathy-skills",
   "mapbox/mapbox-agent-skills",
   "blader/humanizer",
   "DietrichGebert/ponytail",
   "fabricioctelles/skills",
-  "zircote/github-social",
+  "zircote-plugins/github-social",
   "Cocoon-AI/architecture-diagram-generator",
   "Graphify-Labs/graphify",
   "Orchestra-Research/AI-Research-SKILLs",
   "cloudflare/skills",
   "duckdb/duckdb-skills"
- ]
+ ],
+ "active_days": {
+  "h0ffmann": 15
+ }
 }
