@@ -1,229 +1,216 @@
-# agent-skills
+<div align="center">
 
-A catalogue of every Claude Code skill and subagent used across marola-dev and
-[h0ffmann/ww3-gpu](https://github.com/h0ffmann/ww3-gpu): where each one lives, where it came from,
-what has actually been tested, and which ones need a human to look at them.
+# marola-skills
 
-**Status:** hand-audited on 2026-10-07, refreshed daily by a workflow. Nothing here is loaded by
-Claude Code: skills keep living in the repo that uses them, and this repo describes them.
+<sub>o catálogo das skills da marola · <a href="docs/4-reference_index.md">índice completo</a> · <a href="docs/4-reference.md">auditoria</a> · <a href="#achados-da-revisão">achados</a> · <a href="https://docs.marola.dev/3-Ways-of-working/AGENT-SKILLS/">quando usar cada uma</a></sub>
 
-## Automation
+[![índice: diário](https://img.shields.io/badge/%C3%ADndice-di%C3%A1rio-FF4F00?style=flat-square)](docs/4-reference_index.md)
+[![refresh](https://github.com/marola-dev/marola-skills/actions/workflows/refresh.yml/badge.svg)](https://github.com/marola-dev/marola-skills/actions/workflows/refresh.yml)
+[![ci](https://github.com/marola-dev/marola-skills/actions/workflows/ci.yml/badge.svg)](https://github.com/marola-dev/marola-skills/actions/workflows/ci.yml)
+[![licença: MIT](https://img.shields.io/badge/licen%C3%A7a-MIT-1682D4?style=flat-square)](LICENSE)
 
-`refresh.yml` runs every day at 06:17 UTC (or by hand from the Actions tab). It finds every
-`SKILL.md` and subagent in all public repos of the owners in [`data/sources.json`](data/sources.json),
-and in the outside repos or users it watches. It writes `data/index.json` and
-`docs/4-reference_index.md` (both appear with the first run), and opens one rolling PR when
-anything changed.
+Uma lista de todas as skills e subagentes do Claude Code que usamos na
+[marola-dev](https://github.com/marola-dev) e nos repositórios do
+[h0ffmann](https://github.com/h0ffmann). Para cada um: onde mora, de onde veio, o que já foi
+testado e o que precisa de uma pessoa olhando.
 
-It spends no model tokens: discovery is GitHub API calls only, and repos not pushed since the last
-run cost a 304. Only the PR's "Waiting for review" list, the skills that are new or changed since
-their last review, ever needs an agent to read them. To watch someone else's skills, add
-`"owner"` (all their public repos) or `"owner/repo"` to `watch` in `data/sources.json`.
+</div>
 
-## At a glance
+**Skill** é um arquivo `SKILL.md` com instruções que o Claude Code segue numa tarefa.
+**Subagente** é um ajudante com papel fixo, como revisar um PR.
 
-| | Count |
+**Este repositório só descreve.** Nada aqui é carregado pelo Claude Code. Cada skill continua no
+repositório que a usa, e é lá que ela é corrigida.
+
+## Automação
+
+Todo dia às 06:17 UTC, o `refresh.yml` roda o [`scripts/refresh.py`](scripts/refresh.py). Você
+também pode rodar à mão, pela aba Actions, ou com `just refresh`.
+
+O script procura todo `SKILL.md` e todo subagente:
+
+- em todos os repositórios públicos da **marola-dev**;
+- nos repositórios do **h0ffmann** com push nos últimos 15 dias (`active_days` em
+  [`data/sources.json`](data/sources.json));
+- nos repositórios de fora que a gente acompanha (`watch`, no mesmo arquivo).
+
+Ele escreve [`data/index.json`](data/index.json) e
+[`docs/4-reference_index.md`](docs/4-reference_index.md). Pastas de teste, de exemplo e de
+`evals/` ficam de fora.
+
+**Não gasta tokens de modelo.** Só usa a API do GitHub. Um repositório sem push novo custa uma
+resposta 304 (o GitHub diz "nada mudou"). Só a lista "esperando revisão" precisa de um agente
+lendo.
+
+Para acompanhar as skills de outra pessoa, ponha `"dono"` ou `"dono/repo"` em `watch`.
+
+## Num relance
+
+Contagem do índice gerado em 2026-10-16.
+
+| | Quantos |
 |---|---|
-| Skills (`SKILL.md`) | 43 files, 37 distinct names |
-| Subagents | 4: `mip-reviewer`, `mip-claims-auditor` (devkit), `jar-verifier` (marola-app), `revisor-proposta` (ww3-gpu) |
-| Written here | 18 |
-| Vendored from a third party | 25, of which 17 are byte-identical to upstream today |
-| Evaluated (a recorded run with and without the skill) | 2: `corpus-doc`, `obsidian-vault` |
-| Ship evals nobody here has run | 11 (`mapbox-*` ×8, `citation-cff`, `sharingan`, `architecture-diagram`), plus 4 of `obsidian-vault`'s 5 |
-| Flagged for review | 13 findings, three of them high |
+| Skills e subagentes nossos | 81 (74 skills, 7 subagentes), 75 nomes diferentes |
+| Escritos aqui | 54 |
+| Copiados de terceiros (vendored) | 27: 16 iguais à versão fixada, 10 atrás da versão de origem, 1 diferente |
+| Revisados | 33 |
+| Esperando revisão | 48: 34 novos, 14 mudaram depois da revisão |
+| Skills de fora que acompanhamos | 263 |
 
-Where they live: marola-site (18), the marola-devkit plugin (13 + 2 agents), the umbrella (4),
-marola-corpus (1), marola-app (1 agent), ww3-gpu (7 + 1 agent). marola-ml and marola-oods have
-none.
+Onde moram: marola-site (21), marola-devkit (17), ww3-gpu (15), picasso (11), closed-source (8),
+o guarda-chuva marola (4), h0ffmann (2), marola-app, marola-corpus e marola-research (1 cada).
 
-## By tag
+Os subagentes: `mip-reviewer` e `mip-claims-auditor` (devkit), `jar-verifier` (marola-app),
+`news-copy-review` e `news-fact-check` (marola-site), `revisor-proposta` e `security-reviewer`
+(ww3-gpu).
 
-Every skill carries one tag (two for `corpus-doc`); the [catalogue](docs/4-reference.md#tags)
-has each one's origin, test status and review notes. Jump to: [FE](#fe) · [backend](#backend) · [DE](#de) · [research](#research) · [workflow](#workflow).
+## Por etiqueta
 
-### FE
+Cada skill tem uma etiqueta (tag) que diz para que serve:
 
-17 for the marola.dev map and pages: design, motion, testing, Mapbox.
-
-| Skill | Where | What it does |
+| Etiqueta | Para quê | Quantas |
 |---|---|---|
-| [`site-frontend`](https://github.com/marola-dev/marola-site/blob/main/.claude/skills/site-frontend/SKILL.md) | [marola-site](https://github.com/marola-dev/marola-site/blob/main/.claude/skills/site-frontend/SKILL.md) | Use first for any change a visitor sees on marola.dev … |
-| [`citizen-science-site`](https://github.com/marola-dev/marola-site/blob/main/.claude/skills/citizen-science-site/SKILL.md) | [marola-site](https://github.com/marola-dev/marola-site/blob/main/.claude/skills/citizen-science-site/SKILL.md) | Use when adding or reviewing a page, section or panel on marola.dev, to keep it an open-source citizen-science site people can trust and … |
-| [`ptbr-humanizer`](https://github.com/marola-dev/marola-site/blob/main/.claude/skills/ptbr-humanizer/SKILL.md) | [marola-site](https://github.com/marola-dev/marola-site/blob/main/.claude/skills/ptbr-humanizer/SKILL.md) | Use when writing or reviewing any Portuguese (pt-BR) a visitor reads on marola.dev … |
-| [`frontend-design`](https://github.com/marola-dev/marola-site/blob/main/.claude/skills/frontend-design/SKILL.md) | [marola-site](https://github.com/marola-dev/marola-site/blob/main/.claude/skills/frontend-design/SKILL.md) | Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. |
-| [`webapp-testing`](https://github.com/marola-dev/marola-site/blob/main/.claude/skills/webapp-testing/SKILL.md) | [marola-site](https://github.com/marola-dev/marola-site/blob/main/.claude/skills/webapp-testing/SKILL.md) | Toolkit for interacting with and testing local web applications using Playwright. |
-| [`design-taste-frontend`](https://github.com/marola-dev/marola-site/blob/main/.claude/skills/design-taste-frontend/SKILL.md) | [marola-site](https://github.com/marola-dev/marola-site/blob/main/.claude/skills/design-taste-frontend/SKILL.md) | Anti-slop frontend skill for landing pages, portfolios, and redesigns. |
-| [`emil-design-eng`](https://github.com/marola-dev/marola-site/blob/main/.claude/skills/emil-design-eng/SKILL.md) | [marola-site](https://github.com/marola-dev/marola-site/blob/main/.claude/skills/emil-design-eng/SKILL.md) | This skill encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the invisible details that make so… |
-| [`review-animations`](https://github.com/marola-dev/marola-site/blob/main/.claude/skills/review-animations/SKILL.md) | [marola-site](https://github.com/marola-dev/marola-site/blob/main/.claude/skills/review-animations/SKILL.md) | Reviews animation and motion code against a high craft bar derived from Emil Kowalski's design engineering philosophy. |
-| [`break-ui`](https://github.com/marola-dev/marola-site/blob/main/.claude/skills/break-ui/SKILL.md) | [marola-site](https://github.com/marola-dev/marola-site/blob/main/.claude/skills/break-ui/SKILL.md) | Try to break a piece of UI by feeding it worst-case data — long names, unbreakable emails, one-letter names, missing fields, huge counts,… |
-| [`mapbox-cartography`](https://github.com/marola-dev/marola-site/blob/main/.claude/skills/mapbox-cartography/SKILL.md) | [marola-site](https://github.com/marola-dev/marola-site/blob/main/.claude/skills/mapbox-cartography/SKILL.md) | Expert guidance on map design principles, color theory, visual hierarchy, typography, and cartographic best practices for creating effect… |
-| [`mapbox-data-visualization-patterns`](https://github.com/marola-dev/marola-site/blob/main/.claude/skills/mapbox-data-visualization-patterns/SKILL.md) | [marola-site](https://github.com/marola-dev/marola-site/blob/main/.claude/skills/mapbox-data-visualization-patterns/SKILL.md) | Patterns for visualizing data on maps including choropleth maps, heat maps, 3D visualizations, data-driven styling, and animated data. |
-| [`mapbox-maplibre-migration`](https://github.com/marola-dev/marola-site/blob/main/.claude/skills/mapbox-maplibre-migration/SKILL.md) | [marola-site](https://github.com/marola-dev/marola-site/blob/main/.claude/skills/mapbox-maplibre-migration/SKILL.md) | Guide for migrating from MapLibre GL JS to Mapbox GL JS, covering API compatibility, token setup, style configuration, and the benefits o… |
-| [`mapbox-style-patterns`](https://github.com/marola-dev/marola-site/blob/main/.claude/skills/mapbox-style-patterns/SKILL.md) | [marola-site](https://github.com/marola-dev/marola-site/blob/main/.claude/skills/mapbox-style-patterns/SKILL.md) | Common style patterns, layer configurations, and recipes for typical mapping scenarios including restaurant finders, real estate, data vi… |
-| [`mapbox-style-quality`](https://github.com/marola-dev/marola-site/blob/main/.claude/skills/mapbox-style-quality/SKILL.md) | [marola-site](https://github.com/marola-dev/marola-site/blob/main/.claude/skills/mapbox-style-quality/SKILL.md) | Expert guidance on validating, optimizing, and ensuring quality of Mapbox styles through validation, accessibility checks, and optimization. |
-| [`mapbox-token-security`](https://github.com/marola-dev/marola-site/blob/main/.claude/skills/mapbox-token-security/SKILL.md) | [marola-site](https://github.com/marola-dev/marola-site/blob/main/.claude/skills/mapbox-token-security/SKILL.md) | Security best practices for Mapbox access tokens, including scope management, URL restrictions, rotation strategies, and protecting sensi… |
-| [`mapbox-web-integration-patterns`](https://github.com/marola-dev/marola-site/blob/main/.claude/skills/mapbox-web-integration-patterns/SKILL.md) | [marola-site](https://github.com/marola-dev/marola-site/blob/main/.claude/skills/mapbox-web-integration-patterns/SKILL.md) | Official integration patterns for Mapbox GL JS across popular web frameworks (React, Vue, Svelte, Angular). |
-| [`mapbox-web-performance-patterns`](https://github.com/marola-dev/marola-site/blob/main/.claude/skills/mapbox-web-performance-patterns/SKILL.md) | [marola-site](https://github.com/marola-dev/marola-site/blob/main/.claude/skills/mapbox-web-performance-patterns/SKILL.md) | Performance optimization patterns for Mapbox GL JS web applications. |
+| FE | o mapa e as páginas do marola.dev: design, animação, testes, Mapbox | 17 |
+| workflow | o processo do time: MIPs, issues, PRs empilhados, trazer skills de fora | 12 |
+| research | escrever, citar e publicar pesquisa | 10 |
+| backend | qualidade e simplicidade do código, o app em Scala | 8 |
+| DE | trazer dados para dentro: documentos do corpus, notas de voz | 2 |
+| sem etiqueta | ainda não classificadas, a maioria nova | 33 |
 
-### backend
+A lista completa, com links, está no [índice](docs/4-reference_index.md). A
+[auditoria](docs/4-reference.md#tags) tem a origem, os testes e as notas de cada uma.
 
-5 for code quality and simplicity, and the Scala app.
+## Plugins e servidores MCP
 
-| Skill | Where | What it does |
-|---|---|---|
-| [`ponytail`](https://github.com/marola-dev/marola-devkit/blob/main/plugins/marola-devkit/skills/ponytail/SKILL.md) | [marola-devkit](https://github.com/marola-dev/marola-devkit/blob/main/plugins/marola-devkit/skills/ponytail/SKILL.md), [ww3-gpu](https://github.com/h0ffmann/ww3-gpu/blob/main/.claude/skills/ponytail/SKILL.md) | Forces the laziest solution that actually works, simplest, shortest, most minimal. |
-| [`ponytail-review`](https://github.com/marola-dev/marola-devkit/blob/main/plugins/marola-devkit/skills/ponytail-review/SKILL.md) | [marola-devkit](https://github.com/marola-dev/marola-devkit/blob/main/plugins/marola-devkit/skills/ponytail-review/SKILL.md), [ww3-gpu](https://github.com/h0ffmann/ww3-gpu/blob/main/.claude/skills/ponytail-review/SKILL.md) | Code review focused exclusively on over-engineering. |
-| [`ponytail-audit`](https://github.com/marola-dev/marola-devkit/blob/main/plugins/marola-devkit/skills/ponytail-audit/SKILL.md) | [marola-devkit](https://github.com/marola-dev/marola-devkit/blob/main/plugins/marola-devkit/skills/ponytail-audit/SKILL.md), [ww3-gpu](https://github.com/h0ffmann/ww3-gpu/blob/main/.claude/skills/ponytail-audit/SKILL.md) | Whole-repo audit for over-engineering. |
-| [`karpathy-guidelines`](https://github.com/marola-dev/marola-site/blob/main/.claude/skills/karpathy-guidelines/SKILL.md) | [marola-site](https://github.com/marola-dev/marola-site/blob/main/.claude/skills/karpathy-guidelines/SKILL.md) | Behavioral guidelines to reduce common LLM coding mistakes. |
-| [`jar-verifier`](https://github.com/marola-dev/marola-app/blob/main/.claude/agents/jar-verifier.md) (agent) | [marola-app](https://github.com/marola-dev/marola-app/blob/main/.claude/agents/jar-verifier.md) | Verifies a Kyo (or any other pre-1.0/undocumented-drift-risk dependency) API by decompiling the actual pinned jar with javap, instead of … |
+Um **plugin** traz várias skills, agentes e ganchos (hooks) de uma vez. Um **servidor MCP** dá
+ao Claude Code uma ferramenta nova, como buscar documentação ou abrir um navegador. Esta lista
+vem do `.claude/settings.json` e do `.mcp.json` de cada repositório, lidos em 2026-10-16.
 
-### DE
+| Nome | O que é | Onde está ligado | Para quê |
+|---|---|---|---|
+| [marola-devkit](https://github.com/marola-dev/marola-devkit) | plugin nosso, `v0.12.0` | marola, marola-app, marola-site, marola-oods, marola-ml, marola-corpus, marola-skills | skills de MIP e de issues, os agentes revisores e os ganchos comuns a todo repositório |
+| [Ponytail 5](https://github.com/DietrichGebert/ponytail) | plugin, `v5.2.0` | marola-site; marola-research liga o plugin sem declarar de onde ele vem, então pode não carregar | a solução mais simples que funciona; `ponytail-review` e `ponytail-audit` também vêm copiados dentro do devkit |
+| [superpowers](https://github.com/obra/superpowers) | plugin oficial | marola, marola-app | o fluxo de trabalho: planos, TDD, revisão de código |
+| skill-creator | plugin oficial da Anthropic | marola, marola-app | criar skills e rodar as evals delas |
+| [writing-skills](https://github.com/surendranb/writing-skills) | plugin, fixado num commit | marola | estilos de escrita: `plain-language`, `google-dev-docs` e outros |
+| [Graphify](https://github.com/Graphify-Labs/graphify) | ferramenta de linha de comando, não plugin | todo repositório com o devkit, pelo `just graph` | um grafo do código para o agente consultar (veja [Em destaque](#em-destaque-graphify)) |
+| [context7](https://context7.com) | servidor MCP | marola-app (`.mcp.json`, precisa de `CONTEXT7_API_KEY`) | documentação atual de bibliotecas, em vez da memória do modelo |
+| playwright | servidor MCP, `@playwright/mcp@0.0.83` | marola-site | dirigir um navegador para as fotos de antes e depois do site |
+| figma | servidor MCP | marola-site | ler os desenhos do Figma |
+| marola | servidor MCP nosso | marola-app (`just mcp-server`, in a marola-app checkout) | as ferramentas da própria marola: praias, condições do mar |
+| ai-memory | servidor MCP | só no ambiente do mantenedor; nenhum repositório liga | memória de longo prazo por projeto, entre sessões |
+| [mattpocock-skills](https://github.com/mattpocock/skills) | plugin | só no ambiente do mantenedor; nenhum repositório liga | skills do dia a dia de um engenheiro; está no [top 20](#as-20-maiores-coleções-de-skills) |
 
-2 for getting data in: corpus documents, voice notes.
+**ouroboric-dev** (13 repositórios) não liga nenhum plugin nem servidor MCP. A regra de lá é o
+contrário: copiar as skills de fora para o `havamal`, fixadas e revisadas num `skills.lock`, como
+na MIP-0080, e nunca instalar ganchos de plugin. Ponytail, superpowers e Graphify aparecem só na
+documentação, como referência.
 
-| Skill | Where | What it does |
-|---|---|---|
-| [`corpus-doc`](https://github.com/marola-dev/marola-corpus/blob/main/.claude/skills/corpus-doc/SKILL.md) | [marola-corpus](https://github.com/marola-dev/marola-corpus/blob/main/.claude/skills/corpus-doc/SKILL.md) | Add a new document to marola's knowledge corpus — the ocean/sea-lore notes that --ask and the ask_ocean_question MCP too… |
-| [`voice-note-ingest`](https://github.com/marola-dev/marola-devkit/blob/main/plugins/marola-devkit/skills/voice-note-ingest/SKILL.md) | [marola-devkit](https://github.com/marola-dev/marola-devkit/blob/main/plugins/marola-devkit/skills/voice-note-ingest/SKILL.md) | Transcribe a local voice note (WhatsApp .ogg, or similar) with local Whisper, write the transcript next to the audio, and anonymize it be… |
+## Em destaque: Graphify
 
-### research
+O [Graphify](https://github.com/Graphify-Labs/graphify) transforma um código num grafo de
+conhecimento. Um agente consulta o grafo em vez de ler pasta por pasta. A marola usa o Graphify
+pela [MIP-0076](https://docs.marola.dev/6-MIPs/MIP-0076-agent-routing-tooling/). Não
+instalamos a skill. É assim:
 
-8 for writing, citing and releasing research work.
+- **Um comando só.** O devkit traz o Graphify fixado pelo Nix. Você usa `just graph build` e
+  `just graph query "<pergunta>"`.
+- **Offline e sem chave.** Cada chamada roda sem rede e sem variáveis de ambiente além de cinco.
+  Os modos que chamariam um modelo (`extract`, `update`, `--backend`) são recusados.
+- **Fora do repositório.** O grafo fica em `~/.cache/marola-graph/<repo>`, nunca num commit.
+- **Quando usar.** O `AGENTS.md` do guarda-chuva manda perguntas como "onde mora este símbolo?"
+  para o `just graph query`. A skill `routing` do devkit diz quando o `git grep` sai mais barato.
+- **No CI.** O guarda-chuva monta o grafo quando um submódulo, o devkit ou o Graphify mudam.
 
-| Skill | Where | What it does |
-|---|---|---|
-| [`eli5`](https://github.com/marola-dev/marola/blob/main/.claude/skills/eli5/SKILL.md) | [marola](https://github.com/marola-dev/marola/blob/main/.claude/skills/eli5/SKILL.md), [ww3-gpu](https://github.com/h0ffmann/ww3-gpu/blob/main/.claude/skills/eli5/SKILL.md) | Explains a topic to a newcomer: ocean and marola topics in the umbrella, wave modelling in ww3-gpu (two different skills). |
-| [`humanizer`](https://github.com/marola-dev/marola-devkit/blob/main/plugins/marola-devkit/skills/humanizer/SKILL.md) | [marola-devkit](https://github.com/marola-dev/marola-devkit/blob/main/plugins/marola-devkit/skills/humanizer/SKILL.md), [ww3-gpu](https://github.com/h0ffmann/ww3-gpu/blob/main/.claude/skills/humanizer/SKILL.md) | Rewrite AI-sounding text so it reads like the writer without changing what it says. |
-| [`humanizar`](https://github.com/h0ffmann/ww3-gpu/blob/main/.claude/skills/humanizar/SKILL.md) | [ww3-gpu](https://github.com/h0ffmann/ww3-gpu/blob/main/.claude/skills/humanizar/SKILL.md) | Reescreve textos em português brasileiro para soarem mais humanos e naturais, reduzindo padrões típicos de escrita gerada por IA sem alte… |
-| [`citation-cff`](https://github.com/marola-dev/marola/blob/main/.claude/skills/citation-cff/SKILL.md) | [marola](https://github.com/marola-dev/marola/blob/main/.claude/skills/citation-cff/SKILL.md) | This skill should be used when the user asks to "create citation file", "generate CITATION.cff", "validate citation", "update citation", … |
-| [`zenodo-release`](https://github.com/marola-dev/marola/blob/main/.claude/skills/zenodo-release/SKILL.md) | [marola](https://github.com/marola-dev/marola/blob/main/.claude/skills/zenodo-release/SKILL.md) | Cut a citable marola release and keep its Zenodo and citation metadata right. |
-| [`release`](https://github.com/h0ffmann/ww3-gpu/blob/main/.claude/skills/release/SKILL.md) | [ww3-gpu](https://github.com/h0ffmann/ww3-gpu/blob/main/.claude/skills/release/SKILL.md) | Cut a citable ww3-gpu release and keep its Zenodo/citation metadata right. |
-| [`corpus-doc`](https://github.com/marola-dev/marola-corpus/blob/main/.claude/skills/corpus-doc/SKILL.md) | [marola-corpus](https://github.com/marola-dev/marola-corpus/blob/main/.claude/skills/corpus-doc/SKILL.md) | Add a new document to marola's knowledge corpus — the ocean/sea-lore notes that --ask and the ask_ocean_question MCP too… |
-| [`revisor-proposta`](https://github.com/h0ffmann/ww3-gpu/blob/main/.claude/agents/revisor-proposta.md) (agent) | [ww3-gpu](https://github.com/h0ffmann/ww3-gpu/blob/main/.claude/agents/revisor-proposta.md) | Revisor científico da proposta de projeto de graduação (pubs/proposal). |
+[Como, e em que pé está](docs/4-reference_graphify.md).
 
-### workflow
+## Lago OODS (MIP-0075)
 
-11 for the team's process: MIPs, issues, stacked PRs, porting skills.
-
-| Skill | Where | What it does |
-|---|---|---|
-| [`mip`](https://github.com/marola-dev/marola-devkit/blob/main/plugins/marola-devkit/skills/mip/SKILL.md) | [marola-devkit](https://github.com/marola-dev/marola-devkit/blob/main/plugins/marola-devkit/skills/mip/SKILL.md) | Write or revise a Marola Improvement Proposal (MIP) — a numbered design doc under docs/MIPs/ for any non-trivial feature, integration, or… |
-| [`mip-tasks`](https://github.com/marola-dev/marola-devkit/blob/main/plugins/marola-devkit/skills/mip-tasks/SKILL.md) | [marola-devkit](https://github.com/marola-dev/marola-devkit/blob/main/plugins/marola-devkit/skills/mip-tasks/SKILL.md) | Turn an accepted MIP into an ordered task list and deliver it as small stacked PRs (one task = one branch = one PR, each based on the pre… |
-| [`mip-solve-perpetual`](https://github.com/marola-dev/marola-devkit/blob/main/plugins/marola-devkit/skills/mip-solve-perpetual/SKILL.md) | [marola-devkit](https://github.com/marola-dev/marola-devkit/blob/main/plugins/marola-devkit/skills/mip-solve-perpetual/SKILL.md) | Overnight/unattended MIP-tasks runner. |
-| [`triage`](https://github.com/marola-dev/marola-devkit/blob/main/plugins/marola-devkit/skills/triage/SKILL.md) | [marola-devkit](https://github.com/marola-dev/marola-devkit/blob/main/plugins/marola-devkit/skills/triage/SKILL.md) | Turn a raw idea, a voice-note fragment or a bug report into one well-formed marola issue — pick the tier, draft the body in the matching … |
-| [`sharingan`](https://github.com/marola-dev/marola-devkit/blob/main/plugins/marola-devkit/skills/sharingan/SKILL.md) | [marola-devkit](https://github.com/marola-dev/marola-devkit/blob/main/plugins/marola-devkit/skills/sharingan/SKILL.md) | Port a skill, workflow or pattern from another repository into marola, given its URL — fetch the whole unit, check its licence, map every… |
-| [`skill-copy`](https://github.com/marola-dev/marola-devkit/blob/main/plugins/marola-devkit/skills/skill-copy/SKILL.md) | [marola-devkit](https://github.com/marola-dev/marola-devkit/blob/main/plugins/marola-devkit/skills/skill-copy/SKILL.md) | Alias for sharingan — port a skill or pattern from another repository's URL into marola. |
-| [`obsidian-vault`](https://github.com/marola-dev/marola-devkit/blob/main/plugins/marola-devkit/skills/obsidian-vault/SKILL.md) | [marola-devkit](https://github.com/marola-dev/marola-devkit/blob/main/plugins/marola-devkit/skills/obsidian-vault/SKILL.md) | Save and resume marola work sessions through the maintainer's Obsidian vault, and keep a linked marola digest note there. |
-| [`voice-to-feature`](https://github.com/marola-dev/marola-devkit/blob/main/plugins/marola-devkit/skills/voice-to-feature/SKILL.md) | [marola-devkit](https://github.com/marola-dev/marola-devkit/blob/main/plugins/marola-devkit/skills/voice-to-feature/SKILL.md) | Presentation/demo pipeline — turn a recorded voice note directly into a scaffolded feature branch and a Draft PR, in one pass. |
-| [`architecture-diagram`](https://github.com/marola-dev/marola/blob/main/.claude/skills/architecture-diagram/SKILL.md) | [marola](https://github.com/marola-dev/marola/blob/main/.claude/skills/architecture-diagram/SKILL.md) | Draw a polished architecture or repo-map diagram as a hand-written SVG a README can embed: dark grid card, colour per kind of component, … |
-| [`mip-reviewer`](https://github.com/marola-dev/marola-devkit/blob/main/plugins/marola-devkit/agents/mip-reviewer.md) (agent) | [marola-devkit](https://github.com/marola-dev/marola-devkit/blob/main/plugins/marola-devkit/agents/mip-reviewer.md) | Reviews one PR of a marola MIP task stack against its MIP-NNNN.tasks.md row and the MIP's own Scoring/Verification-plan sections, reporti… |
-| [`mip-claims-auditor`](https://github.com/marola-dev/marola-devkit/blob/main/plugins/marola-devkit/agents/mip-claims-auditor.md) (agent) | [marola-devkit](https://github.com/marola-dev/marola-devkit/blob/main/plugins/marola-devkit/agents/mip-claims-auditor.md) | Audits one MIP's §4 (Data sources and dependencies reviewed) for unsourced external claims — a price, a count, an HTTP status, a licence … |
-
-**workflow** is a fifth tag: these skills run the team's process (MIPs, issues, stacked PRs,
-porting skills) and fit none of the other four.
-
-
-## Featured: Graphify
-
-[Graphify](https://github.com/Graphify-Labs/graphify) (124.7k stars) turns a codebase into a knowledge
-graph an agent queries instead of reading trees. marola adopts it through
-[MIP-0076](https://docs.marola.dev/6-MIPs/MIP-0076-agent-routing-tooling/), offline and keyless behind
-the devkit's `just graph`, never by installing the skill. [How, and where the work
-stands](docs/4-reference_graphify.md).
-
-## OODS lake (MIP-0075)
-
-Skills and agents for the open ocean data lake that
-[MIP-0075](https://docs.marola.dev/6-MIPs/MIP-0075-water-quality-store-r2/) builds on Cloudflare R2:
-Cloudflare's own, DuckDB's, and the data-engineering ones whose rules a marola skill ports. Each
-does one or more of five jobs, INIT, MANAGE, GOV, DEBUG and CONNECT. The daily refresh counts
-how many have been adopted in the repos MIP-0075 lands in:
+A [MIP-0075](https://docs.marola.dev/6-MIPs/MIP-0075-water-quality-store-r2/) monta um lago de
+dados do oceano (um lugar único para guardar os dados) no Cloudflare R2. Estas são as skills que
+ajudam: as da Cloudflare, as da DuckDB e as de engenharia de dados. Cada uma faz um ou mais de
+cinco trabalhos: INIT, MANAGE, GOV, DEBUG e CONNECT. A atualização diária conta quantas já foram
+adotadas:
 
 <!-- oods:start -->
 **0 of 13 adopted** in MIP-0075's repos. By job: INIT 0/2 · MANAGE 0/6 · GOV 0/5 · DEBUG 0/6 · CONNECT 0/3.
 <!-- oods:end -->
 
-[Every skill, its upstream, how it comes in and what to watch for](docs/4-reference_oods.md).
+[Cada skill, a origem, como entra e o que vigiar](docs/4-reference_oods.md).
 
-## Top 20 skill repositories
+## As 20 maiores coleções de skills
 
-Picked for the work here (FE, backend, DE and research, as in the [catalogue](docs/4-reference.md#tags)),
-ranked by stars gained in the last 30 days. Listed, not reviewed: run one through the audit before
-vendoring it. GitHub publishes clone counts only to a repo's own maintainers, so stars and forks are
-the signal. The table is rewritten by the daily refresh from `data/curated.json`; until it has 30 days
-of history, "Gained" counts from its first reading.
+Escolhidas para o nosso trabalho e ordenadas pelas estrelas ganhas nos últimos 30 dias. **Só
+listadas, não revisadas**: passe uma pela auditoria antes de copiar. O GitHub só mostra os clones
+para quem mantém o repositório, então estrelas e forks são o sinal que temos. A tabela é refeita
+todo dia a partir de [`data/curated.json`](data/curated.json). Até juntar 30 dias de histórico,
+"Gained" conta desde a primeira leitura.
 
 <!-- top-repos:start -->
 | # | Repository | Stars | Forks | Gained | Tag | Why it is here |
 |---|---|---|---|---|---|---|
-| 1 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | 78.7k |  | +38,190 in Sep | FE | Architecture and workflow diagrams as self-contained HTML; the same job as the umbrella's `architecture-diagram` |
-| 2 | [nexu-io/open-design](https://github.com/nexu-io/open-design) | 99.2k |  |  | FE | Design-system skills for agent-built UI; a candidate next to marola-site's `design-taste-frontend` |
-| 3 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | 43.1k |  |  | FE | Diagram design rules for docs and READMEs (MIP-0068's diagrams) |
-| 4 | [Agents365-ai/drawio-skill](https://github.com/Agents365-ai/drawio-skill) | 5.8k* |  |  | FE | draw.io diagrams from text, for proposal and docs figures |
-| 5 | [mattpocock/skills](https://github.com/mattpocock/skills) | 278.2k |  | +1.1k on Oct 6 | backend | An engineer's day-to-day skills; the most starred skills repo this month |
-| 6 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 102.1k |  | +538 on Oct 6 | backend | Production engineering skills: testing, performance, review |
-| 7 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | 274.3k |  | +26,563 in Sep | backend | A whole agent harness (skills, memory, security); compare with marola-devkit before borrowing |
-| 8 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 43.4k |  |  | backend | Code review skills, next to `ponytail-review` and Claude Code Review |
-| 9 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | 25.4k |  | +559 on Oct 6 | backend | Multi-phase security audit with machine-readable findings, for the app and the site |
-| 10 | [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | 18.8k |  | +3,388 in Sep | research | Scans a skill for risks before it is installed; automates part of this repo's audit |
-| 11 | [mksglu/context-mode](https://github.com/mksglu/context-mode) | 24.5k |  | +4,165 in Sep | backend | Context-window savings for agents, the token budget this repo optimises for |
-| 12 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 124.7k |  |  | backend | Codebase knowledge graph; marola adopts it through MIP-0076 (docs/4-reference_graphify.md) |
-| 13 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 87.3k* |  |  | backend | Memory across sessions; overlaps the devkit's `obsidian-vault` handoffs |
-| 14 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 47.9k |  |  | research | 177 science skills: scientific writing, peer review, marine carbonate chemistry, CFD, GPU, Polars and Dask |
-| 15 | [Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) | 10.7k* |  |  | research | ML research and training skills, for marola-ml's fine-tune and benchmark |
-| 16 | [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py) | 17.8k* |  |  | research | NotebookLM from an agent, for literature and proposal reading |
-| 17 | [yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) | 14.5k* |  |  | DE | Turns documentation sites, repos and PDFs into skills, e.g. the WAVEWATCH III manual for ww3-gpu |
-| 18 | [tigerless-labs/autoharness](https://github.com/tigerless-labs/autoharness) | 9.0k |  | +1.0k on Oct 6 | DE | Distils skills from past sessions and prunes unused ones |
-| 19 | [max-sixty/worktrunk](https://github.com/max-sixty/worktrunk) | 8.6k |  | +1,884 in Sep | backend | Git worktrees for parallel agents, the devkit's stacked-PR worktrees |
-| 20 | [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 35.1k |  |  | research | A curated directory of 1,000+ skills, to search before writing one |
-
-Seed values from 2026-10-07, before the first refresh: stars from GitHub's pages, "in Sep" from
-[GitHub Rank's monthly trending](https://wangchujiang.com/github-rank/trending-monthly.html) (2026-10-01),
-"on Oct 6" from [gittrend.io](https://gittrend.io/trending/ai-skills); * marks a count from a cached
-topic page, likely low.
+| 1 | [mattpocock/skills](https://github.com/mattpocock/skills) | 292,945 | 24,559 |  | backend | An engineer's day-to-day skills; the most starred skills repo this month |
+| 2 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | 280,453 | 41,709 |  | backend | A whole agent harness (skills, memory, security); compare with marola-devkit before borrowing |
+| 3 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 126,931 | 12,243 |  | backend | Codebase knowledge graph; marola adopts it through MIP-0076 (docs/4-reference_graphify.md) |
+| 4 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 107,069 | 11,135 |  | backend | Production engineering skills: testing, performance, review |
+| 5 | [nexu-io/open-design](https://github.com/nexu-io/open-design) | 101,372 | 11,662 |  | FE | Design-system skills for agent-built UI; a candidate next to marola-site's `design-taste-frontend` |
+| 6 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 101,069 | 8,844 |  | backend | Memory across sessions; overlaps the devkit's `obsidian-vault` handoffs |
+| 7 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | 84,078 | 5,692 |  | FE | Architecture and workflow diagrams as self-contained HTML; the same job as the umbrella's `architecture-diagram` |
+| 8 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | 55,962 | 3,540 |  | FE | Diagram design rules for docs and READMEs (MIP-0068's diagrams) |
+| 9 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 50,546 | 4,497 |  | research | 177 science skills: scientific writing, peer review, marine carbonate chemistry, CFD, GPU, Polars and Dask |
+| 10 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 47,400 | 3,450 |  | backend | Code review skills, next to `ponytail-review` and Claude Code Review |
+| 11 | [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 35,794 | 3,881 |  | research | A curated directory of 1,000+ skills, to search before writing one |
+| 12 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | 29,927 | 1,853 |  | backend | Multi-phase security audit with machine-readable findings, for the app and the site |
+| 13 | [mksglu/context-mode](https://github.com/mksglu/context-mode) | 29,817 | 2,084 |  | backend | Context-window savings for agents, the token budget this repo optimises for |
+| 14 | [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | 20,309 | 1,782 |  | research | Scans a skill for risks before it is installed; automates part of this repo's audit |
+| 15 | [teng-lin/notebooklm-py](https://github.com/teng-lin/notebooklm-py) | 19,751 | 2,632 |  | research | NotebookLM from an agent, for literature and proposal reading |
+| 16 | [yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers) | 15,158 | 1,572 |  | DE | Turns documentation sites, repos and PDFs into skills, e.g. the WAVEWATCH III manual for ww3-gpu |
+| 17 | [tigerless-labs/autoharness](https://github.com/tigerless-labs/autoharness) | 11,133 | 626 |  | DE | Distils skills from past sessions and prunes unused ones |
+| 18 | [Agents365-ai/drawio-skill](https://github.com/Agents365-ai/drawio-skill) | 10,175 | 738 |  | FE | draw.io diagrams from text, for proposal and docs figures |
+| 19 | [max-sixty/worktrunk](https://github.com/max-sixty/worktrunk) | 9,254 | 332 |  | backend | Git worktrees for parallel agents, the devkit's stacked-PR worktrees |
+| 20 | [Orchestra-Research/AI-Research-SKILLs](https://github.com/Orchestra-Research/AI-Research-SKILLs) |  |  |  | research | ML research and training skills, for marola-ml's fine-tune and benchmark |
 <!-- top-repos:end -->
 
-## Review findings
+## Achados da revisão
 
-Highest first; each one has its evidence, a proposed fix and the issue tracking it in the repo that owns the fix.
+Do mais grave para o menos grave. Cada um tem a prova, uma correção proposta e a issue no
+repositório que vai corrigir. Situação em 2026-10-16:
 
-- [R1. `mip-solve-perpetual` implements Draft MIPs unattended](docs/4-reference_review.md#r1-mip-solve-perpetual-implements-draft-mips-unattended) · issue [marola-devkit#36](https://github.com/marola-dev/marola-devkit/issues/36)
-- [R2. `voice-to-feature` is allowed to file and close issues](docs/4-reference_review.md#r2-voice-to-feature-is-allowed-to-file-and-close-issues) · issue [marola-devkit#37](https://github.com/marola-dev/marola-devkit/issues/37)
-- [R3. Stale copies of the MIP skills on the claude.ai account](docs/4-reference_review.md#r3-stale-copies-of-the-mip-skills-on-the-claudeai-account) · your claude.ai account, no repo issue
-- [R4. Paths to a renamed folder](docs/4-reference_review.md#r4-paths-to-a-renamed-folder) · issue [marola-devkit#38](https://github.com/marola-dev/marola-devkit/issues/38)
-- [R5. `humanizer` is a version behind upstream](docs/4-reference_review.md#r5-humanizer-is-a-version-behind-upstream) · issue [marola-devkit#39](https://github.com/marola-dev/marola-devkit/issues/39)
-- [R6. `ponytail-review` and `ponytail-audit` are behind upstream](docs/4-reference_review.md#r6-ponytail-review-and-ponytail-audit-are-behind-upstream) · issue [marola-devkit#40](https://github.com/marola-dev/marola-devkit/issues/40)
-- [R7. `sharingan` and `skill-copy` pin a model and the highest effort](docs/4-reference_review.md#r7-sharingan-and-skill-copy-pin-a-model-and-the-highest-effort) · issue [marola-devkit#41](https://github.com/marola-dev/marola-devkit/issues/41)
-- [R8. Evals that ship but have never been run here](docs/4-reference_review.md#r8-evals-that-ship-but-have-never-been-run-here) · issue [marola#700](https://github.com/marola-dev/marola/issues/700)
-- [R9. `design-taste-frontend` pulls against the site's rules](docs/4-reference_review.md#r9-design-taste-frontend-pulls-against-the-sites-rules) · issue [marola-site#89](https://github.com/marola-dev/marola-site/issues/89)
-- [R10. Two mapbox skills that do not fit marola-site](docs/4-reference_review.md#r10-two-mapbox-skills-that-do-not-fit-marola-site) · issue [marola-site#90](https://github.com/marola-dev/marola-site/issues/90)
-- [R11. `karpathy-guidelines` has no licence file](docs/4-reference_review.md#r11-karpathy-guidelines-has-no-licence-file) · issue [marola-site#91](https://github.com/marola-dev/marola-site/issues/91)
-- [R12. Two different skills named `eli5`](docs/4-reference_review.md#r12-two-different-skills-named-eli5) · no fix needed
-- [R13. `site-frontend`'s baseline run is claimed but not recorded](docs/4-reference_review.md#r13-site-frontends-baseline-run-is-claimed-but-not-recorded) · issue [marola-site#92](https://github.com/marola-dev/marola-site/issues/92)
+| | Achado | Situação |
+|---|---|---|
+| [R1](docs/4-reference_review.md#r1-mip-solve-perpetual-implements-draft-mips-unattended) | `mip-solve-perpetual` implementa MIPs em rascunho sem ninguém olhando | corrigido em [marola-devkit#142](https://github.com/marola-dev/marola-devkit/pull/142) |
+| [R2](docs/4-reference_review.md#r2-voice-to-feature-is-allowed-to-file-and-close-issues) | `voice-to-feature` pode abrir e fechar issues | corrigido em [marola-devkit#142](https://github.com/marola-dev/marola-devkit/pull/142) |
+| [R3](docs/4-reference_review.md#r3-stale-copies-of-the-mip-skills-on-the-claudeai-account) | cópias velhas das skills de MIP na conta claude.ai | na sua conta claude.ai, sem issue |
+| [R4](docs/4-reference_review.md#r4-paths-to-a-renamed-folder) | caminhos para uma pasta que mudou de nome | corrigido em [marola-devkit#142](https://github.com/marola-dev/marola-devkit/pull/142) |
+| [R5](docs/4-reference_review.md#r5-humanizer-is-a-version-behind-upstream) | `humanizer` atrás da versão de origem | [marola-devkit#39](https://github.com/marola-dev/marola-devkit/issues/39); atualizado em #57, e o índice já o mostra atrás de novo |
+| [R6](docs/4-reference_review.md#r6-ponytail-review-and-ponytail-audit-are-behind-upstream) | `ponytail-review` e `ponytail-audit` atrás da origem | PR aberto: [marola-devkit#141](https://github.com/marola-dev/marola-devkit/pull/141) |
+| [R7](docs/4-reference_review.md#r7-sharingan-and-skill-copy-pin-a-model-and-the-highest-effort) | `sharingan` e `skill-copy` fixam um modelo e o esforço máximo | aberto: [marola-devkit#41](https://github.com/marola-dev/marola-devkit/issues/41) |
+| [R8](docs/4-reference_review.md#r8-evals-that-ship-but-have-never-been-run-here) | evals que vêm junto e nunca rodaram aqui | aberto: [marola#700](https://github.com/marola-dev/marola/issues/700) |
+| [R9](docs/4-reference_review.md#r9-design-taste-frontend-pulls-against-the-sites-rules) | `design-taste-frontend` puxa contra as regras do site | PR aberto: [marola-site#152](https://github.com/marola-dev/marola-site/pull/152) |
+| [R10](docs/4-reference_review.md#r10-two-mapbox-skills-that-do-not-fit-marola-site) | duas skills de Mapbox que não servem ao site | PR aberto: [marola-site#153](https://github.com/marola-dev/marola-site/pull/153) |
+| [R11](docs/4-reference_review.md#r11-karpathy-guidelines-has-no-licence-file) | `karpathy-guidelines` sem arquivo de licença | aberto: [marola-site#91](https://github.com/marola-dev/marola-site/issues/91); a origem não tem o texto da licença |
+| [R12](docs/4-reference_review.md#r12-two-different-skills-named-eli5) | duas skills diferentes chamadas `eli5` | não precisa corrigir |
+| [R13](docs/4-reference_review.md#r13-site-frontends-baseline-run-is-claimed-but-not-recorded) | o teste de base do `site-frontend` foi citado, mas não registrado | aberto: [marola-site#92](https://github.com/marola-dev/marola-site/issues/92) |
 
-## Docs
+## Documentos
 
-- [Catalogue](docs/4-reference.md): every skill and agent, with its source, upstream pin and test
-  status.
-- [Needs review](docs/4-reference_review.md): the flagged ones, each with the evidence and a
-  proposed fix.
-- [Graphify](docs/4-reference_graphify.md): how marola adopts it, the rules and the open tasks.
-- [OODS lake skills](docs/4-reference_oods.md): what helps build and run MIP-0075's lake, and how
-  much of it is adopted.
-- [Development](docs/3-development.md): how each status was established, with the commands to
-  reproduce it, and how to refresh the catalogue.
+- [Índice](docs/4-reference_index.md): gerado todo dia; todas as skills, com links.
+- [Auditoria](docs/4-reference.md): escrita à mão; origem, versão fixada e testes de cada uma.
+- [Precisa de revisão](docs/4-reference_review.md): os achados, com prova e correção proposta.
+- [Graphify](docs/4-reference_graphify.md): como a marola usa, as regras e o que falta.
+- [Skills do lago OODS](docs/4-reference_oods.md): o que ajuda a montar o lago da MIP-0075.
+- [Desenvolvimento](docs/3-development.md): como cada situação foi verificada, com os comandos.
 
-The umbrella's [Agent skills](https://docs.marola.dev/3-Ways-of-working/AGENT-SKILLS/) page says
-when to reach for each skill in marola's workflow; this repo is the inventory and the audit, and
-it also covers ww3-gpu.
+A página [Agent skills](https://docs.marola.dev/3-Ways-of-working/AGENT-SKILLS/) do guarda-chuva
+diz quando usar cada skill. Este repositório é o inventário e a auditoria.
 
-## Contracts
+## Contratos
 
-| Direction | Contract |
+| Direção | O que passa |
 |---|---|
-| repos → this | Read-only: the skills are read from each repo's `main`; nothing here is copied back |
-| this → umbrella | `submodule-updated` on every push to `main`, and `submodule-docs-updated` when `README.md` or `docs/` changed (`notify-umbrella.yml`) |
-| devkit → this | `marola-devkit`, pinned to one tag in `flake.nix`, the workflows and `.claude/settings.json` |
+| repositórios → aqui | Só leitura: as skills são lidas do `main` de cada repositório; nada volta |
+| aqui → guarda-chuva | `submodule-updated` a cada push no `main`, e `submodule-docs-updated` quando `README.md` ou `docs/` mudam (`notify-umbrella.yml`) |
+| devkit → aqui | o `marola-devkit`, fixado numa tag em `flake.nix`, nos workflows e em `.claude/settings.json` |
 
-[AGENTS.md](AGENTS.md) holds the rules for agents working here. MIT licence; each skill keeps the
-licence of the repo it lives in.
+[AGENTS.md](AGENTS.md) tem as regras para agentes que trabalham aqui. Licença MIT; cada skill
+mantém a licença do repositório onde mora.
