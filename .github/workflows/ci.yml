@@ -19,17 +19,17 @@ concurrency:
 
 jobs:
   python:
-    uses: marola-dev/marola-devkit/.github/workflows/python-ci.yml@v0.16.0
+    uses: marola-dev/marola-devkit/.github/workflows/python-ci.yml@v0.17.0
     with:
       self-test-commands: |
         python3 scripts/refresh.py --self-test
         for f in data/*.json; do python3 -m json.tool "$f" > /dev/null; done
-        git -c advice.detachedHead=false clone -q --depth 1 -b v0.16.0 https://github.com/marola-dev/marola-devkit /tmp/devkit && python3 /tmp/devkit/scripts/docs_lint.py .
+        git -c advice.detachedHead=false clone -q --depth 1 -b v0.17.0 https://github.com/marola-dev/marola-devkit /tmp/devkit && python3 /tmp/devkit/scripts/docs_lint.py .
 
   agents:
-    uses: marola-dev/marola-devkit/.github/workflows/agents-check.yml@v0.16.0
+    uses: marola-dev/marola-devkit/.github/workflows/agents-check.yml@v0.17.0
     with:
-      devkit-ref: v0.16.0
+      devkit-ref: v0.17.0
 
   # A job added later must join needs:, or ci-rule stops covering it.
   ci-ok:
