@@ -14,27 +14,37 @@ concurrency: refresh
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    # Writes as marola-pr-bot (MIP-0086): this org lets no GITHUB_TOKEN open a PR (#32), and a PR the
+    # App opens starts ci.yml itself.
     permissions:
-      contents: write
-      pull-requests: write
-      # To dispatch ci.yml on the rolling branch (below).
-      actions: write
+      contents: read
     env:
       BRANCH: chore/skills-refresh
-      GH_TOKEN: ${{ github.token }}
     steps:
+      - id: bot
+        uses: marola-dev/marola-devkit/.github/actions/bot-token@v0.17.0
+        with:
+          app-id: ${{ vars.PR_BOT_APP_ID }}
+          private-key: ${{ secrets.PR_BOT_KEY }}
+          repositories: marola-skills
+          permission-contents: write
+          permission-pull-requests: write
       - uses: actions/checkout@v4
+        with:
+          token: ${{ steps.bot.outputs.token }}
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - id: run
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           python3 scripts/refresh.py | tee -a "$GITHUB_STEP_SUMMARY"
           [ -z "$(git status --porcelain)" ] || echo "changed=true" >> "$GITHUB_OUTPUT"
       - if: steps.run.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ steps.bot.outputs.token }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git switch -C "$BRANCH"
           git add data docs README.md
           git commit -qm "chore: refresh the skills index" \
@@ -48,5 +58,3 @@ jobs:
           else
             gh pr create --head "$BRANCH" --base main --title "chore: refresh the skills index" --body "$body"
           fi
-          # A PR opened with GITHUB_TOKEN starts no workflow; a workflow_dispatch from it does.
-          gh workflow run ci.yml --ref "$BRANCH"

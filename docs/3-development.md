@@ -119,9 +119,8 @@ count goes into the README between the `oods` markers and the table into
 [OODS lake skills](4-reference_oods.md); adding or dropping a candidate stays a human edit to
 `data/oods.json`.
 
-`refresh.yml` reads and opens its rolling PR with the workflow's own token, then dispatches
-`ci.yml` on the branch, since a PR opened with that token starts no workflow. Private repos are not
-listed.
+`refresh.yml` reads GitHub with the workflow's own token and opens its rolling PR as
+`marola-pr-bot`, since this org lets no workflow token open a PR. Private repos are not listed.
 
 ## Refreshing the audit
 
