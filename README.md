@@ -210,6 +210,7 @@ diz quando usar cada skill. Este repositório é o inventário e a auditoria.
 |---|---|
 | repositórios → aqui | Só leitura: as skills são lidas do `main` de cada repositório; nada volta |
 | aqui → guarda-chuva | `submodule-updated` a cada push no `main`, e `submodule-docs-updated` quando `README.md` ou `docs/` mudam (`notify-umbrella.yml`) |
+| aqui → devkit | `bump-ready` quando o CI de um PR de bump do devkit termina verde (`bump-ready.yml`) |
 | devkit → aqui | o `marola-devkit`, fixado numa tag em `flake.nix`, nos workflows e em `.claude/settings.json` |
 
 [AGENTS.md](AGENTS.md) tem as regras para agentes que trabalham aqui. Licença MIT; cada skill
