@@ -1,25 +1,25 @@
 {
  "etags": {
-  "list:h0ffmann:1": "\"71b0e8423c503e0fe9761b764e6d19fad844be17fce982477b0bfb3aa86a3fcc\"",
-  "list:marola-dev:1": "\"a02cebfa5898b09f04ddce0a266d5003e39fde364eeea198dfdf6ac89435bd8a\"",
-  "repo:Cocoon-AI/architecture-diagram-generator": "\"7884e2a3e870db7006292db5b0099ec851c94ee148230bd45fc5559304981eb4\"",
-  "repo:DietrichGebert/ponytail": "\"7ee327c7b6d94d36f88854af59d87145f60e3d9e517e9f7b471fc56fe98c1443\"",
-  "repo:Graphify-Labs/graphify": "\"cd90b6ebb76b5df0a15b59640aaa32dd037b8d8526c595856caf95b76f1e0c8b\"",
-  "repo:Leonxlnx/taste-skill": "\"7796c00e08695112c63da0f0473aaaa0a29e6ed1df54661c1181f67920b67b2f\"",
-  "repo:Orchestra-Research/AI-Research-SKILLs": "\"06249f91e1e584eb7ed2cc72ebd5820049a33739e7f167350630c92a25238c2c\"",
-  "repo:anthropics/skills": "\"0e3d710090c1a54d1a1c294cfed2f044b0fabdcdf5a69f8a74b3e04de100ab11\"",
-  "repo:blader/humanizer": "\"e258f6dac641c1160b71a0893726c986d649cfa9c0cfd3c3c70a9af0c89a1cf9\"",
-  "repo:cloudflare/skills": "\"d95adfebbf2e507f5f010bd8c631bb77920c4c263ab95a6670c1529d2c280331\"",
-  "repo:duckdb/duckdb-skills": "\"c0acc10f75d33cd773bdf9e085c7834ea86eb612b15a0cd60d5bfa43adb5733e\"",
-  "repo:emilkowalski/skills": "\"3c5edc3b2d7f60052acc6be8406e325674478528157c58476060e2ffe4ad23c5\"",
-  "repo:fabricioctelles/skills": "\"cd668b68a3c9220e8220cc2ccf8931b97d386653debe01c737d70ad59fd38471\"",
-  "repo:mapbox/mapbox-agent-skills": "\"8fc9a92389543eda876aaf46bd3eabc544339dcd94236c9f8bb2e46fabc6ac22\"",
-  "repo:multica-ai/andrej-karpathy-skills": "\"eb50fc02c1058aee43f42aad84b1180d6023d0e381d7eab047b381b36405cabe\"",
-  "repo:zircote-plugins/github-social": "\"6573934a35603356efcfea50ac467cc27abdc5a59b75ffc7e6889e725bd56b04\""
+  "list:h0ffmann:1": "\"a69685a6a58d8914c6cea346e878be868c47bf4f37dc8606304d834f41d5b796\"",
+  "list:marola-dev:1": "\"991286d248e5fef6c3f78cf2b2fc7b16ae6ba7b272b9d4acdd78687fd4821d1b\"",
+  "repo:Cocoon-AI/architecture-diagram-generator": "\"d89f689d52a25488d5cf5610b08bdbed697503fdb701c9e5d67ff1733ff28796\"",
+  "repo:DietrichGebert/ponytail": "\"737850e4151f817fa7809fd58ccce7e20907a233d8404569cd2b73c622dd0116\"",
+  "repo:Graphify-Labs/graphify": "\"897ea639540a7ded3e1d83e83be7b4bbb1c753aff5ea17bbddec2fa089ae32da\"",
+  "repo:Leonxlnx/taste-skill": "\"4e8a89264c5094bfb28411a505a8e8fd35a0e11c9a23a1b61cf390698a577783\"",
+  "repo:Orchestra-Research/AI-Research-SKILLs": "\"06be363e0c6a168528d77a6d21663d2fddac08e4702a5b463322fe011d77960f\"",
+  "repo:anthropics/skills": "\"73f32b19c345bf8909b32345a91dbf182db3f1ccb9b08dfdbc867848fead0cf6\"",
+  "repo:blader/humanizer": "\"17f9defddcb2a1b9c868e8c53b5de1c3f90d66afe1e0e2ce1f6194b4915a2339\"",
+  "repo:cloudflare/skills": "\"96a8699657c21a058d1703e78dec2462526afde72f69fe0ff495bfdadb0919e1\"",
+  "repo:duckdb/duckdb-skills": "\"b067cb3094a318a909c232599d468846cdf131fbf65a9ea2df04f791ca2ada9c\"",
+  "repo:emilkowalski/skills": "\"301f1e9ed9aaf9b6b4a98118958c2b658795e08fc352312990c322df23969a19\"",
+  "repo:fabricioctelles/skills": "\"e1ef1f3b28932e59aa23e61a0f5ebeac87d02b766a65c6f1280251bd9f96304f\"",
+  "repo:mapbox/mapbox-agent-skills": "\"9b4393a18505067d2b6428f92919bc228d183ed64e42e5a51f8fc7479d7d5a74\"",
+  "repo:multica-ai/andrej-karpathy-skills": "\"bb76af091d4250606fb41dc85e5c4fe413fd533255e5983dc3ef5c94c32bda86\"",
+  "repo:zircote-plugins/github-social": "\"5edcd24855df9f263362b661612bc5b5c55234cd2d2c2e51d5de3977b440dc3a\""
  },
  "listings": {
   "h0ffmann:1": {
-   "raw": 84,
+   "raw": 87,
    "repos": [
     {
      "branch": "master",
@@ -83,7 +83,7 @@
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-15T20:58:19Z",
+     "pushed_at": "2026-10-17T10:13:34Z",
      "repo": "h0ffmann/h0ffmann"
     },
     {
@@ -198,7 +198,7 @@
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-16T02:10:14Z",
+     "pushed_at": "2026-10-17T12:54:45Z",
      "repo": "h0ffmann/ww3-gpu"
     },
     {
@@ -213,7 +213,7 @@
    "repos": [
     {
      "branch": "main",
-     "pushed_at": "2026-10-14T17:37:54Z",
+     "pushed_at": "2026-10-16T23:04:33Z",
      "repo": "marola-dev/.github"
     },
     {
@@ -223,7 +223,7 @@
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-16T01:42:58Z",
+     "pushed_at": "2026-10-17T12:51:13Z",
      "repo": "marola-dev/marola"
     },
     {
@@ -233,42 +233,42 @@
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-16T01:49:11Z",
+     "pushed_at": "2026-10-17T12:32:07Z",
      "repo": "marola-dev/marola-app"
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-15T21:46:20Z",
+     "pushed_at": "2026-10-17T12:28:41Z",
      "repo": "marola-dev/marola-corpus"
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-16T02:02:33Z",
+     "pushed_at": "2026-10-17T12:26:10Z",
      "repo": "marola-dev/marola-devkit"
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-16T01:44:38Z",
+     "pushed_at": "2026-10-17T12:30:05Z",
      "repo": "marola-dev/marola-ml"
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-16T01:46:00Z",
+     "pushed_at": "2026-10-17T12:28:48Z",
      "repo": "marola-dev/marola-oods"
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-16T00:37:11Z",
+     "pushed_at": "2026-10-17T01:22:33Z",
      "repo": "marola-dev/marola-research"
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-16T01:51:15Z",
+     "pushed_at": "2026-10-17T13:05:11Z",
      "repo": "marola-dev/marola-site"
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-15T11:26:11Z",
+     "pushed_at": "2026-10-17T13:12:13Z",
      "repo": "marola-dev/marola-skills"
     }
    ]
@@ -280,12 +280,12 @@
   },
   "repo:DietrichGebert/ponytail": {
    "branch": "main",
-   "pushed_at": "2026-10-15T01:02:15Z",
+   "pushed_at": "2026-10-16T23:04:42Z",
    "repo": "DietrichGebert/ponytail"
   },
   "repo:Graphify-Labs/graphify": {
    "branch": "v8",
-   "pushed_at": "2026-10-14T22:17:45Z",
+   "pushed_at": "2026-10-16T17:57:21Z",
    "repo": "Graphify-Labs/graphify"
   },
   "repo:Leonxlnx/taste-skill": {
@@ -305,7 +305,7 @@
   },
   "repo:blader/humanizer": {
    "branch": "main",
-   "pushed_at": "2026-09-28T05:55:12Z",
+   "pushed_at": "2026-10-16T19:12:03Z",
    "repo": "blader/humanizer"
   },
   "repo:cloudflare/skills": {
@@ -598,14 +598,14 @@
    "branch": "main",
    "group": "watch",
    "owner": "DietrichGebert",
-   "pushed_at": "2026-10-15T01:02:15Z",
+   "pushed_at": "2026-10-16T23:04:42Z",
    "repo": "DietrichGebert/ponytail"
   },
   "Graphify-Labs/graphify": {
    "branch": "v8",
    "group": "watch",
    "owner": "Graphify-Labs",
-   "pushed_at": "2026-10-14T22:17:45Z",
+   "pushed_at": "2026-10-16T17:57:21Z",
    "repo": "Graphify-Labs/graphify"
   },
   "Leonxlnx/taste-skill": {
@@ -633,7 +633,7 @@
    "branch": "main",
    "group": "watch",
    "owner": "blader",
-   "pushed_at": "2026-09-28T05:55:12Z",
+   "pushed_at": "2026-10-16T19:12:03Z",
    "repo": "blader/humanizer"
   },
   "cloudflare/skills": {
@@ -710,7 +710,7 @@
    "branch": "main",
    "group": "own",
    "owner": "h0ffmann",
-   "pushed_at": "2026-10-15T20:58:19Z",
+   "pushed_at": "2026-10-17T10:13:34Z",
    "repo": "h0ffmann/h0ffmann"
   },
   "h0ffmann/hoffmannxd.github.io": {
@@ -773,7 +773,7 @@
    "branch": "main",
    "group": "own",
    "owner": "h0ffmann",
-   "pushed_at": "2026-10-16T02:10:14Z",
+   "pushed_at": "2026-10-17T12:54:45Z",
    "repo": "h0ffmann/ww3-gpu"
   },
   "h0ffmann/zex": {
@@ -794,7 +794,7 @@
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-14T17:37:54Z",
+   "pushed_at": "2026-10-16T23:04:33Z",
    "repo": "marola-dev/.github"
   },
   "marola-dev/awesome-ocean-science": {
@@ -808,7 +808,7 @@
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-16T01:42:58Z",
+   "pushed_at": "2026-10-17T12:51:13Z",
    "repo": "marola-dev/marola"
   },
   "marola-dev/marola-agents": {
@@ -822,56 +822,56 @@
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-16T01:49:11Z",
+   "pushed_at": "2026-10-17T12:32:07Z",
    "repo": "marola-dev/marola-app"
   },
   "marola-dev/marola-corpus": {
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-15T21:46:20Z",
+   "pushed_at": "2026-10-17T12:28:41Z",
    "repo": "marola-dev/marola-corpus"
   },
   "marola-dev/marola-devkit": {
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-16T02:02:33Z",
+   "pushed_at": "2026-10-17T12:26:10Z",
    "repo": "marola-dev/marola-devkit"
   },
   "marola-dev/marola-ml": {
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-16T01:44:38Z",
+   "pushed_at": "2026-10-17T12:30:05Z",
    "repo": "marola-dev/marola-ml"
   },
   "marola-dev/marola-oods": {
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-16T01:46:00Z",
+   "pushed_at": "2026-10-17T12:28:48Z",
    "repo": "marola-dev/marola-oods"
   },
   "marola-dev/marola-research": {
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-16T00:37:11Z",
+   "pushed_at": "2026-10-17T01:22:33Z",
    "repo": "marola-dev/marola-research"
   },
   "marola-dev/marola-site": {
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-16T01:51:15Z",
+   "pushed_at": "2026-10-17T13:05:11Z",
    "repo": "marola-dev/marola-site"
   },
   "marola-dev/marola-skills": {
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-15T11:26:11Z",
+   "pushed_at": "2026-10-17T13:12:13Z",
    "repo": "marola-dev/marola-skills"
   },
   "multica-ai/andrej-karpathy-skills": {
@@ -959,8 +959,8 @@
    "upstream_of": ""
   },
   "DietrichGebert/ponytail:.openclaw/skills/ponytail-help/SKILL.md": {
-   "blob": "863f9248612e4948976b8980855b0457687197f1",
-   "changed": "2026-10-15",
+   "blob": "7a16bafe39de3af68a0509404bbc903d5e780fd4",
+   "changed": "2026-10-17",
    "description": "Quick reference for ponytail's modes, skills, and commands. One-shot display.",
    "first_seen": "2026-10-15",
    "group": "watch",
@@ -1061,8 +1061,8 @@
    "upstream_of": ""
   },
   "DietrichGebert/ponytail:skills/ponytail-help/SKILL.md": {
-   "blob": "6bf18247de761d58f1c38975af2a64b3cdc6feb9",
-   "changed": "2026-10-15",
+   "blob": "34fccb3ff542b3b8d4d131e6120a1812c9c4617a",
+   "changed": "2026-10-17",
    "description": "Quick reference for ponytail levels, skills and commands. One-shot display. Use for /ponytail-help, \"ponytail help\", \"how do I use ponytail\".",
    "first_seen": "2026-10-15",
    "group": "watch",
@@ -1095,8 +1095,8 @@
    "upstream_of": ""
   },
   "DietrichGebert/ponytail:skills/ponytail/SKILL.md": {
-   "blob": "b76922f76ec6f4db532203c55d710b749fa1f6af",
-   "changed": "2026-10-15",
+   "blob": "d64edd32265ba21cbf5270158f04e97d96925f27",
+   "changed": "2026-10-17",
    "description": "Lazy senior dev mode: the smallest change that fully solves the task, and a reply a busy human understands in one read. Use on any coding task (writing, fixing, refactoring, reviewing, choosing depend",
    "first_seen": "2026-10-15",
    "group": "watch",
@@ -5552,6 +5552,24 @@
    "upstream": "",
    "upstream_of": ""
   },
+  "h0ffmann/ww3-gpu:.claude/skills/routing/SKILL.md": {
+   "blob": "b0775eb29b747c50abf5d52ad87988a5175570a6",
+   "changed": "2026-10-17",
+   "description": "Find where something is in ww3-gpu in one bounded call instead of reading whole files or grepping the submodules: a glossary term, where a routine, function or recipe is defined, which pages name a fi",
+   "first_seen": "2026-10-17",
+   "group": "own",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "routing",
+   "path": ".claude/skills/routing/SKILL.md",
+   "pin": "",
+   "repo": "h0ffmann/ww3-gpu",
+   "review": "new",
+   "tag": "untagged",
+   "upstream": "",
+   "upstream_of": ""
+  },
   "h0ffmann/ww3-gpu:.claude/skills/sharingan/SKILL.md": {
    "blob": "ebf3ea3c0e132c18f714bd48af9325ad937d108c",
    "changed": "2026-10-15",
@@ -5597,8 +5615,8 @@
    "upstream_of": ""
   },
   "h0ffmann/ww3-gpu:.claude/skills/ww3-port/SKILL.md": {
-   "blob": "32020ddb63e918f82a635f5e795870eadac3d363",
-   "changed": "2026-10-15",
+   "blob": "82dc81abda0106f64ea9e71e2a6f2f19959e5d2d",
+   "changed": "2026-10-17",
    "description": "The WW3-specific traps of translating a WAVEWATCH III Fortran routine to C++/Kokkos and of claiming it regtested, learned on W3SNL1. Use while translating or reviewing a ported routine (after /port-ne",
    "first_seen": "2026-10-15",
    "group": "own",
