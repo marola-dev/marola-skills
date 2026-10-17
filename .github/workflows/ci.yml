@@ -7,8 +7,6 @@ on:
   pull_request:
   push:
     branches: [main]
-  # refresh.yml dispatches CI on its rolling PR (#14).
-  workflow_dispatch:
 
 permissions:
   contents: read
