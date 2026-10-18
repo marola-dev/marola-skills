@@ -1,25 +1,25 @@
 {
  "etags": {
-  "list:h0ffmann:1": "\"a69685a6a58d8914c6cea346e878be868c47bf4f37dc8606304d834f41d5b796\"",
-  "list:marola-dev:1": "\"991286d248e5fef6c3f78cf2b2fc7b16ae6ba7b272b9d4acdd78687fd4821d1b\"",
-  "repo:Cocoon-AI/architecture-diagram-generator": "\"d89f689d52a25488d5cf5610b08bdbed697503fdb701c9e5d67ff1733ff28796\"",
-  "repo:DietrichGebert/ponytail": "\"737850e4151f817fa7809fd58ccce7e20907a233d8404569cd2b73c622dd0116\"",
-  "repo:Graphify-Labs/graphify": "\"897ea639540a7ded3e1d83e83be7b4bbb1c753aff5ea17bbddec2fa089ae32da\"",
-  "repo:Leonxlnx/taste-skill": "\"4e8a89264c5094bfb28411a505a8e8fd35a0e11c9a23a1b61cf390698a577783\"",
-  "repo:Orchestra-Research/AI-Research-SKILLs": "\"06be363e0c6a168528d77a6d21663d2fddac08e4702a5b463322fe011d77960f\"",
-  "repo:anthropics/skills": "\"73f32b19c345bf8909b32345a91dbf182db3f1ccb9b08dfdbc867848fead0cf6\"",
-  "repo:blader/humanizer": "\"17f9defddcb2a1b9c868e8c53b5de1c3f90d66afe1e0e2ce1f6194b4915a2339\"",
-  "repo:cloudflare/skills": "\"96a8699657c21a058d1703e78dec2462526afde72f69fe0ff495bfdadb0919e1\"",
-  "repo:duckdb/duckdb-skills": "\"b067cb3094a318a909c232599d468846cdf131fbf65a9ea2df04f791ca2ada9c\"",
-  "repo:emilkowalski/skills": "\"301f1e9ed9aaf9b6b4a98118958c2b658795e08fc352312990c322df23969a19\"",
-  "repo:fabricioctelles/skills": "\"e1ef1f3b28932e59aa23e61a0f5ebeac87d02b766a65c6f1280251bd9f96304f\"",
-  "repo:mapbox/mapbox-agent-skills": "\"9b4393a18505067d2b6428f92919bc228d183ed64e42e5a51f8fc7479d7d5a74\"",
-  "repo:multica-ai/andrej-karpathy-skills": "\"bb76af091d4250606fb41dc85e5c4fe413fd533255e5983dc3ef5c94c32bda86\"",
-  "repo:zircote-plugins/github-social": "\"5edcd24855df9f263362b661612bc5b5c55234cd2d2c2e51d5de3977b440dc3a\""
+  "list:h0ffmann:1": "\"e36fb8b652efab4129360cff8b739ba0fa8a4eeac6aeed8189958ff2a3ddb4f6\"",
+  "list:marola-dev:1": "\"f4a95b72853608c465c657612c075ef4efe92441df6afd88c3701cbbf2769da7\"",
+  "repo:Cocoon-AI/architecture-diagram-generator": "\"eecfa5e9c58e818bf5d1de77c1ee81e39f95183158f760c698a1e25bf0340af1\"",
+  "repo:DietrichGebert/ponytail": "\"8812ae24ad6e38b1f6f849b4c9968b2733f2af310f78c058201b8e4c65847cfc\"",
+  "repo:Graphify-Labs/graphify": "\"db34ed66113b1affb2593f825b32bb77a350bf79e5c9f8ceffb108c7e27c694d\"",
+  "repo:Leonxlnx/taste-skill": "\"732185b52b67ebd9ca513c8e0b3674004b3e8e7e08bbbd2273b7ddaeeea3fad7\"",
+  "repo:Orchestra-Research/AI-Research-SKILLs": "\"e0728284d6e711cda9bc0473597aa29f021d9e0bcc6e19975cff874ce949ed2b\"",
+  "repo:anthropics/skills": "\"c88f7d21a59f3ab870886cd303800e7dc2484db0b97809375b7945a1053c81a3\"",
+  "repo:blader/humanizer": "\"4bb9211664604fdb3b9e425d414322941ce56d3d69d90c001bce47c8fbfe8cde\"",
+  "repo:cloudflare/skills": "\"966e36bee9aeb5d2b4409c0a727951a04c89c96983d1a628293dbb99a2d0c777\"",
+  "repo:duckdb/duckdb-skills": "\"ca3a7283cfb74ef6f92d98b6fe6e424cb70bc87cfc5583866e84ecd7ee032f8c\"",
+  "repo:emilkowalski/skills": "\"335a3c41574962c45d55d84fbd19c4026799ef05bb7f19e118900cca7970d4e3\"",
+  "repo:fabricioctelles/skills": "\"e4fa365f11227f50494308d32c434fa5d7d3919c2de3bb61ff9a7576d4763eec\"",
+  "repo:mapbox/mapbox-agent-skills": "\"f1e0c4caed19cab916a73ef708d758b43bbfdd6dab1ca8cfa95d376cc1b19278\"",
+  "repo:multica-ai/andrej-karpathy-skills": "\"c18df08e9ce718a8e927a81850a7af7e776716e8238b6ec04c306d7fc97a8f5b\"",
+  "repo:zircote-plugins/github-social": "\"82e92556c1fec0aebcc67aa96342d87514afb9bdb5803ce07fff0ee9efb9de04\""
  },
  "listings": {
   "h0ffmann:1": {
-   "raw": 87,
+   "raw": 91,
    "repos": [
     {
      "branch": "master",
@@ -83,7 +83,7 @@
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-17T10:13:34Z",
+     "pushed_at": "2026-10-18T10:24:48Z",
      "repo": "h0ffmann/h0ffmann"
     },
     {
@@ -198,7 +198,7 @@
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-17T12:54:45Z",
+     "pushed_at": "2026-10-18T00:32:03Z",
      "repo": "h0ffmann/ww3-gpu"
     },
     {
@@ -223,7 +223,7 @@
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-17T12:51:13Z",
+     "pushed_at": "2026-10-18T07:37:45Z",
      "repo": "marola-dev/marola"
     },
     {
@@ -233,27 +233,27 @@
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-17T12:32:07Z",
+     "pushed_at": "2026-10-17T16:58:05Z",
      "repo": "marola-dev/marola-app"
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-17T12:28:41Z",
+     "pushed_at": "2026-10-17T16:54:34Z",
      "repo": "marola-dev/marola-corpus"
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-17T12:26:10Z",
+     "pushed_at": "2026-10-17T16:41:19Z",
      "repo": "marola-dev/marola-devkit"
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-17T12:30:05Z",
+     "pushed_at": "2026-10-17T20:49:10Z",
      "repo": "marola-dev/marola-ml"
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-17T12:28:48Z",
+     "pushed_at": "2026-10-17T16:54:42Z",
      "repo": "marola-dev/marola-oods"
     },
     {
@@ -263,12 +263,12 @@
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-17T13:05:11Z",
+     "pushed_at": "2026-10-18T07:39:32Z",
      "repo": "marola-dev/marola-site"
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-17T13:12:13Z",
+     "pushed_at": "2026-10-17T16:54:48Z",
      "repo": "marola-dev/marola-skills"
     }
    ]
@@ -280,7 +280,7 @@
   },
   "repo:DietrichGebert/ponytail": {
    "branch": "main",
-   "pushed_at": "2026-10-16T23:04:42Z",
+   "pushed_at": "2026-10-18T01:55:14Z",
    "repo": "DietrichGebert/ponytail"
   },
   "repo:Graphify-Labs/graphify": {
@@ -290,7 +290,7 @@
   },
   "repo:Leonxlnx/taste-skill": {
    "branch": "main",
-   "pushed_at": "2026-10-14T15:00:56Z",
+   "pushed_at": "2026-10-18T08:23:56Z",
    "repo": "Leonxlnx/taste-skill"
   },
   "repo:Orchestra-Research/AI-Research-SKILLs": {
@@ -598,7 +598,7 @@
    "branch": "main",
    "group": "watch",
    "owner": "DietrichGebert",
-   "pushed_at": "2026-10-16T23:04:42Z",
+   "pushed_at": "2026-10-18T01:55:14Z",
    "repo": "DietrichGebert/ponytail"
   },
   "Graphify-Labs/graphify": {
@@ -612,7 +612,7 @@
    "branch": "main",
    "group": "watch",
    "owner": "Leonxlnx",
-   "pushed_at": "2026-10-14T15:00:56Z",
+   "pushed_at": "2026-10-18T08:23:56Z",
    "repo": "Leonxlnx/taste-skill"
   },
   "Orchestra-Research/AI-Research-SKILLs": {
@@ -710,7 +710,7 @@
    "branch": "main",
    "group": "own",
    "owner": "h0ffmann",
-   "pushed_at": "2026-10-17T10:13:34Z",
+   "pushed_at": "2026-10-18T10:24:48Z",
    "repo": "h0ffmann/h0ffmann"
   },
   "h0ffmann/hoffmannxd.github.io": {
@@ -773,7 +773,7 @@
    "branch": "main",
    "group": "own",
    "owner": "h0ffmann",
-   "pushed_at": "2026-10-17T12:54:45Z",
+   "pushed_at": "2026-10-18T00:32:03Z",
    "repo": "h0ffmann/ww3-gpu"
   },
   "h0ffmann/zex": {
@@ -808,7 +808,7 @@
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-17T12:51:13Z",
+   "pushed_at": "2026-10-18T07:37:45Z",
    "repo": "marola-dev/marola"
   },
   "marola-dev/marola-agents": {
@@ -822,35 +822,35 @@
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-17T12:32:07Z",
+   "pushed_at": "2026-10-17T16:58:05Z",
    "repo": "marola-dev/marola-app"
   },
   "marola-dev/marola-corpus": {
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-17T12:28:41Z",
+   "pushed_at": "2026-10-17T16:54:34Z",
    "repo": "marola-dev/marola-corpus"
   },
   "marola-dev/marola-devkit": {
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-17T12:26:10Z",
+   "pushed_at": "2026-10-17T16:41:19Z",
    "repo": "marola-dev/marola-devkit"
   },
   "marola-dev/marola-ml": {
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-17T12:30:05Z",
+   "pushed_at": "2026-10-17T20:49:10Z",
    "repo": "marola-dev/marola-ml"
   },
   "marola-dev/marola-oods": {
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-17T12:28:48Z",
+   "pushed_at": "2026-10-17T16:54:42Z",
    "repo": "marola-dev/marola-oods"
   },
   "marola-dev/marola-research": {
@@ -864,14 +864,14 @@
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-17T13:05:11Z",
+   "pushed_at": "2026-10-18T07:39:32Z",
    "repo": "marola-dev/marola-site"
   },
   "marola-dev/marola-skills": {
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-17T13:12:13Z",
+   "pushed_at": "2026-10-17T16:54:48Z",
    "repo": "marola-dev/marola-skills"
   },
   "multica-ai/andrej-karpathy-skills": {
@@ -5596,6 +5596,24 @@
    "upstream": "behind upstream",
    "upstream_of": "marola-dev/marola-devkit:plugins/marola-devkit/skills/sharingan/SKILL.md"
   },
+  "h0ffmann/ww3-gpu:.claude/skills/ste/SKILL.md": {
+   "blob": "3092bc141934ea0260903c80cd32497c0364ca87",
+   "changed": "2026-10-18",
+   "description": "Write or rewrite English text of ww3-gpu in ASD-STE100 Simplified Technical English (STE): procedures, READMEs, runbooks, port reports, docs/log entries, commit bodies, PR bodies and issue text. Use w",
+   "first_seen": "2026-10-18",
+   "group": "own",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "ste",
+   "path": ".claude/skills/ste/SKILL.md",
+   "pin": "",
+   "repo": "h0ffmann/ww3-gpu",
+   "review": "new",
+   "tag": "untagged",
+   "upstream": "",
+   "upstream_of": ""
+  },
   "h0ffmann/ww3-gpu:.claude/skills/wfip/SKILL.md": {
    "blob": "1dd5a481b666a42d28f38c54ad0ee2a8df747394",
    "changed": "2026-10-15",
@@ -5615,8 +5633,8 @@
    "upstream_of": ""
   },
   "h0ffmann/ww3-gpu:.claude/skills/ww3-port/SKILL.md": {
-   "blob": "82dc81abda0106f64ea9e71e2a6f2f19959e5d2d",
-   "changed": "2026-10-17",
+   "blob": "c5ae44a0b4d05944ccbcd7479fcd946d13d17fea",
+   "changed": "2026-10-18",
    "description": "The WW3-specific traps of translating a WAVEWATCH III Fortran routine to C++/Kokkos and of claiming it regtested, learned on W3SNL1. Use while translating or reviewing a ported routine (after /port-ne",
    "first_seen": "2026-10-15",
    "group": "own",
