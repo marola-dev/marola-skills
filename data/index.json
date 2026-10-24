@@ -1,25 +1,26 @@
 {
  "etags": {
-  "list:h0ffmann:1": "\"e36fb8b652efab4129360cff8b739ba0fa8a4eeac6aeed8189958ff2a3ddb4f6\"",
-  "list:marola-dev:1": "\"f4a95b72853608c465c657612c075ef4efe92441df6afd88c3701cbbf2769da7\"",
-  "repo:Cocoon-AI/architecture-diagram-generator": "\"eecfa5e9c58e818bf5d1de77c1ee81e39f95183158f760c698a1e25bf0340af1\"",
-  "repo:DietrichGebert/ponytail": "\"8812ae24ad6e38b1f6f849b4c9968b2733f2af310f78c058201b8e4c65847cfc\"",
-  "repo:Graphify-Labs/graphify": "\"db34ed66113b1affb2593f825b32bb77a350bf79e5c9f8ceffb108c7e27c694d\"",
-  "repo:Leonxlnx/taste-skill": "\"732185b52b67ebd9ca513c8e0b3674004b3e8e7e08bbbd2273b7ddaeeea3fad7\"",
-  "repo:Orchestra-Research/AI-Research-SKILLs": "\"e0728284d6e711cda9bc0473597aa29f021d9e0bcc6e19975cff874ce949ed2b\"",
-  "repo:anthropics/skills": "\"c88f7d21a59f3ab870886cd303800e7dc2484db0b97809375b7945a1053c81a3\"",
-  "repo:blader/humanizer": "\"4bb9211664604fdb3b9e425d414322941ce56d3d69d90c001bce47c8fbfe8cde\"",
-  "repo:cloudflare/skills": "\"966e36bee9aeb5d2b4409c0a727951a04c89c96983d1a628293dbb99a2d0c777\"",
-  "repo:duckdb/duckdb-skills": "\"ca3a7283cfb74ef6f92d98b6fe6e424cb70bc87cfc5583866e84ecd7ee032f8c\"",
-  "repo:emilkowalski/skills": "\"335a3c41574962c45d55d84fbd19c4026799ef05bb7f19e118900cca7970d4e3\"",
-  "repo:fabricioctelles/skills": "\"e4fa365f11227f50494308d32c434fa5d7d3919c2de3bb61ff9a7576d4763eec\"",
-  "repo:mapbox/mapbox-agent-skills": "\"f1e0c4caed19cab916a73ef708d758b43bbfdd6dab1ca8cfa95d376cc1b19278\"",
-  "repo:multica-ai/andrej-karpathy-skills": "\"c18df08e9ce718a8e927a81850a7af7e776716e8238b6ec04c306d7fc97a8f5b\"",
-  "repo:zircote-plugins/github-social": "\"82e92556c1fec0aebcc67aa96342d87514afb9bdb5803ce07fff0ee9efb9de04\""
+  "list:h0ffmann:1": "\"85e237a846242cb9831cf890ad432d5cff1498e6c4297b4116de9355d37c3d44\"",
+  "list:h0ffmann:2": "\"180f2fcdd977116a90a1c07c27d04491d0620841f66624f559f1f0c888804d23\"",
+  "list:marola-dev:1": "\"3cc8d5cd04da93e10ff1c20e16814265f69a7ee6d8d58800f0dd9dd89a5cefd0\"",
+  "repo:Cocoon-AI/architecture-diagram-generator": "\"e84b2c387fc7d3d6510fc320aef5ed70d7f705e56ab801e3f258a01be062ee29\"",
+  "repo:DietrichGebert/ponytail": "\"edefd827b19bc0dd236c872e5cb14dfe9b8da38d4d4ea0f3845d5c401c69f6b4\"",
+  "repo:Graphify-Labs/graphify": "\"c3feb567134d515a67465f75f61ce51d75f9b83dbdb27bb8a6adac308c21c4d3\"",
+  "repo:Leonxlnx/taste-skill": "\"9f83f8b544063d1ec5029883cf4fe6bdfe497dd6948284cff6134ec173b3d60e\"",
+  "repo:Orchestra-Research/AI-Research-SKILLs": "\"5535ac91ccf887fc86c87bb0d39640da933e8b6da9fbe1c781b1c1b430f699f7\"",
+  "repo:anthropics/skills": "\"68e16067315707127dbc8e4cea15d4d473062a426344dc5a9bdfd4cbbbf216d6\"",
+  "repo:blader/humanizer": "\"fb44bdb3c2daf54b167ec9c1794d4e31a1f2b174140932b5682c5f26468acc7a\"",
+  "repo:cloudflare/skills": "\"bda892b825d5ccbdb66848c4dd899be91cc6daaeded10ce7f955cd19b531b7ce\"",
+  "repo:duckdb/duckdb-skills": "\"ff178844a74b11cb0b6d9207d69f3b4b90e6f25281420142ac094f1c03fffc4b\"",
+  "repo:emilkowalski/skills": "\"78ff3e3ed0a412f86208166125100f460661d4b23acd7a5529c380671885bdfb\"",
+  "repo:fabricioctelles/skills": "\"56b613730277dba5c0bd63f465fb7c6012ed5e3072bd080e228de2547fed59d1\"",
+  "repo:mapbox/mapbox-agent-skills": "\"baa9b1c2998cc5ecf9133ee8dcb199131c39ff739cbf34615e58efa94e44451a\"",
+  "repo:multica-ai/andrej-karpathy-skills": "\"8c989fbc0d0fc347ea27bb445c8ac93078189fee5bc3b60748edee6c1ef102bd\"",
+  "repo:zircote-plugins/github-social": "\"4d69b51e91a16c3c2e5da39de481767aa5a65e636b16ccd9f0796ee0f814b657\""
  },
  "listings": {
   "h0ffmann:1": {
-   "raw": 91,
+   "raw": 100,
    "repos": [
     {
      "branch": "master",
@@ -30,6 +31,11 @@
      "branch": "main",
      "pushed_at": "2025-03-20T19:22:51Z",
      "repo": "h0ffmann/awesome-agentic-ai"
+    },
+    {
+     "branch": "main",
+     "pushed_at": "2026-10-02T12:05:20Z",
+     "repo": "h0ffmann/awesome-ocean-science"
     },
     {
      "branch": "main",
@@ -53,7 +59,7 @@
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-15T23:32:59Z",
+     "pushed_at": "2026-10-18T22:44:39Z",
      "repo": "h0ffmann/closed-source"
     },
     {
@@ -83,7 +89,7 @@
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-18T10:24:48Z",
+     "pushed_at": "2026-10-22T18:44:56Z",
      "repo": "h0ffmann/h0ffmann"
     },
     {
@@ -123,7 +129,7 @@
     },
     {
      "branch": "master",
-     "pushed_at": "2025-05-05T12:54:46Z",
+     "pushed_at": "2026-10-21T02:30:16Z",
      "repo": "h0ffmann/montaigne"
     },
     {
@@ -143,13 +149,18 @@
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-15T17:58:55Z",
+     "pushed_at": "2026-10-22T07:34:21Z",
      "repo": "h0ffmann/picasso"
     },
     {
      "branch": "main",
      "pushed_at": "2025-11-14T14:31:16Z",
      "repo": "h0ffmann/predictive-content"
+    },
+    {
+     "branch": "main",
+     "pushed_at": "2026-10-22T18:22:37Z",
+     "repo": "h0ffmann/ptbr-writer"
     },
     {
      "branch": "main",
@@ -178,6 +189,11 @@
     },
     {
      "branch": "main",
+     "pushed_at": "2026-10-22T02:39:59Z",
+     "repo": "h0ffmann/smart-notes"
+    },
+    {
+     "branch": "main",
      "pushed_at": "2025-12-24T00:19:36Z",
      "repo": "h0ffmann/swim-sync"
     },
@@ -190,16 +206,16 @@
      "branch": "main",
      "pushed_at": "2025-04-12T16:13:16Z",
      "repo": "h0ffmann/the-garden-of-aflictions"
-    },
+    }
+   ]
+  },
+  "h0ffmann:2": {
+   "raw": 11,
+   "repos": [
     {
      "branch": "main",
      "pushed_at": "2026-10-15T19:07:19Z",
      "repo": "h0ffmann/ww3-dia-gpu-v2"
-    },
-    {
-     "branch": "main",
-     "pushed_at": "2026-10-18T00:32:03Z",
-     "repo": "h0ffmann/ww3-gpu"
     },
     {
      "branch": "master",
@@ -213,17 +229,17 @@
    "repos": [
     {
      "branch": "main",
-     "pushed_at": "2026-10-16T23:04:33Z",
+     "pushed_at": "2026-10-22T20:19:33Z",
      "repo": "marola-dev/.github"
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-02T12:05:20Z",
-     "repo": "marola-dev/awesome-ocean-science"
+     "pushed_at": "2026-10-19T15:53:34Z",
+     "repo": "marola-dev/awesome-ocean-sciences"
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-18T07:37:45Z",
+     "pushed_at": "2026-10-24T09:07:07Z",
      "repo": "marola-dev/marola"
     },
     {
@@ -233,42 +249,42 @@
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-17T16:58:05Z",
+     "pushed_at": "2026-10-20T21:24:29Z",
      "repo": "marola-dev/marola-app"
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-17T16:54:34Z",
+     "pushed_at": "2026-10-20T21:21:14Z",
      "repo": "marola-dev/marola-corpus"
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-17T16:41:19Z",
+     "pushed_at": "2026-10-20T21:18:19Z",
      "repo": "marola-dev/marola-devkit"
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-17T20:49:10Z",
+     "pushed_at": "2026-10-23T09:07:55Z",
      "repo": "marola-dev/marola-ml"
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-17T16:54:42Z",
+     "pushed_at": "2026-10-20T21:21:23Z",
      "repo": "marola-dev/marola-oods"
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-17T01:22:33Z",
+     "pushed_at": "2026-10-21T02:09:42Z",
      "repo": "marola-dev/marola-research"
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-18T07:39:32Z",
+     "pushed_at": "2026-10-23T14:23:17Z",
      "repo": "marola-dev/marola-site"
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-17T16:54:48Z",
+     "pushed_at": "2026-10-23T11:34:39Z",
      "repo": "marola-dev/marola-skills"
     }
    ]
@@ -285,12 +301,12 @@
   },
   "repo:Graphify-Labs/graphify": {
    "branch": "v8",
-   "pushed_at": "2026-10-16T17:57:21Z",
+   "pushed_at": "2026-10-23T17:59:28Z",
    "repo": "Graphify-Labs/graphify"
   },
   "repo:Leonxlnx/taste-skill": {
    "branch": "main",
-   "pushed_at": "2026-10-18T08:23:56Z",
+   "pushed_at": "2026-10-20T22:04:30Z",
    "repo": "Leonxlnx/taste-skill"
   },
   "repo:Orchestra-Research/AI-Research-SKILLs": {
@@ -310,7 +326,7 @@
   },
   "repo:cloudflare/skills": {
    "branch": "main",
-   "pushed_at": "2026-10-15T21:19:27Z",
+   "pushed_at": "2026-10-19T23:59:57Z",
    "repo": "cloudflare/skills"
   },
   "repo:duckdb/duckdb-skills": {
@@ -325,12 +341,12 @@
   },
   "repo:fabricioctelles/skills": {
    "branch": "main",
-   "pushed_at": "2026-10-14T12:06:41Z",
+   "pushed_at": "2026-10-22T13:42:50Z",
    "repo": "fabricioctelles/skills"
   },
   "repo:mapbox/mapbox-agent-skills": {
    "branch": "main",
-   "pushed_at": "2026-10-01T15:43:31Z",
+   "pushed_at": "2026-10-23T15:56:18Z",
    "repo": "mapbox/mapbox-agent-skills"
   },
   "repo:multica-ai/andrej-karpathy-skills": {
@@ -346,63 +362,40 @@
  },
  "locks": {
   "h0ffmann/closed-source:.claude/skills/skills.lock": {
-   "blob": "b4211d74afa9284a2fb02e0f3dd09be910746008",
+   "blob": "8a55f8eafc529ceb1b9fab24ee10d6318e624898",
    "skills": {}
   },
   "h0ffmann/h0ffmann:.claude/skills/skills.lock": {
-   "blob": "60ee346ff6b5ab9dfaf06acdebf0f8cc09fb4464",
+   "blob": "8e5f2ba37e6d28c967e76568f802031b0e975a0a",
    "skills": {}
   },
-  "h0ffmann/ww3-gpu:.claude/skills/skills.lock": {
-   "blob": "30efeab5910b86f365ff22adda3d2d9b25807a8c",
+  "h0ffmann/ptbr-writer:.claude/skills/skills.lock": {
+   "blob": "9c59c20846dca4bc401fb561b6ba506f16d55671",
+   "skills": {}
+  },
+  "marola-dev/marola-app:.claude/skills/skills.lock": {
+   "blob": "7ba7ada55ff47a09c6dc63c30a78697ff762e269",
    "skills": {
-    "humanizar": {
-     "commit": "c107bdd73bd6cdd72435e0d74c0260ff9fa80a7d",
+    "routing": {
+     "commit": "beeb5a95091960e50bf09cb7ea7bc14d3fa2a90f",
      "hold": null,
-     "local_edits": "humanizar.patch",
-     "path": "skills/humanizar",
-     "upstream": "fabricioctelles/skills",
-     "upstream_blob": "e3b308d3dc0e359de33f3c92d215e1c8b75dbaee"
-    },
-    "humanizer": {
-     "commit": "fbdde4cd807509a4afecf062c670515ce5bd7736",
-     "hold": null,
-     "local_edits": "humanizer.patch",
-     "path": "",
-     "upstream": "blader/humanizer",
-     "upstream_blob": "d375fbf3e3ee8fb047c379bced82df3713c6ed3b"
-    },
-    "ponytail": {
-     "commit": "b6c04480c03e8db2f035751d7c46289779ec3362",
-     "hold": null,
-     "local_edits": "ponytail.patch",
-     "path": "skills/ponytail",
-     "upstream": "DietrichGebert/ponytail",
-     "upstream_blob": "02c0712c86277d49d18a77da3a2b825657bf02d1"
-    },
-    "ponytail-audit": {
-     "commit": "bd6176a9b33ab72594ff82e6f34f17b085f25565",
-     "hold": null,
-     "local_edits": "ponytail-audit.patch",
-     "path": "skills/ponytail-audit",
-     "upstream": "DietrichGebert/ponytail",
-     "upstream_blob": "5582d10335daff5b5947f9b77927fbc97f2047f3"
-    },
-    "ponytail-review": {
-     "commit": "bd6176a9b33ab72594ff82e6f34f17b085f25565",
-     "hold": null,
-     "local_edits": "ponytail-review.patch",
-     "path": "skills/ponytail-review",
-     "upstream": "DietrichGebert/ponytail",
-     "upstream_blob": "e137a855bd87119a4517895a1000a59b0999e1b8"
-    },
-    "sharingan": {
-     "commit": "ae64f4f39726de6934f15eaa1be3f8812999da60",
-     "hold": null,
-     "local_edits": "sharingan.patch",
-     "path": "plugins/marola-devkit/skills/sharingan",
+     "local_edits": null,
+     "path": "skills/routing",
      "upstream": "marola-dev/marola-devkit",
-     "upstream_blob": "5bfb6114bc76e741ac27ffaffd504307351cf9f1"
+     "upstream_blob": "242f703b88082a6f48965414974fdb6a09e7de75"
+    }
+   }
+  },
+  "marola-dev/marola-corpus:.claude/skills/skills.lock": {
+   "blob": "7ba7ada55ff47a09c6dc63c30a78697ff762e269",
+   "skills": {
+    "routing": {
+     "commit": "beeb5a95091960e50bf09cb7ea7bc14d3fa2a90f",
+     "hold": null,
+     "local_edits": null,
+     "path": "skills/routing",
+     "upstream": "marola-dev/marola-devkit",
+     "upstream_blob": "242f703b88082a6f48965414974fdb6a09e7de75"
     }
    }
   },
@@ -443,12 +436,38 @@
     }
    }
   },
+  "marola-dev/marola-ml:.claude/skills/skills.lock": {
+   "blob": "7ba7ada55ff47a09c6dc63c30a78697ff762e269",
+   "skills": {
+    "routing": {
+     "commit": "beeb5a95091960e50bf09cb7ea7bc14d3fa2a90f",
+     "hold": null,
+     "local_edits": null,
+     "path": "skills/routing",
+     "upstream": "marola-dev/marola-devkit",
+     "upstream_blob": "242f703b88082a6f48965414974fdb6a09e7de75"
+    }
+   }
+  },
+  "marola-dev/marola-oods:.claude/skills/skills.lock": {
+   "blob": "7ba7ada55ff47a09c6dc63c30a78697ff762e269",
+   "skills": {
+    "routing": {
+     "commit": "beeb5a95091960e50bf09cb7ea7bc14d3fa2a90f",
+     "hold": null,
+     "local_edits": null,
+     "path": "skills/routing",
+     "upstream": "marola-dev/marola-devkit",
+     "upstream_blob": "242f703b88082a6f48965414974fdb6a09e7de75"
+    }
+   }
+  },
   "marola-dev/marola-research:.claude/skills/skills.lock": {
    "blob": "78b0630dc2e4960a0594cea17ac7b58f5f299208",
    "skills": {}
   },
   "marola-dev/marola-site:.claude/skills/skills.lock": {
-   "blob": "e10297ba00feec3c1d6c8ed18b3ade9cff58ec05",
+   "blob": "fcf77be358a2e9254f053d6f0f4b5fc5dda7c100",
    "skills": {
     "break-ui": {
      "commit": "e8a175de22ae1e49370fc144c1f3bb9aeedf988d",
@@ -461,7 +480,7 @@
     "design-taste-frontend": {
      "commit": "3c7017d636c3a4aad378433ea6d0cfa6c921da4a",
      "hold": null,
-     "local_edits": null,
+     "local_edits": "design-taste-frontend.patch",
      "path": "skills/taste-skill",
      "upstream": "Leonxlnx/taste-skill",
      "upstream_blob": "b72132fcd466da605623ffe96e370b3991fc5285"
@@ -505,14 +524,6 @@
      "path": "skills/mapbox-data-visualization-patterns",
      "upstream": "mapbox/mapbox-agent-skills",
      "upstream_blob": "3b525fa0a2ffee061e353e828118dfaaba52885b"
-    },
-    "mapbox-maplibre-migration": {
-     "commit": "9077a826f22b8c0565ad4df9d843bcecde61fa31",
-     "hold": null,
-     "local_edits": null,
-     "path": "skills/mapbox-maplibre-migration",
-     "upstream": "mapbox/mapbox-agent-skills",
-     "upstream_blob": "f2861f7d2960ee1220e9559129084a06ab6e24ae"
     },
     "mapbox-style-patterns": {
      "commit": "9077a826f22b8c0565ad4df9d843bcecde61fa31",
@@ -562,6 +573,14 @@
      "upstream": "emilkowalski/skill",
      "upstream_blob": "577a64397267ce20960de2202950594d5bd6f9b6"
     },
+    "routing": {
+     "commit": "beeb5a95091960e50bf09cb7ea7bc14d3fa2a90f",
+     "hold": null,
+     "local_edits": null,
+     "path": "skills/routing",
+     "upstream": "marola-dev/marola-devkit",
+     "upstream_blob": "242f703b88082a6f48965414974fdb6a09e7de75"
+    },
     "webapp-testing": {
      "commit": "b9e19e6f44773509fbdd7001d77ff41a49a486c1",
      "hold": null,
@@ -573,7 +592,7 @@
    }
   },
   "marola-dev/marola:.claude/skills/skills.lock": {
-   "blob": "5dcc601f6313c88393177adc93953803e0d22e99",
+   "blob": "afc1324738b12ff2814ff376f0737e2974cf7106",
    "skills": {
     "citation-cff": {
      "commit": "bff9bcecfa275018f102a767093ada98d1e85add",
@@ -582,6 +601,14 @@
      "path": "skills/citation-cff",
      "upstream": "zircote/github-social",
      "upstream_blob": "5737231a8181d58172e47a3d82aa2d0aca527bce"
+    },
+    "routing": {
+     "commit": "c08c5c0561f37c133bd81c6a92bb63077118c4b2",
+     "hold": null,
+     "local_edits": null,
+     "path": "skills/routing",
+     "upstream": "marola-dev/marola-devkit",
+     "upstream_blob": "7fa1df06189b6c7cc1ca4685169d65d46843ada1"
     }
    }
   }
@@ -605,14 +632,14 @@
    "branch": "v8",
    "group": "watch",
    "owner": "Graphify-Labs",
-   "pushed_at": "2026-10-16T17:57:21Z",
+   "pushed_at": "2026-10-23T17:59:28Z",
    "repo": "Graphify-Labs/graphify"
   },
   "Leonxlnx/taste-skill": {
    "branch": "main",
    "group": "watch",
    "owner": "Leonxlnx",
-   "pushed_at": "2026-10-18T08:23:56Z",
+   "pushed_at": "2026-10-20T22:04:30Z",
    "repo": "Leonxlnx/taste-skill"
   },
   "Orchestra-Research/AI-Research-SKILLs": {
@@ -640,7 +667,7 @@
    "branch": "main",
    "group": "watch",
    "owner": "cloudflare",
-   "pushed_at": "2026-10-15T21:19:27Z",
+   "pushed_at": "2026-10-19T23:59:57Z",
    "repo": "cloudflare/skills"
   },
   "duckdb/duckdb-skills": {
@@ -661,7 +688,7 @@
    "branch": "main",
    "group": "watch",
    "owner": "fabricioctelles",
-   "pushed_at": "2026-10-14T12:06:41Z",
+   "pushed_at": "2026-10-22T13:42:50Z",
    "repo": "fabricioctelles/skills"
   },
   "h0ffmann/akka-bank": {
@@ -696,7 +723,7 @@
    "branch": "main",
    "group": "own",
    "owner": "h0ffmann",
-   "pushed_at": "2026-10-15T23:32:59Z",
+   "pushed_at": "2026-10-18T22:44:39Z",
    "repo": "h0ffmann/closed-source"
   },
   "h0ffmann/go-hello": {
@@ -710,7 +737,7 @@
    "branch": "main",
    "group": "own",
    "owner": "h0ffmann",
-   "pushed_at": "2026-10-18T10:24:48Z",
+   "pushed_at": "2026-10-22T18:44:56Z",
    "repo": "h0ffmann/h0ffmann"
   },
   "h0ffmann/hoffmannxd.github.io": {
@@ -734,6 +761,13 @@
    "pushed_at": "2026-10-14T01:25:06Z",
    "repo": "h0ffmann/mdd-risk-analysis"
   },
+  "h0ffmann/montaigne": {
+   "branch": "master",
+   "group": "own",
+   "owner": "h0ffmann",
+   "pushed_at": "2026-10-21T02:30:16Z",
+   "repo": "h0ffmann/montaigne"
+  },
   "h0ffmann/nashkell": {
    "branch": "main",
    "group": "own",
@@ -745,8 +779,15 @@
    "branch": "main",
    "group": "own",
    "owner": "h0ffmann",
-   "pushed_at": "2026-10-15T17:58:55Z",
+   "pushed_at": "2026-10-22T07:34:21Z",
    "repo": "h0ffmann/picasso"
+  },
+  "h0ffmann/ptbr-writer": {
+   "branch": "main",
+   "group": "own",
+   "owner": "h0ffmann",
+   "pushed_at": "2026-10-22T18:22:37Z",
+   "repo": "h0ffmann/ptbr-writer"
   },
   "h0ffmann/scala-spice": {
    "branch": "master",
@@ -762,19 +803,19 @@
    "pushed_at": "2026-10-14T01:36:39Z",
    "repo": "h0ffmann/scalabase"
   },
+  "h0ffmann/smart-notes": {
+   "branch": "main",
+   "group": "own",
+   "owner": "h0ffmann",
+   "pushed_at": "2026-10-22T02:39:59Z",
+   "repo": "h0ffmann/smart-notes"
+  },
   "h0ffmann/ww3-dia-gpu-v2": {
    "branch": "main",
    "group": "own",
    "owner": "h0ffmann",
    "pushed_at": "2026-10-15T19:07:19Z",
    "repo": "h0ffmann/ww3-dia-gpu-v2"
-  },
-  "h0ffmann/ww3-gpu": {
-   "branch": "main",
-   "group": "own",
-   "owner": "h0ffmann",
-   "pushed_at": "2026-10-18T00:32:03Z",
-   "repo": "h0ffmann/ww3-gpu"
   },
   "h0ffmann/zex": {
    "branch": "master",
@@ -787,28 +828,28 @@
    "branch": "main",
    "group": "watch",
    "owner": "mapbox",
-   "pushed_at": "2026-10-01T15:43:31Z",
+   "pushed_at": "2026-10-23T15:56:18Z",
    "repo": "mapbox/mapbox-agent-skills"
   },
   "marola-dev/.github": {
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-16T23:04:33Z",
+   "pushed_at": "2026-10-22T20:19:33Z",
    "repo": "marola-dev/.github"
   },
-  "marola-dev/awesome-ocean-science": {
+  "marola-dev/awesome-ocean-sciences": {
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-02T12:05:20Z",
-   "repo": "marola-dev/awesome-ocean-science"
+   "pushed_at": "2026-10-19T15:53:34Z",
+   "repo": "marola-dev/awesome-ocean-sciences"
   },
   "marola-dev/marola": {
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-18T07:37:45Z",
+   "pushed_at": "2026-10-24T09:07:07Z",
    "repo": "marola-dev/marola"
   },
   "marola-dev/marola-agents": {
@@ -822,56 +863,56 @@
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-17T16:58:05Z",
+   "pushed_at": "2026-10-20T21:24:29Z",
    "repo": "marola-dev/marola-app"
   },
   "marola-dev/marola-corpus": {
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-17T16:54:34Z",
+   "pushed_at": "2026-10-20T21:21:14Z",
    "repo": "marola-dev/marola-corpus"
   },
   "marola-dev/marola-devkit": {
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-17T16:41:19Z",
+   "pushed_at": "2026-10-20T21:18:19Z",
    "repo": "marola-dev/marola-devkit"
   },
   "marola-dev/marola-ml": {
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-17T20:49:10Z",
+   "pushed_at": "2026-10-23T09:07:55Z",
    "repo": "marola-dev/marola-ml"
   },
   "marola-dev/marola-oods": {
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-17T16:54:42Z",
+   "pushed_at": "2026-10-20T21:21:23Z",
    "repo": "marola-dev/marola-oods"
   },
   "marola-dev/marola-research": {
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-17T01:22:33Z",
+   "pushed_at": "2026-10-21T02:09:42Z",
    "repo": "marola-dev/marola-research"
   },
   "marola-dev/marola-site": {
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-18T07:39:32Z",
+   "pushed_at": "2026-10-23T14:23:17Z",
    "repo": "marola-dev/marola-site"
   },
   "marola-dev/marola-skills": {
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-17T16:54:48Z",
+   "pushed_at": "2026-10-23T11:34:39Z",
    "repo": "marola-dev/marola-skills"
   },
   "multica-ai/andrej-karpathy-skills": {
@@ -1111,230 +1152,9 @@
    "upstream": "",
    "upstream_of": ""
   },
-  "Leonxlnx/taste-skill:skills/brandkit/SKILL.md": {
-   "blob": "0c455f9109eacb21dbaae3386f85e7f498227151",
-   "changed": "2026-10-15",
-   "description": "Premium brand-kit image generation skill for creating high-end brand-guidelines boards, logo systems, identity decks, and visual-world presentations. Trained for minimalist, cinematic, editorial, dark",
-   "first_seen": "2026-10-15",
-   "group": "watch",
-   "hold": "",
-   "kind": "skill",
-   "local_edits": "",
-   "name": "brandkit",
-   "path": "skills/brandkit/SKILL.md",
-   "pin": "",
-   "repo": "Leonxlnx/taste-skill",
-   "tag": "untagged",
-   "upstream": "",
-   "upstream_of": ""
-  },
-  "Leonxlnx/taste-skill:skills/brutalist-skill/SKILL.md": {
-   "blob": "f5375b908340e1376ed391232a31c5d82d5babfb",
-   "changed": "2026-10-15",
-   "description": "Raw mechanical interfaces fusing Swiss typographic print with military terminal aesthetics. Rigid grids, extreme type scale contrast, utilitarian color, analog degradation effects. For data-heavy dash",
-   "first_seen": "2026-10-15",
-   "group": "watch",
-   "hold": "",
-   "kind": "skill",
-   "local_edits": "",
-   "name": "industrial-brutalist-ui",
-   "path": "skills/brutalist-skill/SKILL.md",
-   "pin": "",
-   "repo": "Leonxlnx/taste-skill",
-   "tag": "untagged",
-   "upstream": "",
-   "upstream_of": ""
-  },
-  "Leonxlnx/taste-skill:skills/gpt-tasteskill/SKILL.md": {
-   "blob": "cffd833c99247df303cec3593881fc8d5085c335",
-   "changed": "2026-10-15",
-   "description": "Elite UX/UI & Advanced GSAP Motion Engineer. Enforces Python-driven true randomization for layout variance, strict AIDA page structure, wide editorial typography (bans 6-line wraps), gapless bento gri",
-   "first_seen": "2026-10-15",
-   "group": "watch",
-   "hold": "",
-   "kind": "skill",
-   "local_edits": "",
-   "name": "gpt-taste",
-   "path": "skills/gpt-tasteskill/SKILL.md",
-   "pin": "",
-   "repo": "Leonxlnx/taste-skill",
-   "tag": "untagged",
-   "upstream": "",
-   "upstream_of": ""
-  },
-  "Leonxlnx/taste-skill:skills/image-to-code-skill/SKILL.md": {
-   "blob": "d19f8de112252ea88724c540647cad85b7653d46",
-   "changed": "2026-10-15",
-   "description": "Elite website image-to-code skill for Codex. For visually important web tasks, it must first generate the design image(s) itself, deeply analyze them, then implement the website to match them as close",
-   "first_seen": "2026-10-15",
-   "group": "watch",
-   "hold": "",
-   "kind": "skill",
-   "local_edits": "",
-   "name": "image-to-code",
-   "path": "skills/image-to-code-skill/SKILL.md",
-   "pin": "",
-   "repo": "Leonxlnx/taste-skill",
-   "tag": "untagged",
-   "upstream": "",
-   "upstream_of": ""
-  },
-  "Leonxlnx/taste-skill:skills/imagegen-frontend-mobile/SKILL.md": {
-   "blob": "9d8d55f3ca7a77e18329922ea8a67694dee52ebb",
-   "changed": "2026-10-15",
-   "description": "Elite mobile app image-generation skill for creating premium, app-native screen concepts and flows. Designed for iOS, Android, and cross-platform mobile products. Prioritizes clean hierarchy, comforta",
-   "first_seen": "2026-10-15",
-   "group": "watch",
-   "hold": "",
-   "kind": "skill",
-   "local_edits": "",
-   "name": "imagegen-frontend-mobile",
-   "path": "skills/imagegen-frontend-mobile/SKILL.md",
-   "pin": "",
-   "repo": "Leonxlnx/taste-skill",
-   "tag": "untagged",
-   "upstream": "",
-   "upstream_of": ""
-  },
-  "Leonxlnx/taste-skill:skills/imagegen-frontend-web/SKILL.md": {
-   "blob": "26b293b8d0088631c41ebefde4a650768d01cf22",
-   "changed": "2026-10-15",
-   "description": "Elite frontend image-direction skill for generating premium, conversion-aware website design references. CRITICAL OUTPUT RULE \u2014 generate ONE separate horizontal image FOR EVERY section. A landing page",
-   "first_seen": "2026-10-15",
-   "group": "watch",
-   "hold": "",
-   "kind": "skill",
-   "local_edits": "",
-   "name": "imagegen-frontend-web",
-   "path": "skills/imagegen-frontend-web/SKILL.md",
-   "pin": "",
-   "repo": "Leonxlnx/taste-skill",
-   "tag": "untagged",
-   "upstream": "",
-   "upstream_of": ""
-  },
-  "Leonxlnx/taste-skill:skills/minimalist-skill/SKILL.md": {
-   "blob": "d319ad9f49dfec1d44622effdad22d99e53f42cb",
-   "changed": "2026-10-15",
-   "description": "Clean editorial-style interfaces. Warm monochrome palette, typographic contrast, flat bento grids, muted pastels. No gradients, no heavy shadows.",
-   "first_seen": "2026-10-15",
-   "group": "watch",
-   "hold": "",
-   "kind": "skill",
-   "local_edits": "",
-   "name": "minimalist-ui",
-   "path": "skills/minimalist-skill/SKILL.md",
-   "pin": "",
-   "repo": "Leonxlnx/taste-skill",
-   "tag": "untagged",
-   "upstream": "",
-   "upstream_of": ""
-  },
-  "Leonxlnx/taste-skill:skills/output-skill/SKILL.md": {
-   "blob": "d983bbcf040b6f433c624ce2212a2c044ad2da3c",
-   "changed": "2026-10-15",
-   "description": "Overrides default LLM truncation behavior. Enforces complete code generation, bans placeholder patterns, and handles token-limit splits cleanly. Apply to any task requiring exhaustive, unabridged outp",
-   "first_seen": "2026-10-15",
-   "group": "watch",
-   "hold": "",
-   "kind": "skill",
-   "local_edits": "",
-   "name": "full-output-enforcement",
-   "path": "skills/output-skill/SKILL.md",
-   "pin": "",
-   "repo": "Leonxlnx/taste-skill",
-   "tag": "untagged",
-   "upstream": "",
-   "upstream_of": ""
-  },
-  "Leonxlnx/taste-skill:skills/redesign-skill/SKILL.md": {
-   "blob": "287737220e15cb226e5bd854f7098f698faaf3f0",
-   "changed": "2026-10-15",
-   "description": "Upgrades existing websites and apps to premium quality. Audits current design, identifies generic AI patterns, and applies high-end design standards without breaking functionality. Works with any CSS ",
-   "first_seen": "2026-10-15",
-   "group": "watch",
-   "hold": "",
-   "kind": "skill",
-   "local_edits": "",
-   "name": "redesign-existing-projects",
-   "path": "skills/redesign-skill/SKILL.md",
-   "pin": "",
-   "repo": "Leonxlnx/taste-skill",
-   "tag": "untagged",
-   "upstream": "",
-   "upstream_of": ""
-  },
-  "Leonxlnx/taste-skill:skills/soft-skill/SKILL.md": {
-   "blob": "4038f41ec0137ec92e98ed0151fe3b7038b9329e",
-   "changed": "2026-10-15",
-   "description": "Teaches the AI to design like a high-end agency. Defines the exact fonts, spacing, shadows, card structures, and animations that make a website feel expensive. Blocks all the common defaults that make",
-   "first_seen": "2026-10-15",
-   "group": "watch",
-   "hold": "",
-   "kind": "skill",
-   "local_edits": "",
-   "name": "high-end-visual-design",
-   "path": "skills/soft-skill/SKILL.md",
-   "pin": "",
-   "repo": "Leonxlnx/taste-skill",
-   "tag": "untagged",
-   "upstream": "",
-   "upstream_of": ""
-  },
-  "Leonxlnx/taste-skill:skills/stitch-skill/SKILL.md": {
-   "blob": "19d958cdb5f83d14e4021fac942c1bcf8395c042",
-   "changed": "2026-10-15",
-   "description": "Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards \u2014 strict typography, calibrated color, asymmetric layouts, perp",
-   "first_seen": "2026-10-15",
-   "group": "watch",
-   "hold": "",
-   "kind": "skill",
-   "local_edits": "",
-   "name": "stitch-design-taste",
-   "path": "skills/stitch-skill/SKILL.md",
-   "pin": "",
-   "repo": "Leonxlnx/taste-skill",
-   "tag": "untagged",
-   "upstream": "",
-   "upstream_of": ""
-  },
-  "Leonxlnx/taste-skill:skills/taste-skill-v1/SKILL.md": {
-   "blob": "a9b4d6a48bd31cef73f213143d6a7d8943945f63",
-   "changed": "2026-10-15",
-   "description": "The original v1 taste-skill, preserved for projects depending on its exact behavior. The current default is `design-taste-frontend` (v2), which is a new skill. Use this v1 install name only if you nee",
-   "first_seen": "2026-10-15",
-   "group": "watch",
-   "hold": "",
-   "kind": "skill",
-   "local_edits": "",
-   "name": "design-taste-frontend-v1",
-   "path": "skills/taste-skill-v1/SKILL.md",
-   "pin": "",
-   "repo": "Leonxlnx/taste-skill",
-   "tag": "untagged",
-   "upstream": "",
-   "upstream_of": ""
-  },
-  "Leonxlnx/taste-skill:skills/taste-skill-v2-experimental/SKILL.md": {
-   "blob": "371d95d2540c0322ac56ef5bcb8fe6d267dec50a",
-   "changed": "2026-10-15",
-   "description": "Old v2 (experimental) of taste-skill, the single-file dial-driven version, preserved for projects depending on its exact behavior. The current default is `design-taste-frontend` (v2). Use this install",
-   "first_seen": "2026-10-15",
-   "group": "watch",
-   "hold": "",
-   "kind": "skill",
-   "local_edits": "",
-   "name": "design-taste-frontend-v2-experimental",
-   "path": "skills/taste-skill-v2-experimental/SKILL.md",
-   "pin": "",
-   "repo": "Leonxlnx/taste-skill",
-   "tag": "untagged",
-   "upstream": "",
-   "upstream_of": ""
-  },
   "Leonxlnx/taste-skill:skills/taste-skill/SKILL.md": {
-   "blob": "91d114a9d8d1e9999ff8bdc7c6fc2303a49af754",
-   "changed": "2026-10-15",
+   "blob": "433d92105c76671250013e0312d82cb413f552bc",
+   "changed": "2026-10-24",
    "description": "tasteskill v2, the anti-slop frontend skill. Art direction for websites, distilled from a study of 247 curated gallery sites (One Page Love, Awwwards Sites of the Day). Deals researched directions (id",
    "first_seen": "2026-10-15",
    "group": "watch",
@@ -4155,8 +3975,8 @@
    "upstream_of": ""
   },
   "fabricioctelles/skills:skills/agent-ready-cloudflare/SKILL.md": {
-   "blob": "72a6080cf96d52f758e90553ce59695d85f3f3f0",
-   "changed": "2026-10-15",
+   "blob": "ef06d38129419642900ea743c831be88c7f8eb08",
+   "changed": "2026-10-24",
    "description": "Audit and improve website readiness for AI agents using the Cloudflare \"Is It Agent Ready?\" scanner (isitagentready.com). Covers scanning via API, interpreting results, generating implementation promp",
    "first_seen": "2026-10-15",
    "group": "watch",
@@ -4460,6 +4280,23 @@
    "upstream": "",
    "upstream_of": ""
   },
+  "fabricioctelles/skills:skills/agent-ready-cloudflare/personal-agent-protocol/SKILL.md": {
+   "blob": "2facb427a125f484a1336c0f7bdc32639c778e1b",
+   "changed": "2026-10-24",
+   "description": "Sub-skill: Implement Personal Agent Protocol (Poppy) discovery. Publish /.well-known/poppy.json (draft 0.1) and validate its OAuth issuer binding. Informational check; does not affect level or score.",
+   "first_seen": "2026-10-24",
+   "group": "watch",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "agent-ready-personal-agent-protocol",
+   "path": "skills/agent-ready-cloudflare/personal-agent-protocol/SKILL.md",
+   "pin": "",
+   "repo": "fabricioctelles/skills",
+   "tag": "untagged",
+   "upstream": "",
+   "upstream_of": ""
+  },
   "fabricioctelles/skills:skills/agent-ready-cloudflare/robots-txt/SKILL.md": {
    "blob": "0b18c421b7a8754e56748c466720f7e1ea0b0457",
    "changed": "2026-10-15",
@@ -4614,8 +4451,8 @@
    "upstream_of": ""
   },
   "fabricioctelles/skills:skills/coolify-operator/SKILL.md": {
-   "blob": "9fdb275dba9ea56b407359078a43b6582f3ec85e",
-   "changed": "2026-10-15",
+   "blob": "34130cac5fb6baf38d689bbdef67452bd29d7350",
+   "changed": "2026-10-24",
    "description": "Master Coolify operator for self-hosted deployment platform. Use when the user mentions 'coolify', 'deploy on coolify', 'list/restart/redeploy applications', 'view coolify logs', 'coolify API/CLI', 'm",
    "first_seen": "2026-10-15",
    "group": "watch",
@@ -4767,8 +4604,8 @@
    "upstream_of": ""
   },
   "fabricioctelles/skills:skills/pstack-skill/SKILL.md": {
-   "blob": "17b6c46f8733bf114b96296d0347c83550a7f6a0",
-   "changed": "2026-10-15",
+   "blob": "eac40ec9ffef4ca9971bb65be09cdcda2e6d9efc",
+   "changed": "2026-10-24",
    "description": "Rigorous engineering orchestrator ported from Lauren Tan's pstack (poteto-mode): reads your task, picks one of 23 playbooks (bug fix, feature, refactoring, perf, investigation, prototype, babysit, shi",
    "first_seen": "2026-10-15",
    "group": "watch",
@@ -5009,8 +4846,8 @@
    "upstream_of": ""
   },
   "h0ffmann/closed-source:.claude/skills/ouro-get/SKILL.md": {
-   "blob": "804b39fddec2cdcf17fade4d10bf97cc59199a13",
-   "changed": "2026-10-15",
+   "blob": "6719d53ab848065bb2d7889d816453e53f2857fa",
+   "changed": "2026-10-24",
    "description": "Get the full text of a work that is free to copy (public domain or an open licence), paste it as is into works/ with its licence marked, and index it in this repository. Use when asked to get, fetch, ",
    "first_seen": "2026-10-15",
    "group": "own",
@@ -5075,6 +4912,24 @@
    "path": ".claude/skills/readme-style/SKILL.md",
    "pin": "",
    "repo": "h0ffmann/closed-source",
+   "review": "new",
+   "tag": "untagged",
+   "upstream": "",
+   "upstream_of": ""
+  },
+  "h0ffmann/h0ffmann:.claude/skills/linkedin-cover/SKILL.md": {
+   "blob": "a15c97ca68bdd3a6eace85bdbd8a8089835c8207",
+   "changed": "2026-10-24",
+   "description": "Make the owner's LinkedIn cover (1584x396 PNG): the public repositories that h0ffmann pins on GitHub, drawn with the vendored Archify. Use when asked for his LinkedIn cover, a banner of his pinned rep",
+   "first_seen": "2026-10-24",
+   "group": "own",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "linkedin-cover",
+   "path": ".claude/skills/linkedin-cover/SKILL.md",
+   "pin": "",
+   "repo": "h0ffmann/h0ffmann",
    "review": "new",
    "tag": "untagged",
    "upstream": "",
@@ -5261,8 +5116,8 @@
    "upstream_of": ""
   },
   "h0ffmann/picasso:.claude/skills/ouroboric-sharingan/SKILL.md": {
-   "blob": "668c5c7d9518c36caa1d0035ab40180eb6d3b40f",
-   "changed": "2026-10-15",
+   "blob": "362ccc0ec4c3ed987589b381722590982fcc9ad1",
+   "changed": "2026-10-24",
    "description": "REA (Read, Evaluate, Adopt) an open-source repository, GitHub project or whole GitHub org: inventory its tooling (skills, agents, commands, hooks, CI workflows, justfiles, scripts, Nix, templates), fi",
    "first_seen": "2026-10-15",
    "group": "own",
@@ -5314,65 +5169,11 @@
    "upstream": "",
    "upstream_of": ""
   },
-  "h0ffmann/ww3-gpu:.claude/agents/revisor-proposta.md": {
-   "blob": "be680c9a3105a5232c1d701002f83797113e98b4",
-   "changed": "2026-10-15",
-   "description": "Revisor cient\u00edfico da proposta de projeto de gradua\u00e7\u00e3o (pubs/proposal). Use sempre que qualquer arquivo em pubs/proposal/ for criado ou alterado, antes de abrir o PR. Verifica normas ABNT e do DEL/Pol",
-   "first_seen": "2026-10-15",
-   "group": "own",
-   "hold": "",
-   "kind": "agent",
-   "local_edits": "",
-   "name": "revisor-proposta",
-   "path": ".claude/agents/revisor-proposta.md",
-   "pin": "",
-   "repo": "h0ffmann/ww3-gpu",
-   "review": "reviewed",
-   "tag": "research",
-   "upstream": "",
-   "upstream_of": ""
-  },
-  "h0ffmann/ww3-gpu:.claude/agents/security-reviewer.md": {
-   "blob": "7b13bde83c23fe8d19615b8dd4c81928a7a01285",
-   "changed": "2026-10-15",
-   "description": "Security review of a branch's diff against main, before a PR is marked ready. Use when asked for a security review, when a change touches .claude/ (hooks, settings, agents, skills, the project snapsho",
-   "first_seen": "2026-10-15",
-   "group": "own",
-   "hold": "",
-   "kind": "agent",
-   "local_edits": "",
-   "name": "security-reviewer",
-   "path": ".claude/agents/security-reviewer.md",
-   "pin": "",
-   "repo": "h0ffmann/ww3-gpu",
-   "review": "new",
-   "tag": "untagged",
-   "upstream": "",
-   "upstream_of": ""
-  },
-  "h0ffmann/ww3-gpu:.claude/skills/eli5/SKILL.md": {
-   "blob": "3457b18e70b88982725f69eeb823d4afe3bd4803",
-   "changed": "2026-10-15",
-   "description": "Explain a wave-modelling, Fortran or HPC topic to someone who knows nothing about it. Use when the user types /eli5 <topic>, asks to explain something simply, or asks for a picture explainer of how pa",
-   "first_seen": "2026-10-15",
-   "group": "own",
-   "hold": "",
-   "kind": "skill",
-   "local_edits": "",
-   "name": "eli5",
-   "path": ".claude/skills/eli5/SKILL.md",
-   "pin": "",
-   "repo": "h0ffmann/ww3-gpu",
-   "review": "reviewed",
-   "tag": "research",
-   "upstream": "",
-   "upstream_of": ""
-  },
-  "h0ffmann/ww3-gpu:.claude/skills/figure/SKILL.md": {
-   "blob": "7053de6c85e020082afcb5afdc18946ea74d3a53",
-   "changed": "2026-10-15",
-   "description": "Add, change or explain a Mermaid diagram or mind map anywhere in this repo's Markdown (course lessons, the proposal's mind maps, docs). Use when asked for a diagram, flowchart, mind map, gantt or 'a p",
-   "first_seen": "2026-10-15",
+  "h0ffmann/ptbr-writer:.claude/skills/figure/SKILL.md": {
+   "blob": "9369a3c7bcdae7cf9066c47cc06b89a1cc6070b4",
+   "changed": "2026-10-24",
+   "description": "Add, change or explain a diagram in this repo's Markdown (README.md, README.en.md, docs): a Mermaid fence or an Archify picture. Use when asked for a diagram, flowchart, mind map or 'a picture of' som",
+   "first_seen": "2026-10-24",
    "group": "own",
    "hold": "",
    "kind": "skill",
@@ -5380,289 +5181,133 @@
    "name": "figure",
    "path": ".claude/skills/figure/SKILL.md",
    "pin": "",
-   "repo": "h0ffmann/ww3-gpu",
+   "repo": "h0ffmann/ptbr-writer",
    "review": "new",
    "tag": "untagged",
    "upstream": "",
    "upstream_of": ""
   },
-  "h0ffmann/ww3-gpu:.claude/skills/humanizar/SKILL.md": {
-   "blob": "1c9109f8cdf22bfa144a8365eb4e0656de436ee6",
-   "changed": "2026-10-15",
-   "description": "Reescreve textos em portugu\u00eas brasileiro para soarem mais humanos e naturais, reduzindo padr\u00f5es t\u00edpicos de escrita gerada por IA sem alterar fatos, argumento ou inten\u00e7\u00e3o. Use quando o texto em PT-BR p",
-   "first_seen": "2026-10-15",
-   "group": "own",
-   "hold": "",
-   "kind": "skill",
-   "local_edits": "humanizar.patch",
-   "lock": {
-    "commit": "c107bdd73bd6cdd72435e0d74c0260ff9fa80a7d",
-    "hold": null,
-    "local_edits": "humanizar.patch",
-    "path": "skills/humanizar",
-    "upstream": "fabricioctelles/skills",
-    "upstream_blob": "e3b308d3dc0e359de33f3c92d215e1c8b75dbaee"
-   },
-   "name": "humanizar",
-   "path": ".claude/skills/humanizar/SKILL.md",
-   "pin": "c107bdd73bd6cdd72435e0d74c0260ff9fa80a7d",
-   "repo": "h0ffmann/ww3-gpu",
-   "review": "reviewed",
-   "tag": "research",
-   "upstream": "behind upstream",
-   "upstream_of": "fabricioctelles/skills:skills/humanizar/SKILL.md"
-  },
-  "h0ffmann/ww3-gpu:.claude/skills/humanizer/SKILL.md": {
-   "blob": "0e9ca53c0cf7e50206c4ad8fb929001368857da1",
-   "changed": "2026-10-15",
-   "description": "Rewrite AI-sounding text so it reads like the writer without changing what it says. Use when editing or reviewing prose for AI tells: not-X-but-Y contrasts, one-line closers, staged openers, forced tr",
-   "first_seen": "2026-10-15",
-   "group": "own",
-   "hold": "",
-   "kind": "skill",
-   "local_edits": "humanizer.patch",
-   "lock": {
-    "commit": "fbdde4cd807509a4afecf062c670515ce5bd7736",
-    "hold": null,
-    "local_edits": "humanizer.patch",
-    "path": "",
-    "upstream": "blader/humanizer",
-    "upstream_blob": "d375fbf3e3ee8fb047c379bced82df3713c6ed3b"
-   },
-   "name": "humanizer",
-   "path": ".claude/skills/humanizer/SKILL.md",
-   "pin": "fbdde4cd807509a4afecf062c670515ce5bd7736",
-   "repo": "h0ffmann/ww3-gpu",
-   "review": "reviewed",
-   "tag": "research",
-   "upstream": "behind upstream",
-   "upstream_of": "blader/humanizer:SKILL.md"
-  },
-  "h0ffmann/ww3-gpu:.claude/skills/noaa-notices/SKILL.md": {
-   "blob": "25e3ea40fce48b76f5ec6ec7e23db1afad180220",
-   "changed": "2026-10-15",
-   "description": "List NOAA announcements new since the last snapshot that touch this repository (NWS Public Information Statements and Service Change Notices, NCEP model changes, NOAA-EMC/WW3 tags and production branc",
-   "first_seen": "2026-10-15",
+  "h0ffmann/ptbr-writer:SKILL.md": {
+   "blob": "8eb5a15513b0b02f4dfb1ad667a100a880521f83",
+   "changed": "2026-10-24",
+   "description": "Reescreve texto t\u00e9cnico em portugu\u00eas brasileiro por n\u00edvel de rigor (estrito, descritivo, leve, cient\u00edfico, smart-note). Use ao escrever, reescrever ou revisar runbook, documenta\u00e7\u00e3o, comunicado ou nota",
+   "first_seen": "2026-10-24",
    "group": "own",
    "hold": "",
    "kind": "skill",
    "local_edits": "",
-   "name": "noaa-notices",
-   "path": ".claude/skills/noaa-notices/SKILL.md",
+   "name": "SKILL",
+   "path": "SKILL.md",
    "pin": "",
-   "repo": "h0ffmann/ww3-gpu",
+   "repo": "h0ffmann/ptbr-writer",
    "review": "new",
    "tag": "untagged",
    "upstream": "",
    "upstream_of": ""
   },
-  "h0ffmann/ww3-gpu:.claude/skills/ponytail-audit/SKILL.md": {
-   "blob": "e50f98d96b41f05ca983a3a0155ce6508d5d5b47",
-   "changed": "2026-10-15",
-   "description": "Whole-repo audit for over-engineering. Like ponytail-review, but scans the entire codebase instead of a diff: a ranked list of what to delete, simplify, or replace with stdlib/native equivalents. Use ",
-   "first_seen": "2026-10-15",
-   "group": "own",
-   "hold": "",
-   "kind": "skill",
-   "local_edits": "ponytail-audit.patch",
-   "lock": {
-    "commit": "bd6176a9b33ab72594ff82e6f34f17b085f25565",
-    "hold": null,
-    "local_edits": "ponytail-audit.patch",
-    "path": "skills/ponytail-audit",
-    "upstream": "DietrichGebert/ponytail",
-    "upstream_blob": "5582d10335daff5b5947f9b77927fbc97f2047f3"
-   },
-   "name": "ponytail-audit",
-   "path": ".claude/skills/ponytail-audit/SKILL.md",
-   "pin": "bd6176a9b33ab72594ff82e6f34f17b085f25565",
-   "repo": "h0ffmann/ww3-gpu",
-   "review": "reviewed",
-   "tag": "backend",
-   "upstream": "behind upstream",
-   "upstream_of": "DietrichGebert/ponytail:skills/ponytail-audit/SKILL.md"
-  },
-  "h0ffmann/ww3-gpu:.claude/skills/ponytail-review/SKILL.md": {
-   "blob": "ccc3e5182601295e507e9e48397c85b748d4c391",
-   "changed": "2026-10-15",
-   "description": "Code review focused exclusively on over-engineering. Finds what to delete: reinvented standard library, unneeded dependencies, speculative abstractions, dead flexibility. One line per finding: locatio",
-   "first_seen": "2026-10-15",
-   "group": "own",
-   "hold": "",
-   "kind": "skill",
-   "local_edits": "ponytail-review.patch",
-   "lock": {
-    "commit": "bd6176a9b33ab72594ff82e6f34f17b085f25565",
-    "hold": null,
-    "local_edits": "ponytail-review.patch",
-    "path": "skills/ponytail-review",
-    "upstream": "DietrichGebert/ponytail",
-    "upstream_blob": "e137a855bd87119a4517895a1000a59b0999e1b8"
-   },
-   "name": "ponytail-review",
-   "path": ".claude/skills/ponytail-review/SKILL.md",
-   "pin": "bd6176a9b33ab72594ff82e6f34f17b085f25565",
-   "repo": "h0ffmann/ww3-gpu",
-   "review": "reviewed",
-   "tag": "backend",
-   "upstream": "behind upstream",
-   "upstream_of": "DietrichGebert/ponytail:skills/ponytail-review/SKILL.md"
-  },
-  "h0ffmann/ww3-gpu:.claude/skills/ponytail/SKILL.md": {
-   "blob": "b3d9146b1f74e6f07fbe5a5b5e8cb34dbae09dc6",
-   "changed": "2026-10-15",
-   "description": "Forces the laziest solution that actually works, simplest, shortest, most minimal. Channels a senior dev who has seen everything: question whether the task needs to exist at all (YAGNI), reach for the",
-   "first_seen": "2026-10-15",
-   "group": "own",
-   "hold": "",
-   "kind": "skill",
-   "local_edits": "ponytail.patch",
-   "lock": {
-    "commit": "b6c04480c03e8db2f035751d7c46289779ec3362",
-    "hold": null,
-    "local_edits": "ponytail.patch",
-    "path": "skills/ponytail",
-    "upstream": "DietrichGebert/ponytail",
-    "upstream_blob": "02c0712c86277d49d18a77da3a2b825657bf02d1"
-   },
-   "name": "ponytail",
-   "path": ".claude/skills/ponytail/SKILL.md",
-   "pin": "b6c04480c03e8db2f035751d7c46289779ec3362",
-   "repo": "h0ffmann/ww3-gpu",
-   "review": "reviewed",
-   "tag": "backend",
-   "upstream": "behind upstream",
-   "upstream_of": "DietrichGebert/ponytail:skills/ponytail/SKILL.md"
-  },
-  "h0ffmann/ww3-gpu:.claude/skills/release/SKILL.md": {
-   "blob": "c1779cbf055082b7e27a4487ecab7566a29fa11d",
-   "changed": "2026-10-15",
-   "description": "Cut a citable ww3-gpu release and keep its Zenodo/citation metadata right. Use when the user asks to release, tag a version, mint or update a DOI, or change CITATION.cff, .zenodo.json or the README ci",
-   "first_seen": "2026-10-15",
+  "h0ffmann/ptbr-writer:plugins/ptbr-writer/skills/ptbr-writer/SKILL.md": {
+   "blob": "f2d9b08e0318a1204decf29841ca69c411c463dc",
+   "changed": "2026-10-24",
+   "description": "",
+   "first_seen": "2026-10-24",
    "group": "own",
    "hold": "",
    "kind": "skill",
    "local_edits": "",
-   "name": "release",
-   "path": ".claude/skills/release/SKILL.md",
+   "name": "ptbr-writer",
+   "path": "plugins/ptbr-writer/skills/ptbr-writer/SKILL.md",
    "pin": "",
-   "repo": "h0ffmann/ww3-gpu",
-   "review": "changed since review",
-   "tag": "research",
-   "upstream": "",
-   "upstream_of": ""
-  },
-  "h0ffmann/ww3-gpu:.claude/skills/routing/SKILL.md": {
-   "blob": "b0775eb29b747c50abf5d52ad87988a5175570a6",
-   "changed": "2026-10-17",
-   "description": "Find where something is in ww3-gpu in one bounded call instead of reading whole files or grepping the submodules: a glossary term, where a routine, function or recipe is defined, which pages name a fi",
-   "first_seen": "2026-10-17",
-   "group": "own",
-   "hold": "",
-   "kind": "skill",
-   "local_edits": "",
-   "name": "routing",
-   "path": ".claude/skills/routing/SKILL.md",
-   "pin": "",
-   "repo": "h0ffmann/ww3-gpu",
+   "repo": "h0ffmann/ptbr-writer",
    "review": "new",
    "tag": "untagged",
    "upstream": "",
    "upstream_of": ""
   },
-  "h0ffmann/ww3-gpu:.claude/skills/sharingan/SKILL.md": {
-   "blob": "ebf3ea3c0e132c18f714bd48af9325ad937d108c",
-   "changed": "2026-10-15",
-   "description": "Port a skill, workflow or pattern from another repository into ww3-gpu, given its URL: fetch the whole unit, check its licence, map every upstream concept to what this repository or Claude Code alread",
-   "first_seen": "2026-10-15",
-   "group": "own",
-   "hold": "",
-   "kind": "skill",
-   "local_edits": "sharingan.patch",
-   "lock": {
-    "commit": "ae64f4f39726de6934f15eaa1be3f8812999da60",
-    "hold": null,
-    "local_edits": "sharingan.patch",
-    "path": "plugins/marola-devkit/skills/sharingan",
-    "upstream": "marola-dev/marola-devkit",
-    "upstream_blob": "5bfb6114bc76e741ac27ffaffd504307351cf9f1"
-   },
-   "name": "sharingan",
-   "path": ".claude/skills/sharingan/SKILL.md",
-   "pin": "ae64f4f39726de6934f15eaa1be3f8812999da60",
-   "repo": "h0ffmann/ww3-gpu",
-   "review": "new",
-   "tag": "workflow",
-   "upstream": "behind upstream",
-   "upstream_of": "marola-dev/marola-devkit:plugins/marola-devkit/skills/sharingan/SKILL.md"
-  },
-  "h0ffmann/ww3-gpu:.claude/skills/ste/SKILL.md": {
-   "blob": "3092bc141934ea0260903c80cd32497c0364ca87",
-   "changed": "2026-10-18",
-   "description": "Write or rewrite English text of ww3-gpu in ASD-STE100 Simplified Technical English (STE): procedures, READMEs, runbooks, port reports, docs/log entries, commit bodies, PR bodies and issue text. Use w",
-   "first_seen": "2026-10-18",
+  "h0ffmann/ptbr-writer:skills/bipr/SKILL.md": {
+   "blob": "7a62020667d0ab1e677c7c8f2f950514ad4574d7",
+   "changed": "2026-10-24",
+   "description": "Abre ou atualiza o PR do branch atual com t\u00edtulo e corpo bil\u00edngues, pt-BR primeiro e o espelho em ingl\u00eas, gerados a partir dos commits. Use quando pedirem /bipr ou um PR bil\u00edngue.",
+   "first_seen": "2026-10-24",
    "group": "own",
    "hold": "",
    "kind": "skill",
    "local_edits": "",
-   "name": "ste",
-   "path": ".claude/skills/ste/SKILL.md",
+   "name": "bipr",
+   "path": "skills/bipr/SKILL.md",
    "pin": "",
-   "repo": "h0ffmann/ww3-gpu",
+   "repo": "h0ffmann/ptbr-writer",
    "review": "new",
    "tag": "untagged",
    "upstream": "",
    "upstream_of": ""
   },
-  "h0ffmann/ww3-gpu:.claude/skills/wfip/SKILL.md": {
-   "blob": "1dd5a481b666a42d28f38c54ad0ee2a8df747394",
-   "changed": "2026-10-15",
-   "description": "Write, revise or report on a Wave Forecaster Improvement Proposal (WFIP), the numbered design doc under docs/WFIPs/ that ties a non-trivial change to a deliverable of the project proposal and carries ",
-   "first_seen": "2026-10-15",
+  "h0ffmann/ptbr-writer:skills/cientifico/SKILL.md": {
+   "blob": "3a6f8ad0a19624f3f1b0acff5a51e9564e505d14",
+   "changed": "2026-10-24",
+   "description": "Escreve e revisa texto cient\u00edfico ou t\u00e9cnico com fontes (artigo, proposta, relat\u00f3rio) em pt-BR, e em EN quando o texto \u00e9 bil\u00edngue. Use ao redigir, citar, checar n\u00fameros, preparar ou responder revis\u00e3o.",
+   "first_seen": "2026-10-24",
    "group": "own",
    "hold": "",
    "kind": "skill",
    "local_edits": "",
-   "name": "wfip",
-   "path": ".claude/skills/wfip/SKILL.md",
+   "name": "cientifico",
+   "path": "skills/cientifico/SKILL.md",
    "pin": "",
-   "repo": "h0ffmann/ww3-gpu",
+   "repo": "h0ffmann/ptbr-writer",
    "review": "new",
    "tag": "untagged",
    "upstream": "",
    "upstream_of": ""
   },
-  "h0ffmann/ww3-gpu:.claude/skills/ww3-port/SKILL.md": {
-   "blob": "c5ae44a0b4d05944ccbcd7479fcd946d13d17fea",
-   "changed": "2026-10-18",
-   "description": "The WW3-specific traps of translating a WAVEWATCH III Fortran routine to C++/Kokkos and of claiming it regtested, learned on W3SNL1. Use while translating or reviewing a ported routine (after /port-ne",
-   "first_seen": "2026-10-15",
+  "h0ffmann/ptbr-writer:skills/ptbr-routing/SKILL.md": {
+   "blob": "a1c920b22e79f9035d9d4aefb0e590049d3755f7",
+   "changed": "2026-10-24",
+   "description": "Escolhe a skill e o n\u00edvel de rigor antes de carregar uma skill de escrita em pt-BR. Use quando o pedido \u00e9 escrever, reescrever ou revisar texto em portugu\u00eas e n\u00e3o diz o n\u00edvel nem a skill.",
+   "first_seen": "2026-10-24",
    "group": "own",
    "hold": "",
    "kind": "skill",
    "local_edits": "",
-   "name": "ww3-port",
-   "path": ".claude/skills/ww3-port/SKILL.md",
+   "name": "ptbr-routing",
+   "path": "skills/ptbr-routing/SKILL.md",
    "pin": "",
-   "repo": "h0ffmann/ww3-gpu",
+   "repo": "h0ffmann/ptbr-writer",
    "review": "new",
    "tag": "untagged",
    "upstream": "",
    "upstream_of": ""
   },
-  "h0ffmann/ww3-gpu:.claude/skills/ww4-status/SKILL.md": {
-   "blob": "df4cd023b338010b50a42b13566a944a593f1b4d",
-   "changed": "2026-10-15",
-   "description": "Check NOAA's WAVEWATCH IV (WW4) for changes since the last recorded snapshot and update this repo's research to match. Use when the user types /ww4-status, asks what WW4 has done lately, whether WW4 p",
-   "first_seen": "2026-10-15",
+  "h0ffmann/ptbr-writer:skills/ptbr/SKILL.md": {
+   "blob": "4215faefef7c42813299933e45201ad9c2301681",
+   "changed": "2026-10-24",
+   "description": "",
+   "first_seen": "2026-10-24",
    "group": "own",
    "hold": "",
    "kind": "skill",
    "local_edits": "",
-   "name": "ww4-status",
-   "path": ".claude/skills/ww4-status/SKILL.md",
+   "name": "ptbr",
+   "path": "skills/ptbr/SKILL.md",
    "pin": "",
-   "repo": "h0ffmann/ww3-gpu",
+   "repo": "h0ffmann/ptbr-writer",
+   "review": "new",
+   "tag": "untagged",
+   "upstream": "",
+   "upstream_of": ""
+  },
+  "h0ffmann/ptbr-writer:skills/retorica/SKILL.md": {
+   "blob": "4aaa7afd050bb992338b7738932afc658769d802",
+   "changed": "2026-10-24",
+   "description": "(em desenvolvimento) Ret\u00f3rica para texto t\u00e9cnico em portugu\u00eas. Sem regras ainda: n\u00e3o use para reescrever texto.",
+   "first_seen": "2026-10-24",
+   "group": "own",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "retorica",
+   "path": "skills/retorica/SKILL.md",
+   "pin": "",
+   "repo": "h0ffmann/ptbr-writer",
    "review": "new",
    "tag": "untagged",
    "upstream": "",
@@ -6026,6 +5671,32 @@
    "upstream": "",
    "upstream_of": ""
   },
+  "marola-dev/marola-app:.claude/skills/routing/SKILL.md": {
+   "blob": "242f703b88082a6f48965414974fdb6a09e7de75",
+   "changed": "2026-10-24",
+   "description": "Pick the cheapest source for a question about where something lives in marola, before reading any tree. Use for cross-repo questions (what produces, consumes, pins or triggers an image, release asset,",
+   "first_seen": "2026-10-24",
+   "group": "own",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "lock": {
+    "commit": "beeb5a95091960e50bf09cb7ea7bc14d3fa2a90f",
+    "hold": null,
+    "local_edits": null,
+    "path": "skills/routing",
+    "upstream": "marola-dev/marola-devkit",
+    "upstream_blob": "242f703b88082a6f48965414974fdb6a09e7de75"
+   },
+   "name": "routing",
+   "path": ".claude/skills/routing/SKILL.md",
+   "pin": "beeb5a95091960e50bf09cb7ea7bc14d3fa2a90f",
+   "repo": "marola-dev/marola-app",
+   "review": "new",
+   "tag": "untagged",
+   "upstream": "behind upstream",
+   "upstream_of": "marola-dev/marola-devkit:skills/routing/SKILL.md"
+  },
   "marola-dev/marola-corpus:.claude/skills/corpus-doc/SKILL.md": {
    "blob": "b83faeb5f9dc78483711488fd93d5181b0d3eb8e",
    "changed": "2026-10-15",
@@ -6043,6 +5714,32 @@
    "tag": "DE, research",
    "upstream": "",
    "upstream_of": ""
+  },
+  "marola-dev/marola-corpus:.claude/skills/routing/SKILL.md": {
+   "blob": "242f703b88082a6f48965414974fdb6a09e7de75",
+   "changed": "2026-10-24",
+   "description": "Pick the cheapest source for a question about where something lives in marola, before reading any tree. Use for cross-repo questions (what produces, consumes, pins or triggers an image, release asset,",
+   "first_seen": "2026-10-24",
+   "group": "own",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "lock": {
+    "commit": "beeb5a95091960e50bf09cb7ea7bc14d3fa2a90f",
+    "hold": null,
+    "local_edits": null,
+    "path": "skills/routing",
+    "upstream": "marola-dev/marola-devkit",
+    "upstream_blob": "242f703b88082a6f48965414974fdb6a09e7de75"
+   },
+   "name": "routing",
+   "path": ".claude/skills/routing/SKILL.md",
+   "pin": "beeb5a95091960e50bf09cb7ea7bc14d3fa2a90f",
+   "repo": "marola-dev/marola-corpus",
+   "review": "new",
+   "tag": "untagged",
+   "upstream": "behind upstream",
+   "upstream_of": "marola-dev/marola-devkit:skills/routing/SKILL.md"
   },
   "marola-dev/marola-devkit:plugins/marola-devkit/agents/mip-claims-auditor.md": {
    "blob": "d240c5297903974b66dab50966b30d2e94c8fc3d",
@@ -6274,24 +5971,6 @@
    "upstream": "behind upstream",
    "upstream_of": "DietrichGebert/ponytail:skills/ponytail/SKILL.md"
   },
-  "marola-dev/marola-devkit:plugins/marola-devkit/skills/routing/SKILL.md": {
-   "blob": "7e330a49742a682ef11a2037b3dab668364761e6",
-   "changed": "2026-10-15",
-   "description": "Pick the cheapest source for a question about where something lives in marola, before reading any tree. Use for cross-repo questions (what produces, consumes, pins or triggers an image, release asset,",
-   "first_seen": "2026-10-15",
-   "group": "own",
-   "hold": "",
-   "kind": "skill",
-   "local_edits": "",
-   "name": "routing",
-   "path": "plugins/marola-devkit/skills/routing/SKILL.md",
-   "pin": "",
-   "repo": "marola-dev/marola-devkit",
-   "review": "new",
-   "tag": "untagged",
-   "upstream": "",
-   "upstream_of": ""
-  },
   "marola-dev/marola-devkit:plugins/marola-devkit/skills/sharingan/SKILL.md": {
    "blob": "4d55fc75c31d52acb398e3553637b4fb374ad80b",
    "changed": "2026-10-15",
@@ -6381,6 +6060,76 @@
    "tag": "workflow",
    "upstream": "",
    "upstream_of": ""
+  },
+  "marola-dev/marola-devkit:skills/routing/SKILL.md": {
+   "blob": "7fa1df06189b6c7cc1ca4685169d65d46843ada1",
+   "changed": "2026-10-24",
+   "description": "Pick the cheapest source for a question about where something lives in marola, before reading any tree. Use for cross-repo questions (what produces, consumes, pins or triggers an image, release asset,",
+   "first_seen": "2026-10-24",
+   "group": "own",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "routing",
+   "path": "skills/routing/SKILL.md",
+   "pin": "",
+   "repo": "marola-dev/marola-devkit",
+   "review": "new",
+   "tag": "untagged",
+   "upstream": "",
+   "upstream_of": ""
+  },
+  "marola-dev/marola-ml:.claude/skills/routing/SKILL.md": {
+   "blob": "242f703b88082a6f48965414974fdb6a09e7de75",
+   "changed": "2026-10-24",
+   "description": "Pick the cheapest source for a question about where something lives in marola, before reading any tree. Use for cross-repo questions (what produces, consumes, pins or triggers an image, release asset,",
+   "first_seen": "2026-10-24",
+   "group": "own",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "lock": {
+    "commit": "beeb5a95091960e50bf09cb7ea7bc14d3fa2a90f",
+    "hold": null,
+    "local_edits": null,
+    "path": "skills/routing",
+    "upstream": "marola-dev/marola-devkit",
+    "upstream_blob": "242f703b88082a6f48965414974fdb6a09e7de75"
+   },
+   "name": "routing",
+   "path": ".claude/skills/routing/SKILL.md",
+   "pin": "beeb5a95091960e50bf09cb7ea7bc14d3fa2a90f",
+   "repo": "marola-dev/marola-ml",
+   "review": "new",
+   "tag": "untagged",
+   "upstream": "behind upstream",
+   "upstream_of": "marola-dev/marola-devkit:skills/routing/SKILL.md"
+  },
+  "marola-dev/marola-oods:.claude/skills/routing/SKILL.md": {
+   "blob": "242f703b88082a6f48965414974fdb6a09e7de75",
+   "changed": "2026-10-24",
+   "description": "Pick the cheapest source for a question about where something lives in marola, before reading any tree. Use for cross-repo questions (what produces, consumes, pins or triggers an image, release asset,",
+   "first_seen": "2026-10-24",
+   "group": "own",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "lock": {
+    "commit": "beeb5a95091960e50bf09cb7ea7bc14d3fa2a90f",
+    "hold": null,
+    "local_edits": null,
+    "path": "skills/routing",
+    "upstream": "marola-dev/marola-devkit",
+    "upstream_blob": "242f703b88082a6f48965414974fdb6a09e7de75"
+   },
+   "name": "routing",
+   "path": ".claude/skills/routing/SKILL.md",
+   "pin": "beeb5a95091960e50bf09cb7ea7bc14d3fa2a90f",
+   "repo": "marola-dev/marola-oods",
+   "review": "new",
+   "tag": "untagged",
+   "upstream": "behind upstream",
+   "upstream_of": "marola-dev/marola-devkit:skills/routing/SKILL.md"
   },
   "marola-dev/marola-research:.claude/skills/ouro-paper/SKILL.md": {
    "blob": "085cbc6a12cd8958d5dcb167aa11fd12f30a96af",
@@ -6481,18 +6230,18 @@
    "upstream_of": ""
   },
   "marola-dev/marola-site:.claude/skills/design-taste-frontend/SKILL.md": {
-   "blob": "b72132fcd466da605623ffe96e370b3991fc5285",
-   "changed": "2026-10-15",
+   "blob": "1e79dbc600d3df214ebc14eb1c1390c1768e10bc",
+   "changed": "2026-10-24",
    "description": "Anti-slop frontend skill for landing pages, portfolios, and redesigns. The agent reads the brief, infers the right design direction, and ships interfaces that do not look templated. Real design system",
    "first_seen": "2026-10-15",
    "group": "own",
    "hold": "",
    "kind": "skill",
-   "local_edits": "",
+   "local_edits": "design-taste-frontend.patch",
    "lock": {
     "commit": "3c7017d636c3a4aad378433ea6d0cfa6c921da4a",
     "hold": null,
-    "local_edits": null,
+    "local_edits": "design-taste-frontend.patch",
     "path": "skills/taste-skill",
     "upstream": "Leonxlnx/taste-skill",
     "upstream_blob": "b72132fcd466da605623ffe96e370b3991fc5285"
@@ -6501,7 +6250,7 @@
    "path": ".claude/skills/design-taste-frontend/SKILL.md",
    "pin": "3c7017d636c3a4aad378433ea6d0cfa6c921da4a",
    "repo": "marola-dev/marola-site",
-   "review": "reviewed",
+   "review": "changed since review",
    "tag": "FE",
    "upstream": "behind upstream",
    "upstream_of": "Leonxlnx/taste-skill:skills/taste-skill/SKILL.md"
@@ -6635,32 +6384,6 @@
    "tag": "FE",
    "upstream": "pinned",
    "upstream_of": "mapbox/mapbox-agent-skills:skills/mapbox-data-visualization-patterns/SKILL.md"
-  },
-  "marola-dev/marola-site:.claude/skills/mapbox-maplibre-migration/SKILL.md": {
-   "blob": "f2861f7d2960ee1220e9559129084a06ab6e24ae",
-   "changed": "2026-10-15",
-   "description": "Guide for migrating from MapLibre GL JS to Mapbox GL JS, covering API compatibility, token setup, style configuration, and the benefits of Mapbox's official support and ecosystem",
-   "first_seen": "2026-10-15",
-   "group": "own",
-   "hold": "",
-   "kind": "skill",
-   "local_edits": "",
-   "lock": {
-    "commit": "9077a826f22b8c0565ad4df9d843bcecde61fa31",
-    "hold": null,
-    "local_edits": null,
-    "path": "skills/mapbox-maplibre-migration",
-    "upstream": "mapbox/mapbox-agent-skills",
-    "upstream_blob": "f2861f7d2960ee1220e9559129084a06ab6e24ae"
-   },
-   "name": "mapbox-maplibre-migration",
-   "path": ".claude/skills/mapbox-maplibre-migration/SKILL.md",
-   "pin": "9077a826f22b8c0565ad4df9d843bcecde61fa31",
-   "repo": "marola-dev/marola-site",
-   "review": "reviewed",
-   "tag": "FE",
-   "upstream": "pinned",
-   "upstream_of": "mapbox/mapbox-agent-skills:skills/mapbox-maplibre-migration/SKILL.md"
   },
   "marola-dev/marola-site:.claude/skills/mapbox-style-patterns/SKILL.md": {
    "blob": "0ec785aeda741c1f2515a925bebd762152fd9b6d",
@@ -6854,9 +6577,35 @@
    "upstream": "pinned",
    "upstream_of": "emilkowalski/skill:skills/review-animations/SKILL.md"
   },
+  "marola-dev/marola-site:.claude/skills/routing/SKILL.md": {
+   "blob": "242f703b88082a6f48965414974fdb6a09e7de75",
+   "changed": "2026-10-24",
+   "description": "Pick the cheapest source for a question about where something lives in marola, before reading any tree. Use for cross-repo questions (what produces, consumes, pins or triggers an image, release asset,",
+   "first_seen": "2026-10-24",
+   "group": "own",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "lock": {
+    "commit": "beeb5a95091960e50bf09cb7ea7bc14d3fa2a90f",
+    "hold": null,
+    "local_edits": null,
+    "path": "skills/routing",
+    "upstream": "marola-dev/marola-devkit",
+    "upstream_blob": "242f703b88082a6f48965414974fdb6a09e7de75"
+   },
+   "name": "routing",
+   "path": ".claude/skills/routing/SKILL.md",
+   "pin": "beeb5a95091960e50bf09cb7ea7bc14d3fa2a90f",
+   "repo": "marola-dev/marola-site",
+   "review": "new",
+   "tag": "untagged",
+   "upstream": "behind upstream",
+   "upstream_of": "marola-dev/marola-devkit:skills/routing/SKILL.md"
+  },
   "marola-dev/marola-site:.claude/skills/site-frontend/SKILL.md": {
-   "blob": "a145e456f961bb8534d2dd1bb9c942ca8b991c62",
-   "changed": "2026-10-15",
+   "blob": "4e6e338cff62c4327a9b524014772dc190e54b53",
+   "changed": "2026-10-24",
    "description": "Use first for any change a visitor sees on marola.dev (site/static/*.html, app.js markup and markers, the Mapbox map and flow.js's wind and wave layers, style.css, the chat widget, 404.html, the copy)",
    "first_seen": "2026-10-15",
    "group": "own",
@@ -6959,6 +6708,32 @@
    "tag": "research",
    "upstream": "",
    "upstream_of": ""
+  },
+  "marola-dev/marola:.claude/skills/routing/SKILL.md": {
+   "blob": "7fa1df06189b6c7cc1ca4685169d65d46843ada1",
+   "changed": "2026-10-24",
+   "description": "Pick the cheapest source for a question about where something lives in marola, before reading any tree. Use for cross-repo questions (what produces, consumes, pins or triggers an image, release asset,",
+   "first_seen": "2026-10-24",
+   "group": "own",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "lock": {
+    "commit": "c08c5c0561f37c133bd81c6a92bb63077118c4b2",
+    "hold": null,
+    "local_edits": null,
+    "path": "skills/routing",
+    "upstream": "marola-dev/marola-devkit",
+    "upstream_blob": "7fa1df06189b6c7cc1ca4685169d65d46843ada1"
+   },
+   "name": "routing",
+   "path": ".claude/skills/routing/SKILL.md",
+   "pin": "c08c5c0561f37c133bd81c6a92bb63077118c4b2",
+   "repo": "marola-dev/marola",
+   "review": "new",
+   "tag": "untagged",
+   "upstream": "pinned",
+   "upstream_of": "marola-dev/marola-devkit:skills/routing/SKILL.md"
   },
   "marola-dev/marola:.claude/skills/zenodo-release/SKILL.md": {
    "blob": "6fc026ab3960921f6e6dd3c5495dc2444c50a277",
