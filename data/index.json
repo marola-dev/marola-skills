@@ -1,22 +1,22 @@
 {
  "etags": {
-  "list:h0ffmann:1": "\"834e6ddede81dbbad487b6466f41816d70c8195333648ac2630a020f70869f81\"",
-  "list:h0ffmann:2": "\"3df4e7b7fb227b3ebad271f0936f36bf5824fe4b6faf4bcb533c198ddd6e6929\"",
-  "list:marola-dev:1": "\"31c9c6d61fc440ced7d71e1f91b4e87ab5aafc9fbfd42edbd2f3d92d29ef703f\"",
-  "repo:Cocoon-AI/architecture-diagram-generator": "\"e9ff8f42b3bfebbbfe2a12e1ecf0e575a72ce6dd9b417aac24982a554a6a5ad5\"",
-  "repo:DietrichGebert/ponytail": "\"f505dc81673eed14778c745f266fa23f61297e4e11c21a15a32b49b75657536b\"",
-  "repo:Graphify-Labs/graphify": "\"ee1f3f057fa6ae697a283d06919a3b3f33accf767bc8fd4123e8c8c1fcbd554d\"",
-  "repo:Leonxlnx/taste-skill": "\"1ec245cab8b59aa0a3b2ccf097dd9bd4ce64034e4ba51607161c47f122459573\"",
-  "repo:Orchestra-Research/AI-Research-SKILLs": "\"35111312402d35e0dcd1d8f13e1a040b25b415315637bf0ca90a9a6924a6c2c5\"",
-  "repo:anthropics/skills": "\"19d3a1aab29d0a3057008aec64f612a2cdc9209d0360c557244ef611e0289a1d\"",
-  "repo:blader/humanizer": "\"4c4fc2a900d0e7a9f0d232d931fcb1f10e647a9518935bbbca3dde2638717bc0\"",
-  "repo:cloudflare/skills": "\"8d528741acc57d383390ebf9d32378e67ca872c7978ca59a62beedcfea2fc66e\"",
-  "repo:duckdb/duckdb-skills": "\"f2840d192572bcf6226bdf0c74a53827dc8bb9ecbcb4b9c66c9abbcb3dc99397\"",
-  "repo:emilkowalski/skills": "\"fab0f845204ebaf3b0799f6ab8eb3591201277b66ce3194d4fde698ccecd57b8\"",
-  "repo:fabricioctelles/skills": "\"59d0e94bfcc754d2a37c83a8b6eeefc56c406caf8a23c437d038acac6a5f504e\"",
-  "repo:mapbox/mapbox-agent-skills": "\"cddb3c4ab2148be9cfd34c7dc863f585f28b369c0edb0491e672d26039dca2fb\"",
-  "repo:multica-ai/andrej-karpathy-skills": "\"f16940974c25eac9b22723539af909cb60ad4073a290a1806c15797664907d21\"",
-  "repo:zircote-plugins/github-social": "\"fe58d768d67c8c59beca8a8521d00c296ff76e08b58a9e3c1929eee0acc12740\""
+  "list:h0ffmann:1": "\"c7e35f279baa1ef21d8822b59ff0a860d4a4b14abdc9ff5d82595db9d454b6e9\"",
+  "list:h0ffmann:2": "\"9ef1e24769472e77b77749fc82166e5ddae517d7ce0ec45a9b9e341898529403\"",
+  "list:marola-dev:1": "\"adc9efc44fc74f643fcfee62b46292cff0f5b79edbf7f8ca3023bdda63c7a368\"",
+  "repo:Cocoon-AI/architecture-diagram-generator": "\"ec63953bfd03fcfb0dd591322e4a923b29ffc615835937fdb61da97aba3767ac\"",
+  "repo:DietrichGebert/ponytail": "\"1c7c163263aa0c9b083c979f824ccf510f80c9d8c7d1528927018f33cddf3046\"",
+  "repo:Graphify-Labs/graphify": "\"8c1d93ab7fce1591a3f6b0560a8d46165e3968cc2a91d8e6fa253f724c887838\"",
+  "repo:Leonxlnx/taste-skill": "\"29bf28a6dceca7df4a2ffa23a8f7da0dd81a6104dbc1e90326232fec86b44883\"",
+  "repo:Orchestra-Research/AI-Research-SKILLs": "\"61a4438da6be2882ea209f361fc7e3c8c5db5d1813169d93261800dc18beaf25\"",
+  "repo:anthropics/skills": "\"2399d2e45ea1fa7a4360af098febbc53527fdf59587dac9b848b1ecbfbc9bb9b\"",
+  "repo:blader/humanizer": "\"69c7ee01cea1a803c56c452e4f58aaa5dd678090affad9fae8fd1ec416f743eb\"",
+  "repo:cloudflare/skills": "\"3d478ef7cecfd054e54dbf9ad1c25279b9ef2de1db803c112e2918d35e0e0431\"",
+  "repo:duckdb/duckdb-skills": "\"d21f1d915ab373ad9dbde1e2146df7fccd63b6d8238773a2856aea6495c373ba\"",
+  "repo:emilkowalski/skills": "\"f209f7a760a70d940e09a82fe3c81aa38fc2444c8414cfbdde52d5e156552918\"",
+  "repo:fabricioctelles/skills": "\"694bf2bcb93c538ac522ea6964a5212f00a36084d8405a1cfb3d3ca480da10bb\"",
+  "repo:mapbox/mapbox-agent-skills": "\"0e976b1b663587d19c9b4eee092b5df9fd8d4bf3c73c3242c914755944aa14d1\"",
+  "repo:multica-ai/andrej-karpathy-skills": "\"f1eb765ca35b327f8e4478f56b799f140cd0495820fa26246ccc52f51e90380f\"",
+  "repo:zircote-plugins/github-social": "\"b8840af007baeb9785f70fd6289448da32cf4548f0c36f0ef35704625ec80d04\""
  },
  "listings": {
   "h0ffmann:1": {
@@ -26,6 +26,16 @@
      "branch": "master",
      "pushed_at": "2026-10-14T01:39:04Z",
      "repo": "h0ffmann/akka-bank"
+    },
+    {
+     "branch": "main",
+     "pushed_at": "2026-10-31T04:55:38Z",
+     "repo": "h0ffmann/astrbot_dw_ext_br_south_disaster"
+    },
+    {
+     "branch": "main",
+     "pushed_at": "2026-10-31T05:47:57Z",
+     "repo": "h0ffmann/astrbot_dw_ext_br_south_waterq"
     },
     {
      "branch": "main",
@@ -144,7 +154,7 @@
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-22T07:34:21Z",
+     "pushed_at": "2026-10-29T21:36:58Z",
      "repo": "h0ffmann/picasso"
     },
     {
@@ -154,19 +164,14 @@
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-29T01:10:50Z",
-     "repo": "h0ffmann/ptbr-writer"
-    },
-    {
-     "branch": "main",
      "pushed_at": "2021-10-23T02:57:27Z",
      "repo": "h0ffmann/quad-ci"
-    },
-    {
-     "branch": "main",
-     "pushed_at": "2026-10-29T01:18:34Z",
-     "repo": "h0ffmann/rax"
-    },
+    }
+   ]
+  },
+  "h0ffmann:2": {
+   "raw": 29,
+   "repos": [
     {
      "branch": "master",
      "pushed_at": "2026-10-14T01:37:21Z",
@@ -186,12 +191,7 @@
      "branch": "main",
      "pushed_at": "2024-11-20T00:25:37Z",
      "repo": "h0ffmann/sharingan"
-    }
-   ]
-  },
-  "h0ffmann:2": {
-   "raw": 19,
-   "repos": [
+    },
     {
      "branch": "main",
      "pushed_at": "2025-12-24T00:19:36Z",
@@ -229,7 +229,7 @@
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-29T11:06:42Z",
+     "pushed_at": "2026-10-31T10:36:18Z",
      "repo": "marola-dev/marola"
     },
     {
@@ -269,12 +269,12 @@
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-28T16:14:08Z",
+     "pushed_at": "2026-10-30T16:08:07Z",
      "repo": "marola-dev/marola-site"
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-28T12:47:59Z",
+     "pushed_at": "2026-10-30T12:49:20Z",
      "repo": "marola-dev/marola-skills"
     }
    ]
@@ -291,12 +291,12 @@
   },
   "repo:Graphify-Labs/graphify": {
    "branch": "v8",
-   "pushed_at": "2026-10-27T18:15:35Z",
+   "pushed_at": "2026-10-30T23:42:18Z",
    "repo": "Graphify-Labs/graphify"
   },
   "repo:Leonxlnx/taste-skill": {
    "branch": "main",
-   "pushed_at": "2026-10-29T08:49:32Z",
+   "pushed_at": "2026-10-31T07:59:58Z",
    "repo": "Leonxlnx/taste-skill"
   },
   "repo:Orchestra-Research/AI-Research-SKILLs": {
@@ -316,7 +316,7 @@
   },
   "repo:cloudflare/skills": {
    "branch": "main",
-   "pushed_at": "2026-10-28T10:55:22Z",
+   "pushed_at": "2026-10-31T11:37:44Z",
    "repo": "cloudflare/skills"
   },
   "repo:duckdb/duckdb-skills": {
@@ -336,7 +336,7 @@
   },
   "repo:mapbox/mapbox-agent-skills": {
    "branch": "main",
-   "pushed_at": "2026-10-26T16:18:04Z",
+   "pushed_at": "2026-10-30T13:26:59Z",
    "repo": "mapbox/mapbox-agent-skills"
   },
   "repo:multica-ai/andrej-karpathy-skills": {
@@ -357,10 +357,6 @@
   },
   "h0ffmann/h0ffmann:.claude/skills/skills.lock": {
    "blob": "8e5f2ba37e6d28c967e76568f802031b0e975a0a",
-   "skills": {}
-  },
-  "h0ffmann/ptbr-writer:.claude/skills/skills.lock": {
-   "blob": "9c59c20846dca4bc401fb561b6ba506f16d55671",
    "skills": {}
   },
   "marola-dev/marola-app:.claude/skills/skills.lock": {
@@ -622,14 +618,14 @@
    "branch": "v8",
    "group": "watch",
    "owner": "Graphify-Labs",
-   "pushed_at": "2026-10-27T18:15:35Z",
+   "pushed_at": "2026-10-30T23:42:18Z",
    "repo": "Graphify-Labs/graphify"
   },
   "Leonxlnx/taste-skill": {
    "branch": "main",
    "group": "watch",
    "owner": "Leonxlnx",
-   "pushed_at": "2026-10-29T08:49:32Z",
+   "pushed_at": "2026-10-31T07:59:58Z",
    "repo": "Leonxlnx/taste-skill"
   },
   "Orchestra-Research/AI-Research-SKILLs": {
@@ -657,7 +653,7 @@
    "branch": "main",
    "group": "watch",
    "owner": "cloudflare",
-   "pushed_at": "2026-10-28T10:55:22Z",
+   "pushed_at": "2026-10-31T11:37:44Z",
    "repo": "cloudflare/skills"
   },
   "duckdb/duckdb-skills": {
@@ -681,6 +677,20 @@
    "pushed_at": "2026-10-29T12:20:26Z",
    "repo": "fabricioctelles/skills"
   },
+  "h0ffmann/astrbot_dw_ext_br_south_disaster": {
+   "branch": "main",
+   "group": "own",
+   "owner": "h0ffmann",
+   "pushed_at": "2026-10-31T04:55:38Z",
+   "repo": "h0ffmann/astrbot_dw_ext_br_south_disaster"
+  },
+  "h0ffmann/astrbot_dw_ext_br_south_waterq": {
+   "branch": "main",
+   "group": "own",
+   "owner": "h0ffmann",
+   "pushed_at": "2026-10-31T05:47:57Z",
+   "repo": "h0ffmann/astrbot_dw_ext_br_south_waterq"
+  },
   "h0ffmann/closed-source": {
    "branch": "main",
    "group": "own",
@@ -695,39 +705,18 @@
    "pushed_at": "2026-10-29T00:47:58Z",
    "repo": "h0ffmann/h0ffmann"
   },
-  "h0ffmann/nashkell": {
-   "branch": "main",
-   "group": "own",
-   "owner": "h0ffmann",
-   "pushed_at": "2026-10-14T18:31:54Z",
-   "repo": "h0ffmann/nashkell"
-  },
   "h0ffmann/picasso": {
    "branch": "main",
    "group": "own",
    "owner": "h0ffmann",
-   "pushed_at": "2026-10-22T07:34:21Z",
+   "pushed_at": "2026-10-29T21:36:58Z",
    "repo": "h0ffmann/picasso"
-  },
-  "h0ffmann/ptbr-writer": {
-   "branch": "main",
-   "group": "own",
-   "owner": "h0ffmann",
-   "pushed_at": "2026-10-29T01:10:50Z",
-   "repo": "h0ffmann/ptbr-writer"
-  },
-  "h0ffmann/rax": {
-   "branch": "main",
-   "group": "own",
-   "owner": "h0ffmann",
-   "pushed_at": "2026-10-29T01:18:34Z",
-   "repo": "h0ffmann/rax"
   },
   "mapbox/mapbox-agent-skills": {
    "branch": "main",
    "group": "watch",
    "owner": "mapbox",
-   "pushed_at": "2026-10-26T16:18:04Z",
+   "pushed_at": "2026-10-30T13:26:59Z",
    "repo": "mapbox/mapbox-agent-skills"
   },
   "marola-dev/.github": {
@@ -748,7 +737,7 @@
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-29T11:06:42Z",
+   "pushed_at": "2026-10-31T10:36:18Z",
    "repo": "marola-dev/marola"
   },
   "marola-dev/marola-agents": {
@@ -804,14 +793,14 @@
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-28T16:14:08Z",
+   "pushed_at": "2026-10-30T16:08:07Z",
    "repo": "marola-dev/marola-site"
   },
   "marola-dev/marola-skills": {
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-28T12:47:59Z",
+   "pushed_at": "2026-10-30T12:49:20Z",
    "repo": "marola-dev/marola-skills"
   },
   "multica-ai/andrej-karpathy-skills": {
@@ -3126,8 +3115,8 @@
    "upstream_of": ""
   },
   "cloudflare/skills:skills/cf-cli/SKILL.md": {
-   "blob": "df9495ea505782636f35b3c607617803a07c372d",
-   "changed": "2026-10-29",
+   "blob": "80eb0c47454f5bfde7b27ce158d9ff18b58124bd",
+   "changed": "2026-10-31",
    "description": "Cloudflare's official cf CLI (beta) for the public Cloudflare API and Workers projects. Use for finding and running Cloudflare commands from the terminal \u2014 sign-in and profiles, cf cli search, cf sche",
    "first_seen": "2026-10-15",
    "group": "watch",
@@ -3194,8 +3183,8 @@
    "upstream_of": ""
   },
   "cloudflare/skills:skills/cloudflare/SKILL.md": {
-   "blob": "c6dc3f50162bde6b049f7f35f6cfe970ee9d8dc2",
-   "changed": "2026-10-29",
+   "blob": "695d8d6db7553e5fc151393ea891e00e44fd9477",
+   "changed": "2026-10-31",
    "description": "Discover and choose Cloudflare products for apps, APIs, AI agents, storage, networking, and security. Use for architecture and product selection, including when the user describes a need without namin",
    "first_seen": "2026-10-15",
    "group": "watch",
@@ -3211,8 +3200,8 @@
    "upstream_of": ""
   },
   "cloudflare/skills:skills/durable-objects/SKILL.md": {
-   "blob": "788c1b83cff62eb89f28ae7ffd45a873a2e72452",
-   "changed": "2026-10-29",
+   "blob": "80fb75785e42c023cd3cdcbf5b9a9ac6909ecc25",
+   "changed": "2026-10-31",
    "description": "Build, debug, or review Cloudflare Durable Objects code for persistent state and coordination.",
    "first_seen": "2026-10-15",
    "group": "watch",
@@ -4689,6 +4678,24 @@
    "upstream": "",
    "upstream_of": ""
   },
+  "h0ffmann/astrbot_dw_ext_br_south_disaster:.claude/skills/asd-ste100/SKILL.md": {
+   "blob": "f100b709038129b83d85b3d9f5f9707965956894",
+   "changed": "2026-10-31",
+   "description": "Use when English text must be parsed without a human to resolve ambiguity \u2014 tool descriptions, error messages, inter-agent instructions, system prompts, status reports \u2014 and misreading has a real cost",
+   "first_seen": "2026-10-31",
+   "group": "own",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "asd-ste100",
+   "path": ".claude/skills/asd-ste100/SKILL.md",
+   "pin": "",
+   "repo": "h0ffmann/astrbot_dw_ext_br_south_disaster",
+   "review": "new",
+   "tag": "untagged",
+   "upstream": "",
+   "upstream_of": ""
+  },
   "h0ffmann/closed-source:.claude/skills/card-style/SKILL.md": {
    "blob": "03ae9dc89e358271ca1a124dee24848417ee7abe",
    "changed": "2026-10-15",
@@ -5098,150 +5105,6 @@
    "path": ".claude/skills/ultimate-nixos/SKILL.md",
    "pin": "",
    "repo": "h0ffmann/picasso",
-   "review": "new",
-   "tag": "untagged",
-   "upstream": "",
-   "upstream_of": ""
-  },
-  "h0ffmann/ptbr-writer:.claude/skills/figure/SKILL.md": {
-   "blob": "9369a3c7bcdae7cf9066c47cc06b89a1cc6070b4",
-   "changed": "2026-10-29",
-   "description": "Add, change or explain a diagram in this repo's Markdown (README.md, README.en.md, docs): a Mermaid fence or an Archify picture. Use when asked for a diagram, flowchart, mind map or 'a picture of' som",
-   "first_seen": "2026-10-29",
-   "group": "own",
-   "hold": "",
-   "kind": "skill",
-   "local_edits": "",
-   "name": "figure",
-   "path": ".claude/skills/figure/SKILL.md",
-   "pin": "",
-   "repo": "h0ffmann/ptbr-writer",
-   "review": "new",
-   "tag": "untagged",
-   "upstream": "",
-   "upstream_of": ""
-  },
-  "h0ffmann/ptbr-writer:SKILL.md": {
-   "blob": "8eb5a15513b0b02f4dfb1ad667a100a880521f83",
-   "changed": "2026-10-29",
-   "description": "Reescreve texto t\u00e9cnico em portugu\u00eas brasileiro por n\u00edvel de rigor (estrito, descritivo, leve, cient\u00edfico, smart-note). Use ao escrever, reescrever ou revisar runbook, documenta\u00e7\u00e3o, comunicado ou nota",
-   "first_seen": "2026-10-29",
-   "group": "own",
-   "hold": "",
-   "kind": "skill",
-   "local_edits": "",
-   "name": "SKILL",
-   "path": "SKILL.md",
-   "pin": "",
-   "repo": "h0ffmann/ptbr-writer",
-   "review": "new",
-   "tag": "untagged",
-   "upstream": "",
-   "upstream_of": ""
-  },
-  "h0ffmann/ptbr-writer:plugins/ptbr-writer/skills/ptbr-writer/SKILL.md": {
-   "blob": "f2d9b08e0318a1204decf29841ca69c411c463dc",
-   "changed": "2026-10-29",
-   "description": "",
-   "first_seen": "2026-10-29",
-   "group": "own",
-   "hold": "",
-   "kind": "skill",
-   "local_edits": "",
-   "name": "ptbr-writer",
-   "path": "plugins/ptbr-writer/skills/ptbr-writer/SKILL.md",
-   "pin": "",
-   "repo": "h0ffmann/ptbr-writer",
-   "review": "new",
-   "tag": "untagged",
-   "upstream": "",
-   "upstream_of": ""
-  },
-  "h0ffmann/ptbr-writer:skills/bipr/SKILL.md": {
-   "blob": "7a62020667d0ab1e677c7c8f2f950514ad4574d7",
-   "changed": "2026-10-29",
-   "description": "Abre ou atualiza o PR do branch atual com t\u00edtulo e corpo bil\u00edngues, pt-BR primeiro e o espelho em ingl\u00eas, gerados a partir dos commits. Use quando pedirem /bipr ou um PR bil\u00edngue.",
-   "first_seen": "2026-10-29",
-   "group": "own",
-   "hold": "",
-   "kind": "skill",
-   "local_edits": "",
-   "name": "bipr",
-   "path": "skills/bipr/SKILL.md",
-   "pin": "",
-   "repo": "h0ffmann/ptbr-writer",
-   "review": "new",
-   "tag": "untagged",
-   "upstream": "",
-   "upstream_of": ""
-  },
-  "h0ffmann/ptbr-writer:skills/cientifico/SKILL.md": {
-   "blob": "3a6f8ad0a19624f3f1b0acff5a51e9564e505d14",
-   "changed": "2026-10-29",
-   "description": "Escreve e revisa texto cient\u00edfico ou t\u00e9cnico com fontes (artigo, proposta, relat\u00f3rio) em pt-BR, e em EN quando o texto \u00e9 bil\u00edngue. Use ao redigir, citar, checar n\u00fameros, preparar ou responder revis\u00e3o.",
-   "first_seen": "2026-10-29",
-   "group": "own",
-   "hold": "",
-   "kind": "skill",
-   "local_edits": "",
-   "name": "cientifico",
-   "path": "skills/cientifico/SKILL.md",
-   "pin": "",
-   "repo": "h0ffmann/ptbr-writer",
-   "review": "new",
-   "tag": "untagged",
-   "upstream": "",
-   "upstream_of": ""
-  },
-  "h0ffmann/ptbr-writer:skills/ptbr-routing/SKILL.md": {
-   "blob": "a1c920b22e79f9035d9d4aefb0e590049d3755f7",
-   "changed": "2026-10-29",
-   "description": "Escolhe a skill e o n\u00edvel de rigor antes de carregar uma skill de escrita em pt-BR. Use quando o pedido \u00e9 escrever, reescrever ou revisar texto em portugu\u00eas e n\u00e3o diz o n\u00edvel nem a skill.",
-   "first_seen": "2026-10-29",
-   "group": "own",
-   "hold": "",
-   "kind": "skill",
-   "local_edits": "",
-   "name": "ptbr-routing",
-   "path": "skills/ptbr-routing/SKILL.md",
-   "pin": "",
-   "repo": "h0ffmann/ptbr-writer",
-   "review": "new",
-   "tag": "untagged",
-   "upstream": "",
-   "upstream_of": ""
-  },
-  "h0ffmann/ptbr-writer:skills/ptbr/SKILL.md": {
-   "blob": "4215faefef7c42813299933e45201ad9c2301681",
-   "changed": "2026-10-29",
-   "description": "",
-   "first_seen": "2026-10-29",
-   "group": "own",
-   "hold": "",
-   "kind": "skill",
-   "local_edits": "",
-   "name": "ptbr",
-   "path": "skills/ptbr/SKILL.md",
-   "pin": "",
-   "repo": "h0ffmann/ptbr-writer",
-   "review": "new",
-   "tag": "untagged",
-   "upstream": "",
-   "upstream_of": ""
-  },
-  "h0ffmann/ptbr-writer:skills/retorica/SKILL.md": {
-   "blob": "4aaa7afd050bb992338b7738932afc658769d802",
-   "changed": "2026-10-29",
-   "description": "(em desenvolvimento) Ret\u00f3rica para texto t\u00e9cnico em portugu\u00eas. Sem regras ainda: n\u00e3o use para reescrever texto.",
-   "first_seen": "2026-10-29",
-   "group": "own",
-   "hold": "",
-   "kind": "skill",
-   "local_edits": "",
-   "name": "retorica",
-   "path": "skills/retorica/SKILL.md",
-   "pin": "",
-   "repo": "h0ffmann/ptbr-writer",
    "review": "new",
    "tag": "untagged",
    "upstream": "",
