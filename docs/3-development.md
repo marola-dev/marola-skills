@@ -52,6 +52,7 @@ lines only the local copy has are a local edit, which the row lists. The upstrea
 | emilkowalski/skill | e8a175d |
 | forrestchang/andrej-karpathy-skills | 2c60614 |
 | mapbox/mapbox-agent-skills | f71cd72 |
+| maplibre/maplibre-agent-skills | 52567a6 (read 2026-11-12, [MapLibre skills](4-reference_maplibre.md)) |
 | blader/humanizer | 225a6f3 (v3.1.0) |
 | DietrichGebert/ponytail | 552acd5 |
 | fabricioctelles/skills | f1de632 |

@@ -199,6 +199,7 @@ repositório que vai corrigir. Situação em 2026-10-16:
 - [Precisa de revisão](docs/4-reference_review.md): os achados, com prova e correção proposta.
 - [Graphify](docs/4-reference_graphify.md): como a marola usa, as regras e o que falta.
 - [Skills do lago OODS](docs/4-reference_oods.md): o que ajuda a montar o lago da MIP-0075.
+- [Skills do MapLibre](docs/4-reference_maplibre.md): quais das skills do próprio MapLibre servem ao novo mapa do site.
 - [Desenvolvimento](docs/3-development.md): como cada situação foi verificada, com os comandos.
 
 A página [Agent skills](https://docs.marola.dev/3-Ways-of-working/AGENT-SKILLS/) do guarda-chuva
