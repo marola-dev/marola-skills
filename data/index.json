@@ -1,22 +1,22 @@
 {
  "etags": {
-  "list:h0ffmann:1": "\"834e6ddede81dbbad487b6466f41816d70c8195333648ac2630a020f70869f81\"",
-  "list:h0ffmann:2": "\"3df4e7b7fb227b3ebad271f0936f36bf5824fe4b6faf4bcb533c198ddd6e6929\"",
-  "list:marola-dev:1": "\"31c9c6d61fc440ced7d71e1f91b4e87ab5aafc9fbfd42edbd2f3d92d29ef703f\"",
-  "repo:Cocoon-AI/architecture-diagram-generator": "\"e9ff8f42b3bfebbbfe2a12e1ecf0e575a72ce6dd9b417aac24982a554a6a5ad5\"",
-  "repo:DietrichGebert/ponytail": "\"f505dc81673eed14778c745f266fa23f61297e4e11c21a15a32b49b75657536b\"",
-  "repo:Graphify-Labs/graphify": "\"ee1f3f057fa6ae697a283d06919a3b3f33accf767bc8fd4123e8c8c1fcbd554d\"",
-  "repo:Leonxlnx/taste-skill": "\"1ec245cab8b59aa0a3b2ccf097dd9bd4ce64034e4ba51607161c47f122459573\"",
-  "repo:Orchestra-Research/AI-Research-SKILLs": "\"35111312402d35e0dcd1d8f13e1a040b25b415315637bf0ca90a9a6924a6c2c5\"",
-  "repo:anthropics/skills": "\"19d3a1aab29d0a3057008aec64f612a2cdc9209d0360c557244ef611e0289a1d\"",
-  "repo:blader/humanizer": "\"4c4fc2a900d0e7a9f0d232d931fcb1f10e647a9518935bbbca3dde2638717bc0\"",
-  "repo:cloudflare/skills": "\"8d528741acc57d383390ebf9d32378e67ca872c7978ca59a62beedcfea2fc66e\"",
-  "repo:duckdb/duckdb-skills": "\"f2840d192572bcf6226bdf0c74a53827dc8bb9ecbcb4b9c66c9abbcb3dc99397\"",
-  "repo:emilkowalski/skills": "\"fab0f845204ebaf3b0799f6ab8eb3591201277b66ce3194d4fde698ccecd57b8\"",
-  "repo:fabricioctelles/skills": "\"59d0e94bfcc754d2a37c83a8b6eeefc56c406caf8a23c437d038acac6a5f504e\"",
-  "repo:mapbox/mapbox-agent-skills": "\"cddb3c4ab2148be9cfd34c7dc863f585f28b369c0edb0491e672d26039dca2fb\"",
-  "repo:multica-ai/andrej-karpathy-skills": "\"f16940974c25eac9b22723539af909cb60ad4073a290a1806c15797664907d21\"",
-  "repo:zircote-plugins/github-social": "\"fe58d768d67c8c59beca8a8521d00c296ff76e08b58a9e3c1929eee0acc12740\""
+  "list:h0ffmann:1": "\"ba8cafd85878ce9874bbd0663cb7f3ba2ea7fced1eaacbb2b778868347d27f63\"",
+  "list:h0ffmann:2": "\"077df3cb51c966c096b668876654dd9b391a5dfa9ec42074db53c5c2de6bb3d8\"",
+  "list:marola-dev:1": "\"537f1d7921800132f5c07a76610be5a1fa0095c082c50858d54db35eaa8cd24a\"",
+  "repo:Cocoon-AI/architecture-diagram-generator": "\"2b504cb78c946d9dee95ac655b425de72eab3eb15aac036f07c90a215a323243\"",
+  "repo:DietrichGebert/ponytail": "\"6fc8ec48f2d8ca6581ca4359ddbc4cb0658c02162023bbc47a1251e303226226\"",
+  "repo:Graphify-Labs/graphify": "\"898fdec778529d051e4538b3867502bfb9aa3f1c3f074a04ccf64ce928491b69\"",
+  "repo:Leonxlnx/taste-skill": "\"b0aea1e5b899c7663de1ed6ca17963d93bc227f34f11074a8d09fd7a8d9f2c7f\"",
+  "repo:Orchestra-Research/AI-Research-SKILLs": "\"10a8f58ab7efc7676b644e5e6a4cad4801b21176a71b199afe504e1af5be1ad7\"",
+  "repo:anthropics/skills": "\"00db2aa9090d2bf12a07f688bd8a81846c44c199c28abb17443987829ddd47dd\"",
+  "repo:blader/humanizer": "\"783a9ce44e121c985fecb2dc60288ded12b5430986f5bfdecc32611cd5a701f1\"",
+  "repo:cloudflare/skills": "\"8cb214929f9129c511c3933fcbef8559a0977bdf21c5167a9e02770376e4d150\"",
+  "repo:duckdb/duckdb-skills": "\"3b75f85ccf53775b10af237e3ab310b8890c6537eeed263ca1eefe0a92adbff2\"",
+  "repo:emilkowalski/skills": "\"86e4ac04be4cb7d97dc981399b06eeb55dd5eca234e484f78e52e7f26b66b0d1\"",
+  "repo:fabricioctelles/skills": "\"889dcb18bd5e273e78e0277420238b7d98d6921d2b72a799558e3dd8ecef14a7\"",
+  "repo:mapbox/mapbox-agent-skills": "\"39a443cf434adc11b8251253aab4308848ed8be72792167e8745d47d62cad31a\"",
+  "repo:multica-ai/andrej-karpathy-skills": "\"f60be3ab36f16d6af19b1b228498e6b2ae63337d4918d637e535f080ed573349\"",
+  "repo:zircote-plugins/github-social": "\"afb6343a92ad7174c8256d0b9cbbcd51e6dc15457408ab084bb0ccb0b67f08bf\""
  },
  "listings": {
   "h0ffmann:1": {
@@ -29,8 +29,23 @@
     },
     {
      "branch": "main",
+     "pushed_at": "2026-10-31T04:55:38Z",
+     "repo": "h0ffmann/astrbot_dw_ext_br_south_disaster"
+    },
+    {
+     "branch": "main",
+     "pushed_at": "2026-10-31T12:46:12Z",
+     "repo": "h0ffmann/astrbot_dw_ext_br_south_waterq"
+    },
+    {
+     "branch": "main",
      "pushed_at": "2025-03-20T19:22:51Z",
      "repo": "h0ffmann/awesome-agentic-ai"
+    },
+    {
+     "branch": "main",
+     "pushed_at": "2026-11-11T10:54:09Z",
+     "repo": "h0ffmann/awesome-neurosymbolic-ai"
     },
     {
      "branch": "main",
@@ -49,6 +64,16 @@
     },
     {
      "branch": "master",
+     "pushed_at": "2026-11-12T16:59:00Z",
+     "repo": "h0ffmann/boat-tracker"
+    },
+    {
+     "branch": "main",
+     "pushed_at": "2026-11-11T05:13:28Z",
+     "repo": "h0ffmann/chaceon"
+    },
+    {
+     "branch": "master",
      "pushed_at": "2026-10-14T01:37:04Z",
      "repo": "h0ffmann/che-scala-template"
     },
@@ -59,7 +84,7 @@
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-27T00:14:21Z",
+     "pushed_at": "2026-11-14T01:15:24Z",
      "repo": "h0ffmann/closed-source"
     },
     {
@@ -89,7 +114,7 @@
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-29T00:47:58Z",
+     "pushed_at": "2026-11-13T22:54:28Z",
      "repo": "h0ffmann/h0ffmann"
     },
     {
@@ -111,6 +136,11 @@
      "branch": "master",
      "pushed_at": "2026-10-14T01:29:17Z",
      "repo": "h0ffmann/js-advanced-es6"
+    },
+    {
+     "branch": "master",
+     "pushed_at": "2026-11-12T16:41:39Z",
+     "repo": "h0ffmann/legacy-CSUB"
     },
     {
      "branch": "main",
@@ -141,10 +171,15 @@
      "branch": "main",
      "pushed_at": "2021-08-18T22:22:47Z",
      "repo": "h0ffmann/ops-cheat-sheet"
-    },
+    }
+   ]
+  },
+  "h0ffmann:2": {
+   "raw": 45,
+   "repos": [
     {
      "branch": "main",
-     "pushed_at": "2026-10-22T07:34:21Z",
+     "pushed_at": "2026-11-01T17:27:29Z",
      "repo": "h0ffmann/picasso"
     },
     {
@@ -154,18 +189,13 @@
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-29T01:10:50Z",
-     "repo": "h0ffmann/ptbr-writer"
+     "pushed_at": "2026-11-13T23:25:16Z",
+     "repo": "h0ffmann/proof"
     },
     {
      "branch": "main",
      "pushed_at": "2021-10-23T02:57:27Z",
      "repo": "h0ffmann/quad-ci"
-    },
-    {
-     "branch": "main",
-     "pushed_at": "2026-10-29T01:18:34Z",
-     "repo": "h0ffmann/rax"
     },
     {
      "branch": "master",
@@ -186,15 +216,10 @@
      "branch": "main",
      "pushed_at": "2024-11-20T00:25:37Z",
      "repo": "h0ffmann/sharingan"
-    }
-   ]
-  },
-  "h0ffmann:2": {
-   "raw": 19,
-   "repos": [
+    },
     {
      "branch": "main",
-     "pushed_at": "2025-12-24T00:19:36Z",
+     "pushed_at": "2026-11-09T07:58:07Z",
      "repo": "h0ffmann/swim-sync"
     },
     {
@@ -208,6 +233,16 @@
      "repo": "h0ffmann/the-garden-of-aflictions"
     },
     {
+     "branch": "main",
+     "pushed_at": "2026-11-11T15:11:37Z",
+     "repo": "h0ffmann/ww3-dia-gpu-v2"
+    },
+    {
+     "branch": "main",
+     "pushed_at": "2026-11-13T20:21:10Z",
+     "repo": "h0ffmann/ww3-gpu"
+    },
+    {
      "branch": "master",
      "pushed_at": "2026-10-14T01:38:36Z",
      "repo": "h0ffmann/zex"
@@ -215,7 +250,7 @@
    ]
   },
   "marola-dev:1": {
-   "raw": 14,
+   "raw": 16,
    "repos": [
     {
      "branch": "main",
@@ -229,7 +264,7 @@
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-29T11:06:42Z",
+     "pushed_at": "2026-11-14T13:21:05Z",
      "repo": "marola-dev/marola"
     },
     {
@@ -239,43 +274,53 @@
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-26T18:13:39Z",
+     "pushed_at": "2026-11-09T21:55:12Z",
      "repo": "marola-dev/marola-app"
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-20T21:21:14Z",
+     "pushed_at": "2026-11-12T02:04:53Z",
+     "repo": "marola-dev/marola-clock"
+    },
+    {
+     "branch": "main",
+     "pushed_at": "2026-11-09T14:58:15Z",
      "repo": "marola-dev/marola-corpus"
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-26T11:52:19Z",
+     "pushed_at": "2026-11-09T14:42:17Z",
      "repo": "marola-dev/marola-devkit"
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-26T09:33:40Z",
+     "pushed_at": "2026-11-09T14:54:27Z",
      "repo": "marola-dev/marola-ml"
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-20T21:21:23Z",
+     "pushed_at": "2026-11-09T15:14:41Z",
      "repo": "marola-dev/marola-oods"
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-21T02:09:42Z",
+     "pushed_at": "2026-11-11T04:49:53Z",
      "repo": "marola-dev/marola-research"
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-28T16:14:08Z",
+     "pushed_at": "2026-11-14T13:26:31Z",
      "repo": "marola-dev/marola-site"
     },
     {
      "branch": "main",
-     "pushed_at": "2026-10-28T12:47:59Z",
+     "pushed_at": "2026-11-13T14:31:07Z",
      "repo": "marola-dev/marola-skills"
+    },
+    {
+     "branch": "main",
+     "pushed_at": "2026-11-12T17:09:03Z",
+     "repo": "marola-dev/marola-swim"
     }
    ]
   },
@@ -291,12 +336,12 @@
   },
   "repo:Graphify-Labs/graphify": {
    "branch": "v8",
-   "pushed_at": "2026-10-27T18:15:35Z",
+   "pushed_at": "2026-11-12T21:47:45Z",
    "repo": "Graphify-Labs/graphify"
   },
   "repo:Leonxlnx/taste-skill": {
    "branch": "main",
-   "pushed_at": "2026-10-29T08:49:32Z",
+   "pushed_at": "2026-11-08T21:51:50Z",
    "repo": "Leonxlnx/taste-skill"
   },
   "repo:Orchestra-Research/AI-Research-SKILLs": {
@@ -306,17 +351,17 @@
   },
   "repo:anthropics/skills": {
    "branch": "main",
-   "pushed_at": "2026-10-28T19:20:39Z",
+   "pushed_at": "2026-11-14T07:04:17Z",
    "repo": "anthropics/skills"
   },
   "repo:blader/humanizer": {
    "branch": "main",
-   "pushed_at": "2026-10-28T07:17:33Z",
+   "pushed_at": "2026-11-10T01:35:15Z",
    "repo": "blader/humanizer"
   },
   "repo:cloudflare/skills": {
    "branch": "main",
-   "pushed_at": "2026-10-28T10:55:22Z",
+   "pushed_at": "2026-11-10T11:41:34Z",
    "repo": "cloudflare/skills"
   },
   "repo:duckdb/duckdb-skills": {
@@ -326,17 +371,17 @@
   },
   "repo:emilkowalski/skills": {
    "branch": "main",
-   "pushed_at": "2026-10-28T18:25:52Z",
+   "pushed_at": "2026-11-13T17:46:26Z",
    "repo": "emilkowalski/skills"
   },
   "repo:fabricioctelles/skills": {
    "branch": "main",
-   "pushed_at": "2026-10-29T12:20:26Z",
+   "pushed_at": "2026-11-01T13:26:27Z",
    "repo": "fabricioctelles/skills"
   },
   "repo:mapbox/mapbox-agent-skills": {
    "branch": "main",
-   "pushed_at": "2026-10-26T16:18:04Z",
+   "pushed_at": "2026-11-03T17:10:33Z",
    "repo": "mapbox/mapbox-agent-skills"
   },
   "repo:multica-ai/andrej-karpathy-skills": {
@@ -352,16 +397,73 @@
  },
  "locks": {
   "h0ffmann/closed-source:.claude/skills/skills.lock": {
-   "blob": "5edf654f969b71c3ffbc9ddde1afde4aff243c2d",
+   "blob": "d06e72424f3e5011b2b1de85d8b28fbf1fa1343a",
    "skills": {}
   },
   "h0ffmann/h0ffmann:.claude/skills/skills.lock": {
    "blob": "8e5f2ba37e6d28c967e76568f802031b0e975a0a",
    "skills": {}
   },
-  "h0ffmann/ptbr-writer:.claude/skills/skills.lock": {
-   "blob": "9c59c20846dca4bc401fb561b6ba506f16d55671",
-   "skills": {}
+  "h0ffmann/ww3-gpu:.claude/skills/skills.lock": {
+   "blob": "08866208ed373f31178c9ce59747ca39ea610e57",
+   "skills": {
+    "adr-verbatim": {
+     "commit": "0a83467417fec443c47268f703660494727bee5a",
+     "hold": null,
+     "local_edits": "adr-verbatim.patch",
+     "path": "skills/adr-verbatim",
+     "upstream": "davidondrej/skills",
+     "upstream_blob": "8c7b32a14fad938db2a18d7aa2f675fcb26b4ac3"
+    },
+    "humanizar": {
+     "commit": "c107bdd73bd6cdd72435e0d74c0260ff9fa80a7d",
+     "hold": null,
+     "local_edits": "humanizar.patch",
+     "path": "skills/humanizar",
+     "upstream": "fabricioctelles/skills",
+     "upstream_blob": "e3b308d3dc0e359de33f3c92d215e1c8b75dbaee"
+    },
+    "humanizer": {
+     "commit": "fbdde4cd807509a4afecf062c670515ce5bd7736",
+     "hold": null,
+     "local_edits": "humanizer.patch",
+     "path": "",
+     "upstream": "blader/humanizer",
+     "upstream_blob": "d375fbf3e3ee8fb047c379bced82df3713c6ed3b"
+    },
+    "ponytail": {
+     "commit": "b6c04480c03e8db2f035751d7c46289779ec3362",
+     "hold": null,
+     "local_edits": "ponytail.patch",
+     "path": "skills/ponytail",
+     "upstream": "DietrichGebert/ponytail",
+     "upstream_blob": "02c0712c86277d49d18a77da3a2b825657bf02d1"
+    },
+    "ponytail-audit": {
+     "commit": "bd6176a9b33ab72594ff82e6f34f17b085f25565",
+     "hold": null,
+     "local_edits": "ponytail-audit.patch",
+     "path": "skills/ponytail-audit",
+     "upstream": "DietrichGebert/ponytail",
+     "upstream_blob": "5582d10335daff5b5947f9b77927fbc97f2047f3"
+    },
+    "ponytail-review": {
+     "commit": "bd6176a9b33ab72594ff82e6f34f17b085f25565",
+     "hold": null,
+     "local_edits": "ponytail-review.patch",
+     "path": "skills/ponytail-review",
+     "upstream": "DietrichGebert/ponytail",
+     "upstream_blob": "e137a855bd87119a4517895a1000a59b0999e1b8"
+    },
+    "sharingan": {
+     "commit": "ae64f4f39726de6934f15eaa1be3f8812999da60",
+     "hold": null,
+     "local_edits": "sharingan.patch",
+     "path": "plugins/marola-devkit/skills/sharingan",
+     "upstream": "marola-dev/marola-devkit",
+     "upstream_blob": "5bfb6114bc76e741ac27ffaffd504307351cf9f1"
+    }
+   }
   },
   "marola-dev/marola-app:.claude/skills/skills.lock": {
    "blob": "7ba7ada55ff47a09c6dc63c30a78697ff762e269",
@@ -622,14 +724,14 @@
    "branch": "v8",
    "group": "watch",
    "owner": "Graphify-Labs",
-   "pushed_at": "2026-10-27T18:15:35Z",
+   "pushed_at": "2026-11-12T21:47:45Z",
    "repo": "Graphify-Labs/graphify"
   },
   "Leonxlnx/taste-skill": {
    "branch": "main",
    "group": "watch",
    "owner": "Leonxlnx",
-   "pushed_at": "2026-10-29T08:49:32Z",
+   "pushed_at": "2026-11-08T21:51:50Z",
    "repo": "Leonxlnx/taste-skill"
   },
   "Orchestra-Research/AI-Research-SKILLs": {
@@ -643,21 +745,21 @@
    "branch": "main",
    "group": "watch",
    "owner": "anthropics",
-   "pushed_at": "2026-10-28T19:20:39Z",
+   "pushed_at": "2026-11-14T07:04:17Z",
    "repo": "anthropics/skills"
   },
   "blader/humanizer": {
    "branch": "main",
    "group": "watch",
    "owner": "blader",
-   "pushed_at": "2026-10-28T07:17:33Z",
+   "pushed_at": "2026-11-10T01:35:15Z",
    "repo": "blader/humanizer"
   },
   "cloudflare/skills": {
    "branch": "main",
    "group": "watch",
    "owner": "cloudflare",
-   "pushed_at": "2026-10-28T10:55:22Z",
+   "pushed_at": "2026-11-10T11:41:34Z",
    "repo": "cloudflare/skills"
   },
   "duckdb/duckdb-skills": {
@@ -671,63 +773,112 @@
    "branch": "main",
    "group": "watch",
    "owner": "emilkowalski",
-   "pushed_at": "2026-10-28T18:25:52Z",
+   "pushed_at": "2026-11-13T17:46:26Z",
    "repo": "emilkowalski/skills"
   },
   "fabricioctelles/skills": {
    "branch": "main",
    "group": "watch",
    "owner": "fabricioctelles",
-   "pushed_at": "2026-10-29T12:20:26Z",
+   "pushed_at": "2026-11-01T13:26:27Z",
    "repo": "fabricioctelles/skills"
+  },
+  "h0ffmann/astrbot_dw_ext_br_south_disaster": {
+   "branch": "main",
+   "group": "own",
+   "owner": "h0ffmann",
+   "pushed_at": "2026-10-31T04:55:38Z",
+   "repo": "h0ffmann/astrbot_dw_ext_br_south_disaster"
+  },
+  "h0ffmann/astrbot_dw_ext_br_south_waterq": {
+   "branch": "main",
+   "group": "own",
+   "owner": "h0ffmann",
+   "pushed_at": "2026-10-31T12:46:12Z",
+   "repo": "h0ffmann/astrbot_dw_ext_br_south_waterq"
+  },
+  "h0ffmann/awesome-neurosymbolic-ai": {
+   "branch": "main",
+   "group": "own",
+   "owner": "h0ffmann",
+   "pushed_at": "2026-11-11T10:54:09Z",
+   "repo": "h0ffmann/awesome-neurosymbolic-ai"
+  },
+  "h0ffmann/boat-tracker": {
+   "branch": "master",
+   "group": "own",
+   "owner": "h0ffmann",
+   "pushed_at": "2026-11-12T16:59:00Z",
+   "repo": "h0ffmann/boat-tracker"
+  },
+  "h0ffmann/chaceon": {
+   "branch": "main",
+   "group": "own",
+   "owner": "h0ffmann",
+   "pushed_at": "2026-11-11T05:13:28Z",
+   "repo": "h0ffmann/chaceon"
   },
   "h0ffmann/closed-source": {
    "branch": "main",
    "group": "own",
    "owner": "h0ffmann",
-   "pushed_at": "2026-10-27T00:14:21Z",
+   "pushed_at": "2026-11-14T01:15:24Z",
    "repo": "h0ffmann/closed-source"
   },
   "h0ffmann/h0ffmann": {
    "branch": "main",
    "group": "own",
    "owner": "h0ffmann",
-   "pushed_at": "2026-10-29T00:47:58Z",
+   "pushed_at": "2026-11-13T22:54:28Z",
    "repo": "h0ffmann/h0ffmann"
   },
-  "h0ffmann/nashkell": {
-   "branch": "main",
+  "h0ffmann/legacy-CSUB": {
+   "branch": "master",
    "group": "own",
    "owner": "h0ffmann",
-   "pushed_at": "2026-10-14T18:31:54Z",
-   "repo": "h0ffmann/nashkell"
+   "pushed_at": "2026-11-12T16:41:39Z",
+   "repo": "h0ffmann/legacy-CSUB"
   },
   "h0ffmann/picasso": {
    "branch": "main",
    "group": "own",
    "owner": "h0ffmann",
-   "pushed_at": "2026-10-22T07:34:21Z",
+   "pushed_at": "2026-11-01T17:27:29Z",
    "repo": "h0ffmann/picasso"
   },
-  "h0ffmann/ptbr-writer": {
+  "h0ffmann/proof": {
    "branch": "main",
    "group": "own",
    "owner": "h0ffmann",
-   "pushed_at": "2026-10-29T01:10:50Z",
-   "repo": "h0ffmann/ptbr-writer"
+   "pushed_at": "2026-11-13T23:25:16Z",
+   "repo": "h0ffmann/proof"
   },
-  "h0ffmann/rax": {
+  "h0ffmann/swim-sync": {
    "branch": "main",
    "group": "own",
    "owner": "h0ffmann",
-   "pushed_at": "2026-10-29T01:18:34Z",
-   "repo": "h0ffmann/rax"
+   "pushed_at": "2026-11-09T07:58:07Z",
+   "repo": "h0ffmann/swim-sync"
+  },
+  "h0ffmann/ww3-dia-gpu-v2": {
+   "branch": "main",
+   "group": "own",
+   "owner": "h0ffmann",
+   "pushed_at": "2026-11-11T15:11:37Z",
+   "repo": "h0ffmann/ww3-dia-gpu-v2"
+  },
+  "h0ffmann/ww3-gpu": {
+   "branch": "main",
+   "group": "own",
+   "owner": "h0ffmann",
+   "pushed_at": "2026-11-13T20:21:10Z",
+   "repo": "h0ffmann/ww3-gpu"
   },
   "mapbox/mapbox-agent-skills": {
    "branch": "main",
    "group": "watch",
    "owner": "mapbox",
-   "pushed_at": "2026-10-26T16:18:04Z",
+   "pushed_at": "2026-11-03T17:10:33Z",
    "repo": "mapbox/mapbox-agent-skills"
   },
   "marola-dev/.github": {
@@ -748,7 +899,7 @@
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-29T11:06:42Z",
+   "pushed_at": "2026-11-14T13:21:05Z",
    "repo": "marola-dev/marola"
   },
   "marola-dev/marola-agents": {
@@ -762,57 +913,71 @@
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-26T18:13:39Z",
+   "pushed_at": "2026-11-09T21:55:12Z",
    "repo": "marola-dev/marola-app"
+  },
+  "marola-dev/marola-clock": {
+   "branch": "main",
+   "group": "own",
+   "owner": "marola-dev",
+   "pushed_at": "2026-11-12T02:04:53Z",
+   "repo": "marola-dev/marola-clock"
   },
   "marola-dev/marola-corpus": {
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-20T21:21:14Z",
+   "pushed_at": "2026-11-09T14:58:15Z",
    "repo": "marola-dev/marola-corpus"
   },
   "marola-dev/marola-devkit": {
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-26T11:52:19Z",
+   "pushed_at": "2026-11-09T14:42:17Z",
    "repo": "marola-dev/marola-devkit"
   },
   "marola-dev/marola-ml": {
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-26T09:33:40Z",
+   "pushed_at": "2026-11-09T14:54:27Z",
    "repo": "marola-dev/marola-ml"
   },
   "marola-dev/marola-oods": {
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-20T21:21:23Z",
+   "pushed_at": "2026-11-09T15:14:41Z",
    "repo": "marola-dev/marola-oods"
   },
   "marola-dev/marola-research": {
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-21T02:09:42Z",
+   "pushed_at": "2026-11-11T04:49:53Z",
    "repo": "marola-dev/marola-research"
   },
   "marola-dev/marola-site": {
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-28T16:14:08Z",
+   "pushed_at": "2026-11-14T13:26:31Z",
    "repo": "marola-dev/marola-site"
   },
   "marola-dev/marola-skills": {
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-10-28T12:47:59Z",
+   "pushed_at": "2026-11-13T14:31:07Z",
    "repo": "marola-dev/marola-skills"
+  },
+  "marola-dev/marola-swim": {
+   "branch": "main",
+   "group": "own",
+   "owner": "marola-dev",
+   "pushed_at": "2026-11-12T17:09:03Z",
+   "repo": "marola-dev/marola-swim"
   },
   "multica-ai/andrej-karpathy-skills": {
    "branch": "main",
@@ -1052,9 +1217,9 @@
    "upstream_of": ""
   },
   "Leonxlnx/taste-skill:skills/taste-skill/SKILL.md": {
-   "blob": "d8444f13b76be100b3b088dfdae738e85288d6b6",
-   "changed": "2026-10-29",
-   "description": "tasteskill v2, the anti-slop frontend skill. Art direction for websites, distilled from a study of 247 curated gallery sites (One Page Love, Awwwards Sites of the Day). Deals researched directions (id",
+   "blob": "7dc7a9fed097364515581a28ec45ef955620eede",
+   "changed": "2026-11-14",
+   "description": "tasteskill 2.5.1, the anti-slop frontend skill. Builds professional company websites at the level of figma.com and x.ai: plain copy in a voice of its own, one system, one section per screen, equal edg",
    "first_seen": "2026-10-15",
    "group": "watch",
    "hold": "",
@@ -2854,8 +3019,8 @@
    "upstream_of": ""
   },
   "anthropics/skills:skills/docx/SKILL.md": {
-   "blob": "fb954a460a1ea2294e9595e87fecce8df043eeba",
-   "changed": "2026-10-15",
+   "blob": "acc50ea0729fc4b22319b25f1277d0db6f3b429a",
+   "changed": "2026-11-14",
    "description": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files) or Word templates (.dotx files). Triggers include: any mention of 'Word doc', 'word document', ",
    "first_seen": "2026-10-15",
    "group": "watch",
@@ -2922,8 +3087,8 @@
    "upstream_of": ""
   },
   "anthropics/skills:skills/pdf/SKILL.md": {
-   "blob": "d3e046a5ae107a6cb23cfb16c219837094ab35d3",
-   "changed": "2026-10-15",
+   "blob": "9f606f1cd68dcab9dabb75b548e90c1de028b8a2",
+   "changed": "2026-11-14",
    "description": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rota",
    "first_seen": "2026-10-15",
    "group": "watch",
@@ -2939,8 +3104,8 @@
    "upstream_of": ""
   },
   "anthropics/skills:skills/pptx/SKILL.md": {
-   "blob": "41cd2306977f269bb1d8169a9643b35053aa66bd",
-   "changed": "2026-10-15",
+   "blob": "a90df9c7e8f47c474c58f367faba57b66ff14cbb",
+   "changed": "2026-11-14",
    "description": "Use this skill any time a .pptx or .potx file is involved in any way \u2014 as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting te",
    "first_seen": "2026-10-15",
    "group": "watch",
@@ -3041,8 +3206,8 @@
    "upstream_of": ""
   },
   "anthropics/skills:skills/xlsx/SKILL.md": {
-   "blob": "9da54804cc8c938586f89363c8da3b3a6e2a563d",
-   "changed": "2026-10-15",
+   "blob": "cc347203f2247b009b8ea34574bccfa62fce3669",
+   "changed": "2026-11-14",
    "description": "Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .xltx, .csv, or .tsv file (e.",
    "first_seen": "2026-10-15",
    "group": "watch",
@@ -3075,8 +3240,8 @@
    "upstream_of": ""
   },
   "blader/humanizer:SKILL.md": {
-   "blob": "19fc634208e8cc6ae55d4ff287152583216fd244",
-   "changed": "2026-10-15",
+   "blob": "175bf05f45ae3bf566059a560467166d93a9599c",
+   "changed": "2026-11-14",
    "description": "Rewrite AI-sounding text so it reads like the writer without changing what it says. Use when editing or reviewing prose for AI tells: not-X-but-Y contrasts, one-line closers, staged openers, forced tr",
    "first_seen": "2026-10-15",
    "group": "watch",
@@ -3126,8 +3291,8 @@
    "upstream_of": ""
   },
   "cloudflare/skills:skills/cf-cli/SKILL.md": {
-   "blob": "df9495ea505782636f35b3c607617803a07c372d",
-   "changed": "2026-10-29",
+   "blob": "80eb0c47454f5bfde7b27ce158d9ff18b58124bd",
+   "changed": "2026-11-14",
    "description": "Cloudflare's official cf CLI (beta) for the public Cloudflare API and Workers projects. Use for finding and running Cloudflare commands from the terminal \u2014 sign-in and profiles, cf cli search, cf sche",
    "first_seen": "2026-10-15",
    "group": "watch",
@@ -3136,6 +3301,23 @@
    "local_edits": "",
    "name": "cf-cli",
    "path": "skills/cf-cli/SKILL.md",
+   "pin": "",
+   "repo": "cloudflare/skills",
+   "tag": "untagged",
+   "upstream": "",
+   "upstream_of": ""
+  },
+  "cloudflare/skills:skills/cloudflare-app-bootstrap/SKILL.md": {
+   "blob": "6700314e6d5855ccc9bab4735022bd492b82916a",
+   "changed": "2026-11-14",
+   "description": "Get a Cloudflare Workers app to a working local request by connecting its bindings, secrets, and initial data, then verifying real application behavior. Use for app setup or onboarding after the proje",
+   "first_seen": "2026-11-14",
+   "group": "watch",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "cloudflare-app-bootstrap",
+   "path": "skills/cloudflare-app-bootstrap/SKILL.md",
    "pin": "",
    "repo": "cloudflare/skills",
    "tag": "untagged",
@@ -3177,9 +3359,9 @@
    "upstream_of": ""
   },
   "cloudflare/skills:skills/cloudflare-one/SKILL.md": {
-   "blob": "517c04cf67c097e019fb5c63e1ce43e890323724",
-   "changed": "2026-10-29",
-   "description": "Design, configure, troubleshoot, or review Cloudflare One Zero Trust and SASE deployments. Use cloudflare-one-migrations for migration planning from other vendors.",
+   "blob": "61493c0980fdbc39306f68d4cd4b5cc16682ad7e",
+   "changed": "2026-11-14",
+   "description": "Design, configure, troubleshoot, or review Cloudflare One Zero Trust and SASE deployments. Use cloudflare-one-migrations for migration planning from other vendors. Also use when an agent, script, craw",
    "first_seen": "2026-10-15",
    "group": "watch",
    "hold": "",
@@ -3194,8 +3376,8 @@
    "upstream_of": ""
   },
   "cloudflare/skills:skills/cloudflare/SKILL.md": {
-   "blob": "c6dc3f50162bde6b049f7f35f6cfe970ee9d8dc2",
-   "changed": "2026-10-29",
+   "blob": "bc4d3016b3ebc98eecc31eb1898ade5c6a59b30c",
+   "changed": "2026-11-14",
    "description": "Discover and choose Cloudflare products for apps, APIs, AI agents, storage, networking, and security. Use for architecture and product selection, including when the user describes a need without namin",
    "first_seen": "2026-10-15",
    "group": "watch",
@@ -3211,8 +3393,8 @@
    "upstream_of": ""
   },
   "cloudflare/skills:skills/durable-objects/SKILL.md": {
-   "blob": "788c1b83cff62eb89f28ae7ffd45a873a2e72452",
-   "changed": "2026-10-29",
+   "blob": "80fb75785e42c023cd3cdcbf5b9a9ac6909ecc25",
+   "changed": "2026-11-14",
    "description": "Build, debug, or review Cloudflare Durable Objects code for persistent state and coordination.",
    "first_seen": "2026-10-15",
    "group": "watch",
@@ -3221,6 +3403,23 @@
    "local_edits": "",
    "name": "durable-objects",
    "path": "skills/durable-objects/SKILL.md",
+   "pin": "",
+   "repo": "cloudflare/skills",
+   "tag": "untagged",
+   "upstream": "",
+   "upstream_of": ""
+  },
+  "cloudflare/skills:skills/frameworks-on-cloudflare/SKILL.md": {
+   "blob": "483733cd1bc49bf3f4b6058871bbb21872daee8b",
+   "changed": "2026-11-14",
+   "description": "Build, migrate, and deploy web-framework applications on Cloudflare Workers. Use when a framework project such as Astro, SvelteKit, React Router, TanStack Start, Nuxt, Hono, or a React or Vue SPA targ",
+   "first_seen": "2026-11-14",
+   "group": "watch",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "frameworks-on-cloudflare",
+   "path": "skills/frameworks-on-cloudflare/SKILL.md",
    "pin": "",
    "repo": "cloudflare/skills",
    "tag": "untagged",
@@ -3374,6 +3573,23 @@
    "local_edits": "",
    "name": "workers-best-practices",
    "path": "skills/workers-best-practices/SKILL.md",
+   "pin": "",
+   "repo": "cloudflare/skills",
+   "tag": "untagged",
+   "upstream": "",
+   "upstream_of": ""
+  },
+  "cloudflare/skills:skills/workers-development/SKILL.md": {
+   "blob": "0c748f7dc1947caf6fde5e1b6db833854594136e",
+   "changed": "2026-11-14",
+   "description": "Run, inspect, and debug Cloudflare Workers during local development with cf dev, wrangler dev, or the Cloudflare Vite plugin, using Local Explorer to read and seed binding data and query local traces ",
+   "first_seen": "2026-11-14",
+   "group": "watch",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "workers-development",
+   "path": "skills/workers-development/SKILL.md",
    "pin": "",
    "repo": "cloudflare/skills",
    "tag": "untagged",
@@ -3568,8 +3784,8 @@
    "upstream_of": ""
   },
   "emilkowalski/skills:skills/animate-expo/SKILL.md": {
-   "blob": "78b39e1d22e8c3c15be96ccebe04bf39792f3455",
-   "changed": "2026-10-15",
+   "blob": "2ab54f8a9edda2cf679fc830ab7fab874320fc00",
+   "changed": "2026-11-14",
    "description": "Build animations in React Native and Expo, making the decisions in the order that determines whether they feel right \u2014 should it animate, which thread it runs on, which properties, spring or timing, h",
    "first_seen": "2026-10-15",
    "group": "watch",
@@ -3585,8 +3801,8 @@
    "upstream_of": ""
   },
   "emilkowalski/skills:skills/animate/SKILL.md": {
-   "blob": "7c3b20c6ed681b2d47c9ca9e3ee0e659ed47d032",
-   "changed": "2026-10-15",
+   "blob": "69338805e0ea1c77d6f4c1987d516f46b1657819",
+   "changed": "2026-11-14",
    "description": "Build an animation from scratch, making the decisions in the order that determines whether it feels right \u2014 should it animate at all, what purpose, which tool, which properties, which curve and durati",
    "first_seen": "2026-10-15",
    "group": "watch",
@@ -3602,9 +3818,9 @@
    "upstream_of": ""
   },
   "emilkowalski/skills:skills/animation-performance/SKILL.md": {
-   "blob": "d688dd7c3ba143c6ae17efd2bc665380d5252c5a",
-   "changed": "2026-10-15",
-   "description": "Keep web animations inside the frame budget \u2014 animate composite-only properties, keep motion off the main thread when the page is busy, and find the cause when an animation drops frames. Covers the la",
+   "blob": "c7dd441dde8d597c877e851ed9f9601249351591",
+   "changed": "2026-11-14",
+   "description": "Keep web animations inside the frame budget \u2014 animate composite-only properties, keep motion off the main thread when the page is busy, and find the cause when an animation drops frames. Use when an a",
    "first_seen": "2026-10-15",
    "group": "watch",
    "hold": "",
@@ -3619,8 +3835,8 @@
    "upstream_of": ""
   },
   "emilkowalski/skills:skills/animation-vocabulary/SKILL.md": {
-   "blob": "5ab2976514c74a194ebf069506d95ff3a5a0084f",
-   "changed": "2026-10-15",
+   "blob": "e976138ced9ba6e9ecc3d65236c9ec24b753d9c0",
+   "changed": "2026-11-14",
    "description": "Reverse-lookup glossary that turns a vague description of a web animation or motion effect into its exact term (\"the bouncy thing when a popover opens\" \u2192 Pop in; \"the iOS rubber-band scroll\" \u2192 Rubber-",
    "first_seen": "2026-10-15",
    "group": "watch",
@@ -3636,8 +3852,8 @@
    "upstream_of": ""
   },
   "emilkowalski/skills:skills/apple-design/SKILL.md": {
-   "blob": "adf68c517f2d7d2781587d619de07f4de286da57",
-   "changed": "2026-10-15",
+   "blob": "97ec82d4ef630ff7f6f2fd283dc04702a63fcea4",
+   "changed": "2026-11-14",
    "description": "Apple's approach to interface design and fluid, physical motion, translated for the web. Use when building or reviewing gesture-driven UI, spring animations, drag/swipe/sheet interactions, momentum an",
    "first_seen": "2026-10-15",
    "group": "watch",
@@ -3653,8 +3869,8 @@
    "upstream_of": ""
   },
   "emilkowalski/skills:skills/ask-sonner/SKILL.md": {
-   "blob": "6cf9217f409315466ecfd7796de4591879983637",
-   "changed": "2026-10-15",
+   "blob": "368752157d59c75e7374f84406e26755f35ac8d8",
+   "changed": "2026-11-14",
    "description": "Guide to Sonner, the React toast library \u2014 install and wire up the Toaster, pick the right toast() call, promise and loading toasts, updating, dismissing and persisting toasts, styling, theming and ic",
    "first_seen": "2026-10-15",
    "group": "watch",
@@ -3670,8 +3886,8 @@
    "upstream_of": ""
   },
   "emilkowalski/skills:skills/break-ui/SKILL.md": {
-   "blob": "091a28d488662d2451131f1aaa60a6dcd2391932",
-   "changed": "2026-10-15",
+   "blob": "52be42ffb02f252e889b8ac3a45b97d9f7a0c36c",
+   "changed": "2026-11-14",
    "description": "Try to break a piece of UI by feeding it worst-case data \u2014 long names, unbreakable emails, one-letter names, missing fields, huge counts, zero items, long labels, non-Latin text, emoji, extreme number",
    "first_seen": "2026-10-15",
    "group": "watch",
@@ -3686,10 +3902,27 @@
    "upstream": "",
    "upstream_of": ""
   },
+  "emilkowalski/skills:skills/choreograph/SKILL.md": {
+   "blob": "965f7b1ee991adbbc301401cf2f6f6890b247572",
+   "changed": "2026-11-14",
+   "description": "Coordinate several elements that animate together \u2014 decide what moves, in what order, how much they overlap, and what stays still \u2014 so a group reads as one intentional motion instead of a pile of sepa",
+   "first_seen": "2026-11-14",
+   "group": "watch",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "choreograph",
+   "path": "skills/choreograph/SKILL.md",
+   "pin": "",
+   "repo": "emilkowalski/skills",
+   "tag": "untagged",
+   "upstream": "",
+   "upstream_of": ""
+  },
   "emilkowalski/skills:skills/emil-design-eng/SKILL.md": {
-   "blob": "62ce902af8dd32c590ea7203e9ab2edb1d6ef81a",
-   "changed": "2026-10-15",
-   "description": "This skill encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the invisible details that make software feel great.",
+   "blob": "5155a4bf33e99028645dbdad4c049a3d209b1f21",
+   "changed": "2026-11-14",
+   "description": "Emil Kowalski's design-engineering philosophy for UI polish, component design, animation decisions, and the invisible details that make software feel great. Use when building or reviewing a UI compone",
    "first_seen": "2026-10-15",
    "group": "watch",
    "hold": "",
@@ -3704,8 +3937,8 @@
    "upstream_of": ""
   },
   "emilkowalski/skills:skills/find-animation-opportunities/SKILL.md": {
-   "blob": "d3b030fbca9abad9220a032f72d425c6b7fa2de8",
-   "changed": "2026-10-15",
+   "blob": "8a72a1931e82d21ae24cd00834f4f0aaebf58a60",
+   "changed": "2026-11-14",
    "description": "Search a codebase or UI for places that don't animate but should, and reject everything that shouldn't. Read-only; it proposes motion with exact values, it does not implement it. Use when the user ask",
    "first_seen": "2026-10-15",
    "group": "watch",
@@ -3720,9 +3953,26 @@
    "upstream": "",
    "upstream_of": ""
   },
+  "emilkowalski/skills:skills/gestures/SKILL.md": {
+   "blob": "71fb5af14cf57ce9b052bfbf22dad8e4c71e3ac1",
+   "changed": "2026-11-14",
+   "description": "Build drag, swipe, and sheet interactions that track the finger 1:1 and stay interruptible. Use when building or fixing anything the user drags, swipes, flings, holds, or dismisses with a gesture \u2014 dr",
+   "first_seen": "2026-11-14",
+   "group": "watch",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "gestures",
+   "path": "skills/gestures/SKILL.md",
+   "pin": "",
+   "repo": "emilkowalski/skills",
+   "tag": "untagged",
+   "upstream": "",
+   "upstream_of": ""
+  },
   "emilkowalski/skills:skills/improve-animations/SKILL.md": {
-   "blob": "d6e77f37272329af0cc36f9eeedbe5226e86ce63",
-   "changed": "2026-10-15",
+   "blob": "fb85fcc8c1707010ac0c64250d8a56ed0a68fe2d",
+   "changed": "2026-11-14",
    "description": "Survey a codebase's animation and motion code as a senior motion advisor, then produce a prioritized audit and self-contained implementation plans for other agents (or cheaper models) to execute. Read",
    "first_seen": "2026-10-15",
    "group": "watch",
@@ -3737,9 +3987,26 @@
    "upstream": "",
    "upstream_of": ""
   },
+  "emilkowalski/skills:skills/learn-taste/SKILL.md": {
+   "blob": "9ea9da36bf557e063723df8641ce6b56594170d4",
+   "changed": "2026-11-14",
+   "description": "Turn a session's design corrections into rules, with their why, in DESIGN.md, a project skill, or a lint check.",
+   "first_seen": "2026-11-14",
+   "group": "watch",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "learn-taste",
+   "path": "skills/learn-taste/SKILL.md",
+   "pin": "",
+   "repo": "emilkowalski/skills",
+   "tag": "untagged",
+   "upstream": "",
+   "upstream_of": ""
+  },
   "emilkowalski/skills:skills/mobile-native/SKILL.md": {
-   "blob": "94bba21fcb990b850e06effbf5709c96a07446ad",
-   "changed": "2026-10-15",
+   "blob": "b97d73d9bd5f6b283b03588b852b7a2ad3764673",
+   "changed": "2026-11-14",
    "description": "Make a web app feel native on a phone \u2014 the small CSS and meta-tag fixes that separate \"a website in a browser\" from something that feels installed. Covers sticky hover states, tap highlight flashes, ",
    "first_seen": "2026-10-15",
    "group": "watch",
@@ -3755,9 +4022,9 @@
    "upstream_of": ""
   },
   "emilkowalski/skills:skills/pick-ui-library/SKILL.md": {
-   "blob": "5e0028e988b88d2a88a019fdc978b4732243e467",
-   "changed": "2026-10-15",
-   "description": "Pick the right library for a given frontend task from a curated, opinionated list \u2014 numbers, OTP inputs, charts, command menus, virtualization, drag and drop, toasts, state, styling, and more. Only ru",
+   "blob": "fca76b8792f0b2e72623a25ffb182c2c46d3fbc0",
+   "changed": "2026-11-14",
+   "description": "Pick the library for a frontend task from a curated list \u2014 primitives, toasts, drawers, command menus, OTP, numbers, charts, virtualization, drag and drop, state, styling.",
    "first_seen": "2026-10-15",
    "group": "watch",
    "hold": "",
@@ -3772,9 +4039,9 @@
    "upstream_of": ""
   },
   "emilkowalski/skills:skills/prototype/SKILL.md": {
-   "blob": "dbcc1a23c66933f7372c0aacbce2b0d7cc6100b6",
-   "changed": "2026-10-15",
-   "description": "Build multiple genuinely different versions of a UI piece you describe, rendered behind a visual picker so you can flip through them live and promote the one that feels right. Only runs when explicitl",
+   "blob": "56a648d217a8665f2acdf9d6f6a21bbfb5a325f3",
+   "changed": "2026-11-14",
+   "description": "Build multiple genuinely different versions of a UI piece you describe, rendered behind a visual picker so you can flip through them live and promote the one that feels right.",
    "first_seen": "2026-10-15",
    "group": "watch",
    "hold": "",
@@ -3789,8 +4056,8 @@
    "upstream_of": ""
   },
   "emilkowalski/skills:skills/remove-animations/SKILL.md": {
-   "blob": "100b7b7666f7d09c69a75ebb793e30e607058e77",
-   "changed": "2026-10-29",
+   "blob": "ccd6070c53575a9e96995de805eee9ad7d81bc58",
+   "changed": "2026-11-14",
    "description": "Find the animations an interface doesn't need and remove them \u2014 motion on keyboard actions, high-frequency surfaces, functional data, and decoration with no purpose \u2014 then clean up what they leave beh",
    "first_seen": "2026-10-29",
    "group": "watch",
@@ -3806,8 +4073,8 @@
    "upstream_of": ""
   },
   "emilkowalski/skills:skills/review-animations/SKILL.md": {
-   "blob": "577a64397267ce20960de2202950594d5bd6f9b6",
-   "changed": "2026-10-15",
+   "blob": "70bb73c016d0dafc28c03272a205cd97ece9f06d",
+   "changed": "2026-11-14",
    "description": "Reviews animation and motion code against a high craft bar derived from Emil Kowalski's design engineering philosophy. Default to flagging; approval is earned.",
    "first_seen": "2026-10-15",
    "group": "watch",
@@ -3823,8 +4090,8 @@
    "upstream_of": ""
   },
   "emilkowalski/skills:skills/write-swift/SKILL.md": {
-   "blob": "a09a8f693304fe1c04ed56d61dde9833a516849e",
-   "changed": "2026-10-15",
+   "blob": "9fdf55eaf5f490da0c5712a3fdcdfb30195c9fc0",
+   "changed": "2026-11-14",
    "description": "How to write modern Swift well \u2014 modeling with value types, Swift 6 data-race safety and approachable concurrency (@concurrent, main-actor-by-default, actors, task groups), protocols and generics (som",
    "first_seen": "2026-10-15",
    "group": "watch",
@@ -4520,8 +4787,8 @@
    "upstream_of": ""
   },
   "fabricioctelles/skills:skills/pstack-skill/SKILL.md": {
-   "blob": "eac40ec9ffef4ca9971bb65be09cdcda2e6d9efc",
-   "changed": "2026-10-29",
+   "blob": "b11658a75cbaefc9335f2af9f37f603536fa4072",
+   "changed": "2026-11-14",
    "description": "Rigorous engineering orchestrator ported from Lauren Tan's pstack (poteto-mode): reads your task, picks one of 23 playbooks (bug fix, feature, refactoring, perf, investigation, prototype, babysit, shi",
    "first_seen": "2026-10-15",
    "group": "watch",
@@ -4689,9 +4956,63 @@
    "upstream": "",
    "upstream_of": ""
   },
+  "h0ffmann/astrbot_dw_ext_br_south_disaster:.claude/skills/asd-ste100/SKILL.md": {
+   "blob": "f100b709038129b83d85b3d9f5f9707965956894",
+   "changed": "2026-11-14",
+   "description": "Use when English text must be parsed without a human to resolve ambiguity \u2014 tool descriptions, error messages, inter-agent instructions, system prompts, status reports \u2014 and misreading has a real cost",
+   "first_seen": "2026-11-14",
+   "group": "own",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "asd-ste100",
+   "path": ".claude/skills/asd-ste100/SKILL.md",
+   "pin": "",
+   "repo": "h0ffmann/astrbot_dw_ext_br_south_disaster",
+   "review": "new",
+   "tag": "untagged",
+   "upstream": "",
+   "upstream_of": ""
+  },
+  "h0ffmann/astrbot_dw_ext_br_south_waterq:.claude/skills/asd-ste100/SKILL.md": {
+   "blob": "f100b709038129b83d85b3d9f5f9707965956894",
+   "changed": "2026-11-14",
+   "description": "Use when English text must be parsed without a human to resolve ambiguity \u2014 tool descriptions, error messages, inter-agent instructions, system prompts, status reports \u2014 and misreading has a real cost",
+   "first_seen": "2026-11-14",
+   "group": "own",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "asd-ste100",
+   "path": ".claude/skills/asd-ste100/SKILL.md",
+   "pin": "",
+   "repo": "h0ffmann/astrbot_dw_ext_br_south_waterq",
+   "review": "new",
+   "tag": "untagged",
+   "upstream": "",
+   "upstream_of": ""
+  },
+  "h0ffmann/chaceon:.agents/skills/ww3-port/SKILL.md": {
+   "blob": "ab4dad468673892d2846529a036b98f6459824a7",
+   "changed": "2026-11-14",
+   "description": "The traps of translating a WAVEWATCH III Fortran routine to no_std Rust for Rust-CUDA and rust-gpu. Use while translating or reviewing a routine, when a Rust result differs from the Fortran reference ",
+   "first_seen": "2026-11-14",
+   "group": "own",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "ww3-port",
+   "path": ".agents/skills/ww3-port/SKILL.md",
+   "pin": "",
+   "repo": "h0ffmann/chaceon",
+   "review": "new",
+   "tag": "untagged",
+   "upstream": "",
+   "upstream_of": ""
+  },
   "h0ffmann/closed-source:.claude/skills/card-style/SKILL.md": {
-   "blob": "03ae9dc89e358271ca1a124dee24848417ee7abe",
-   "changed": "2026-10-15",
+   "blob": "1794b226cb60800b3083e36a3f7ab8462d4eab70",
+   "changed": "2026-11-14",
    "description": "Style the cards of this repository's website (the tiles of the DOIs section in site/): layout, colour, the link that covers the whole card, and a one-line drawing in each card's background. Use when a",
    "first_seen": "2026-10-15",
    "group": "own",
@@ -4744,8 +5065,8 @@
    "upstream_of": ""
   },
   "h0ffmann/closed-source:.claude/skills/essay-montaigne/SKILL.md": {
-   "blob": "05705634b72c197ebc0175cdbf3f4c092c0659d7",
-   "changed": "2026-10-29",
+   "blob": "d61141c715ab619b9332da93a4ba04cefcc97af3",
+   "changed": "2026-11-14",
    "description": "Check that an essay, in English or in Brazilian Portuguese, keeps what Montaigne asked of an essay in his own Essays: the writer is in it, it opens on the writer's case, it is a trial and not a lesson",
    "first_seen": "2026-10-15",
    "group": "own",
@@ -4762,8 +5083,8 @@
    "upstream_of": ""
   },
   "h0ffmann/closed-source:.claude/skills/ouro-get/SKILL.md": {
-   "blob": "6719d53ab848065bb2d7889d816453e53f2857fa",
-   "changed": "2026-10-29",
+   "blob": "9eb1b25eeee30665f5bb97b5d9e0a8b9e3ea206c",
+   "changed": "2026-11-14",
    "description": "Get the full text of a work that is free to copy (public domain or an open licence), paste it as is into works/ with its licence marked, and index it in this repository. Use when asked to get, fetch, ",
    "first_seen": "2026-10-15",
    "group": "own",
@@ -4780,9 +5101,9 @@
    "upstream_of": ""
   },
   "h0ffmann/closed-source:.claude/skills/ouro-timeline/SKILL.md": {
-   "blob": "6fac21ddb471934344b6f3c652e3dce1c26740e3",
-   "changed": "2026-10-15",
-   "description": "Draw the lives of the thinkers of 50THINKERS.md on one timeline (timeline/thinkers.svg), in the book's black, red and yellow and after picasso's line drawings. Use when asked for a timeline, a chronol",
+   "blob": "c7b6aacaf6d9ef3ed55a51a2cbe851eaa3d7d0ee",
+   "changed": "2026-11-14",
+   "description": "Draw the lives of the thinkers of 33THINKERS.md on one timeline (timeline/thinkers.svg), in the book's black, red and yellow and after picasso's line drawings. Use when asked for a timeline, a chronol",
    "first_seen": "2026-10-15",
    "group": "own",
    "hold": "",
@@ -4880,24 +5201,6 @@
    "local_edits": "",
    "name": "linkedin-fullfilment-projects",
    "path": ".claude/skills/linkedin-fullfilment-projects/SKILL.md",
-   "pin": "",
-   "repo": "h0ffmann/h0ffmann",
-   "review": "new",
-   "tag": "untagged",
-   "upstream": "",
-   "upstream_of": ""
-  },
-  "h0ffmann/h0ffmann:.claude/skills/translate-pt-br/SKILL.md": {
-   "blob": "ef4cf22d8110cd8444b45ec57041493a7507ebf7",
-   "changed": "2026-10-15",
-   "description": "Translate a sentence of the site into friendly Brazilian Portuguese and store it in site/data/translations/pt-BR.tsv, with how it was translated and why. Use after any change to a sentence of the page",
-   "first_seen": "2026-10-15",
-   "group": "own",
-   "hold": "",
-   "kind": "skill",
-   "local_edits": "",
-   "name": "translate-pt-br",
-   "path": ".claude/skills/translate-pt-br/SKILL.md",
    "pin": "",
    "repo": "h0ffmann/h0ffmann",
    "review": "new",
@@ -5103,11 +5406,145 @@
    "upstream": "",
    "upstream_of": ""
   },
-  "h0ffmann/ptbr-writer:.claude/skills/figure/SKILL.md": {
-   "blob": "9369a3c7bcdae7cf9066c47cc06b89a1cc6070b4",
-   "changed": "2026-10-29",
-   "description": "Add, change or explain a diagram in this repo's Markdown (README.md, README.en.md, docs): a Mermaid fence or an Archify picture. Use when asked for a diagram, flowchart, mind map or 'a picture of' som",
-   "first_seen": "2026-10-29",
+  "h0ffmann/proof:.claude/skills/agda/SKILL.md": {
+   "blob": "f86e38a76effcd053142ea6ce42a614f451a15b1",
+   "changed": "2026-11-14",
+   "description": "Write, prove and type-check Agda in this repository (agda/, the contextual bandit for every K) with the standard library and the Nix shell .#agda. Use when the user asks for Agda code or an Agda proof",
+   "first_seen": "2026-11-14",
+   "group": "own",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "agda",
+   "path": ".claude/skills/agda/SKILL.md",
+   "pin": "",
+   "repo": "h0ffmann/proof",
+   "review": "new",
+   "tag": "untagged",
+   "upstream": "",
+   "upstream_of": ""
+  },
+  "h0ffmann/proof:.claude/skills/roteiro-preview/SKILL.md": {
+   "blob": "7b831d0a6a75b7452e7b6028b251f455718b9a47",
+   "changed": "2026-11-14",
+   "description": "Render a short preview video (1:30 by default) of a roteiro, a video script in Markdown with scenes, **Fala.** and **Tela.** paragraphs, such as contextual-bandits/script/prose-pt-BR/. Use when the us",
+   "first_seen": "2026-11-14",
+   "group": "own",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "roteiro-preview",
+   "path": ".claude/skills/roteiro-preview/SKILL.md",
+   "pin": "",
+   "repo": "h0ffmann/proof",
+   "review": "new",
+   "tag": "untagged",
+   "upstream": "",
+   "upstream_of": ""
+  },
+  "h0ffmann/proof:.claude/skills/sp-preview/SKILL.md": {
+   "blob": "8921725467d6a86fbcb8e034fcb8a813d679920e",
+   "changed": "2026-11-14",
+   "description": "Short English alias of roteiro-preview (screenplay preview). Render a preview video (1:30 by default) of a screenplay or roteiro in Markdown. Use when the user says sp-preview, screenplay preview or s",
+   "first_seen": "2026-11-14",
+   "group": "own",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "sp-preview",
+   "path": ".claude/skills/sp-preview/SKILL.md",
+   "pin": "",
+   "repo": "h0ffmann/proof",
+   "review": "new",
+   "tag": "untagged",
+   "upstream": "",
+   "upstream_of": ""
+  },
+  "h0ffmann/ww3-gpu:.claude/agents/revisor-proposta.md": {
+   "blob": "be680c9a3105a5232c1d701002f83797113e98b4",
+   "changed": "2026-11-14",
+   "description": "Revisor cient\u00edfico da proposta de projeto de gradua\u00e7\u00e3o (pubs/proposal). Use sempre que qualquer arquivo em pubs/proposal/ for criado ou alterado, antes de abrir o PR. Verifica normas ABNT e do DEL/Pol",
+   "first_seen": "2026-11-14",
+   "group": "own",
+   "hold": "",
+   "kind": "agent",
+   "local_edits": "",
+   "name": "revisor-proposta",
+   "path": ".claude/agents/revisor-proposta.md",
+   "pin": "",
+   "repo": "h0ffmann/ww3-gpu",
+   "review": "reviewed",
+   "tag": "research",
+   "upstream": "",
+   "upstream_of": ""
+  },
+  "h0ffmann/ww3-gpu:.claude/agents/security-reviewer.md": {
+   "blob": "a0a233a05da8bdd1446a24be53a52ba303e7a0c4",
+   "changed": "2026-11-14",
+   "description": "Security review of a branch's diff against main, before a PR is marked ready. Use when asked for a security review, when a change touches .claude/ (hooks, settings, agents, skills, the project snapsho",
+   "first_seen": "2026-11-14",
+   "group": "own",
+   "hold": "",
+   "kind": "agent",
+   "local_edits": "",
+   "name": "security-reviewer",
+   "path": ".claude/agents/security-reviewer.md",
+   "pin": "",
+   "repo": "h0ffmann/ww3-gpu",
+   "review": "new",
+   "tag": "untagged",
+   "upstream": "",
+   "upstream_of": ""
+  },
+  "h0ffmann/ww3-gpu:.claude/skills/adr-verbatim/SKILL.md": {
+   "blob": "d6dca6cbf91e44495a7d5eca7fd675fa2ae9020e",
+   "changed": "2026-11-14",
+   "description": "Record concise ADRs that preserve the user''s decisions without conversational noise. Use for \"adr-verbatim\", \"new ADR\", \"document that as an ADR\", \"record this decision\", or supplied ADR wording.",
+   "first_seen": "2026-11-14",
+   "group": "own",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "adr-verbatim.patch",
+   "lock": {
+    "commit": "0a83467417fec443c47268f703660494727bee5a",
+    "hold": null,
+    "local_edits": "adr-verbatim.patch",
+    "path": "skills/adr-verbatim",
+    "upstream": "davidondrej/skills",
+    "upstream_blob": "8c7b32a14fad938db2a18d7aa2f675fcb26b4ac3"
+   },
+   "name": "adr-verbatim",
+   "path": ".claude/skills/adr-verbatim/SKILL.md",
+   "pin": "0a83467417fec443c47268f703660494727bee5a",
+   "repo": "h0ffmann/ww3-gpu",
+   "review": "new",
+   "tag": "untagged",
+   "upstream": "pinned",
+   "upstream_of": "davidondrej/skills:skills/adr-verbatim/SKILL.md"
+  },
+  "h0ffmann/ww3-gpu:.claude/skills/eli5/SKILL.md": {
+   "blob": "120777ab5f9e8fd4e0d256e59f772d83a08da4d0",
+   "changed": "2026-11-14",
+   "description": "Explain a wave-modelling, Fortran or HPC topic to someone who knows nothing about it. Use when the user types /eli5 <topic>, asks to explain something simply, or asks for a picture explainer of how pa",
+   "first_seen": "2026-11-14",
+   "group": "own",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "eli5",
+   "path": ".claude/skills/eli5/SKILL.md",
+   "pin": "",
+   "repo": "h0ffmann/ww3-gpu",
+   "review": "changed since review",
+   "tag": "research",
+   "upstream": "",
+   "upstream_of": ""
+  },
+  "h0ffmann/ww3-gpu:.claude/skills/figure/SKILL.md": {
+   "blob": "e77b19faf97b142cbc26aae7ed37f8deeadc3189",
+   "changed": "2026-11-14",
+   "description": "Add, change or explain a Mermaid diagram or mind map anywhere in this repo's Markdown (the proposal's mind maps, docs, READMEs). Use when asked for a diagram, flowchart, mind map, gantt or 'a picture ",
+   "first_seen": "2026-11-14",
    "group": "own",
    "hold": "",
    "kind": "skill",
@@ -5115,133 +5552,307 @@
    "name": "figure",
    "path": ".claude/skills/figure/SKILL.md",
    "pin": "",
-   "repo": "h0ffmann/ptbr-writer",
+   "repo": "h0ffmann/ww3-gpu",
    "review": "new",
    "tag": "untagged",
    "upstream": "",
    "upstream_of": ""
   },
-  "h0ffmann/ptbr-writer:SKILL.md": {
-   "blob": "8eb5a15513b0b02f4dfb1ad667a100a880521f83",
-   "changed": "2026-10-29",
-   "description": "Reescreve texto t\u00e9cnico em portugu\u00eas brasileiro por n\u00edvel de rigor (estrito, descritivo, leve, cient\u00edfico, smart-note). Use ao escrever, reescrever ou revisar runbook, documenta\u00e7\u00e3o, comunicado ou nota",
-   "first_seen": "2026-10-29",
+  "h0ffmann/ww3-gpu:.claude/skills/find-sources/SKILL.md": {
+   "blob": "61dcdcf74b05a1ddb66b49a3b6c57930eb69a0b3",
+   "changed": "2026-11-14",
+   "description": "Find and verify a scholarly source for a claim in pubs/proposal, pubs/preprint or docs/, using the Consensus MCP search, then add it to refs.bib. Use when a sentence needs a citation, a placeholder su",
+   "first_seen": "2026-11-14",
    "group": "own",
    "hold": "",
    "kind": "skill",
    "local_edits": "",
-   "name": "SKILL",
-   "path": "SKILL.md",
+   "name": "find-sources",
+   "path": ".claude/skills/find-sources/SKILL.md",
    "pin": "",
-   "repo": "h0ffmann/ptbr-writer",
+   "repo": "h0ffmann/ww3-gpu",
    "review": "new",
    "tag": "untagged",
    "upstream": "",
    "upstream_of": ""
   },
-  "h0ffmann/ptbr-writer:plugins/ptbr-writer/skills/ptbr-writer/SKILL.md": {
-   "blob": "f2d9b08e0318a1204decf29841ca69c411c463dc",
-   "changed": "2026-10-29",
-   "description": "",
-   "first_seen": "2026-10-29",
+  "h0ffmann/ww3-gpu:.claude/skills/humanizar/SKILL.md": {
+   "blob": "1c9109f8cdf22bfa144a8365eb4e0656de436ee6",
+   "changed": "2026-11-14",
+   "description": "Reescreve textos em portugu\u00eas brasileiro para soarem mais humanos e naturais, reduzindo padr\u00f5es t\u00edpicos de escrita gerada por IA sem alterar fatos, argumento ou inten\u00e7\u00e3o. Use quando o texto em PT-BR p",
+   "first_seen": "2026-11-14",
+   "group": "own",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "humanizar.patch",
+   "lock": {
+    "commit": "c107bdd73bd6cdd72435e0d74c0260ff9fa80a7d",
+    "hold": null,
+    "local_edits": "humanizar.patch",
+    "path": "skills/humanizar",
+    "upstream": "fabricioctelles/skills",
+    "upstream_blob": "e3b308d3dc0e359de33f3c92d215e1c8b75dbaee"
+   },
+   "name": "humanizar",
+   "path": ".claude/skills/humanizar/SKILL.md",
+   "pin": "c107bdd73bd6cdd72435e0d74c0260ff9fa80a7d",
+   "repo": "h0ffmann/ww3-gpu",
+   "review": "reviewed",
+   "tag": "research",
+   "upstream": "behind upstream",
+   "upstream_of": "fabricioctelles/skills:skills/humanizar/SKILL.md"
+  },
+  "h0ffmann/ww3-gpu:.claude/skills/humanizer/SKILL.md": {
+   "blob": "0e9ca53c0cf7e50206c4ad8fb929001368857da1",
+   "changed": "2026-11-14",
+   "description": "Rewrite AI-sounding text so it reads like the writer without changing what it says. Use when editing or reviewing prose for AI tells: not-X-but-Y contrasts, one-line closers, staged openers, forced tr",
+   "first_seen": "2026-11-14",
+   "group": "own",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "humanizer.patch",
+   "lock": {
+    "commit": "fbdde4cd807509a4afecf062c670515ce5bd7736",
+    "hold": null,
+    "local_edits": "humanizer.patch",
+    "path": "",
+    "upstream": "blader/humanizer",
+    "upstream_blob": "d375fbf3e3ee8fb047c379bced82df3713c6ed3b"
+   },
+   "name": "humanizer",
+   "path": ".claude/skills/humanizer/SKILL.md",
+   "pin": "fbdde4cd807509a4afecf062c670515ce5bd7736",
+   "repo": "h0ffmann/ww3-gpu",
+   "review": "reviewed",
+   "tag": "research",
+   "upstream": "behind upstream",
+   "upstream_of": "blader/humanizer:SKILL.md"
+  },
+  "h0ffmann/ww3-gpu:.claude/skills/noaa-notices/SKILL.md": {
+   "blob": "79b7ebca9254e6286cc692da58187c1d955783ac",
+   "changed": "2026-11-14",
+   "description": "List NOAA announcements new since the last snapshot that touch this repository (NWS Public Information Statements and Service Change Notices, NCEP model changes, NOAA-EMC/WW3 tags and production branc",
+   "first_seen": "2026-11-14",
    "group": "own",
    "hold": "",
    "kind": "skill",
    "local_edits": "",
-   "name": "ptbr-writer",
-   "path": "plugins/ptbr-writer/skills/ptbr-writer/SKILL.md",
+   "name": "noaa-notices",
+   "path": ".claude/skills/noaa-notices/SKILL.md",
    "pin": "",
-   "repo": "h0ffmann/ptbr-writer",
+   "repo": "h0ffmann/ww3-gpu",
    "review": "new",
    "tag": "untagged",
    "upstream": "",
    "upstream_of": ""
   },
-  "h0ffmann/ptbr-writer:skills/bipr/SKILL.md": {
-   "blob": "7a62020667d0ab1e677c7c8f2f950514ad4574d7",
-   "changed": "2026-10-29",
-   "description": "Abre ou atualiza o PR do branch atual com t\u00edtulo e corpo bil\u00edngues, pt-BR primeiro e o espelho em ingl\u00eas, gerados a partir dos commits. Use quando pedirem /bipr ou um PR bil\u00edngue.",
-   "first_seen": "2026-10-29",
+  "h0ffmann/ww3-gpu:.claude/skills/ponytail-audit/SKILL.md": {
+   "blob": "e50f98d96b41f05ca983a3a0155ce6508d5d5b47",
+   "changed": "2026-11-14",
+   "description": "Whole-repo audit for over-engineering. Like ponytail-review, but scans the entire codebase instead of a diff: a ranked list of what to delete, simplify, or replace with stdlib/native equivalents. Use ",
+   "first_seen": "2026-11-14",
+   "group": "own",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "ponytail-audit.patch",
+   "lock": {
+    "commit": "bd6176a9b33ab72594ff82e6f34f17b085f25565",
+    "hold": null,
+    "local_edits": "ponytail-audit.patch",
+    "path": "skills/ponytail-audit",
+    "upstream": "DietrichGebert/ponytail",
+    "upstream_blob": "5582d10335daff5b5947f9b77927fbc97f2047f3"
+   },
+   "name": "ponytail-audit",
+   "path": ".claude/skills/ponytail-audit/SKILL.md",
+   "pin": "bd6176a9b33ab72594ff82e6f34f17b085f25565",
+   "repo": "h0ffmann/ww3-gpu",
+   "review": "reviewed",
+   "tag": "backend",
+   "upstream": "behind upstream",
+   "upstream_of": "DietrichGebert/ponytail:skills/ponytail-audit/SKILL.md"
+  },
+  "h0ffmann/ww3-gpu:.claude/skills/ponytail-review/SKILL.md": {
+   "blob": "ccc3e5182601295e507e9e48397c85b748d4c391",
+   "changed": "2026-11-14",
+   "description": "Code review focused exclusively on over-engineering. Finds what to delete: reinvented standard library, unneeded dependencies, speculative abstractions, dead flexibility. One line per finding: locatio",
+   "first_seen": "2026-11-14",
+   "group": "own",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "ponytail-review.patch",
+   "lock": {
+    "commit": "bd6176a9b33ab72594ff82e6f34f17b085f25565",
+    "hold": null,
+    "local_edits": "ponytail-review.patch",
+    "path": "skills/ponytail-review",
+    "upstream": "DietrichGebert/ponytail",
+    "upstream_blob": "e137a855bd87119a4517895a1000a59b0999e1b8"
+   },
+   "name": "ponytail-review",
+   "path": ".claude/skills/ponytail-review/SKILL.md",
+   "pin": "bd6176a9b33ab72594ff82e6f34f17b085f25565",
+   "repo": "h0ffmann/ww3-gpu",
+   "review": "reviewed",
+   "tag": "backend",
+   "upstream": "behind upstream",
+   "upstream_of": "DietrichGebert/ponytail:skills/ponytail-review/SKILL.md"
+  },
+  "h0ffmann/ww3-gpu:.claude/skills/ponytail/SKILL.md": {
+   "blob": "b3d9146b1f74e6f07fbe5a5b5e8cb34dbae09dc6",
+   "changed": "2026-11-14",
+   "description": "Forces the laziest solution that actually works, simplest, shortest, most minimal. Channels a senior dev who has seen everything: question whether the task needs to exist at all (YAGNI), reach for the",
+   "first_seen": "2026-11-14",
+   "group": "own",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "ponytail.patch",
+   "lock": {
+    "commit": "b6c04480c03e8db2f035751d7c46289779ec3362",
+    "hold": null,
+    "local_edits": "ponytail.patch",
+    "path": "skills/ponytail",
+    "upstream": "DietrichGebert/ponytail",
+    "upstream_blob": "02c0712c86277d49d18a77da3a2b825657bf02d1"
+   },
+   "name": "ponytail",
+   "path": ".claude/skills/ponytail/SKILL.md",
+   "pin": "b6c04480c03e8db2f035751d7c46289779ec3362",
+   "repo": "h0ffmann/ww3-gpu",
+   "review": "reviewed",
+   "tag": "backend",
+   "upstream": "behind upstream",
+   "upstream_of": "DietrichGebert/ponytail:skills/ponytail/SKILL.md"
+  },
+  "h0ffmann/ww3-gpu:.claude/skills/release/SKILL.md": {
+   "blob": "c4905ef5c25a364cc2c0f3ab7fbe3cb65f51344b",
+   "changed": "2026-11-14",
+   "description": "Cut a citable ww3-gpu release and keep its Zenodo/citation metadata right. Use when the user asks to release, tag a version, mint or update a DOI, or change CITATION.cff, .zenodo.json or the README ci",
+   "first_seen": "2026-11-14",
    "group": "own",
    "hold": "",
    "kind": "skill",
    "local_edits": "",
-   "name": "bipr",
-   "path": "skills/bipr/SKILL.md",
+   "name": "release",
+   "path": ".claude/skills/release/SKILL.md",
    "pin": "",
-   "repo": "h0ffmann/ptbr-writer",
+   "repo": "h0ffmann/ww3-gpu",
+   "review": "changed since review",
+   "tag": "research",
+   "upstream": "",
+   "upstream_of": ""
+  },
+  "h0ffmann/ww3-gpu:.claude/skills/routing/SKILL.md": {
+   "blob": "53583b7188c40d42296d6f1f53dade585bc450d2",
+   "changed": "2026-11-14",
+   "description": "Find where something is in ww3-gpu in one bounded call instead of reading whole files or grepping the submodules: a glossary term, where a routine, function or recipe is defined, which pages name a fi",
+   "first_seen": "2026-11-14",
+   "group": "own",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "routing",
+   "path": ".claude/skills/routing/SKILL.md",
+   "pin": "",
+   "repo": "h0ffmann/ww3-gpu",
    "review": "new",
    "tag": "untagged",
    "upstream": "",
    "upstream_of": ""
   },
-  "h0ffmann/ptbr-writer:skills/cientifico/SKILL.md": {
-   "blob": "3a6f8ad0a19624f3f1b0acff5a51e9564e505d14",
-   "changed": "2026-10-29",
-   "description": "Escreve e revisa texto cient\u00edfico ou t\u00e9cnico com fontes (artigo, proposta, relat\u00f3rio) em pt-BR, e em EN quando o texto \u00e9 bil\u00edngue. Use ao redigir, citar, checar n\u00fameros, preparar ou responder revis\u00e3o.",
-   "first_seen": "2026-10-29",
+  "h0ffmann/ww3-gpu:.claude/skills/sharingan/SKILL.md": {
+   "blob": "c5be80427fab427b23218b5efa1e831e58003e7a",
+   "changed": "2026-11-14",
+   "description": "Port a skill, workflow or pattern from another repository into ww3-gpu, given its URL: fetch the whole unit, check its licence, map every upstream concept to what this repository or Claude Code alread",
+   "first_seen": "2026-11-14",
+   "group": "own",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "sharingan.patch",
+   "lock": {
+    "commit": "ae64f4f39726de6934f15eaa1be3f8812999da60",
+    "hold": null,
+    "local_edits": "sharingan.patch",
+    "path": "plugins/marola-devkit/skills/sharingan",
+    "upstream": "marola-dev/marola-devkit",
+    "upstream_blob": "5bfb6114bc76e741ac27ffaffd504307351cf9f1"
+   },
+   "name": "sharingan",
+   "path": ".claude/skills/sharingan/SKILL.md",
+   "pin": "ae64f4f39726de6934f15eaa1be3f8812999da60",
+   "repo": "h0ffmann/ww3-gpu",
+   "review": "new",
+   "tag": "workflow",
+   "upstream": "behind upstream",
+   "upstream_of": "marola-dev/marola-devkit:plugins/marola-devkit/skills/sharingan/SKILL.md"
+  },
+  "h0ffmann/ww3-gpu:.claude/skills/ste/SKILL.md": {
+   "blob": "46306d039d4e6864eca0b5f9eb79cbad043def27",
+   "changed": "2026-11-14",
+   "description": "Write or rewrite English text of ww3-gpu in ASD-STE100 Simplified Technical English (STE): procedures, READMEs, runbooks, port reports, docs/log entries, commit bodies, PR bodies and issue text. Use w",
+   "first_seen": "2026-11-14",
    "group": "own",
    "hold": "",
    "kind": "skill",
    "local_edits": "",
-   "name": "cientifico",
-   "path": "skills/cientifico/SKILL.md",
+   "name": "ste",
+   "path": ".claude/skills/ste/SKILL.md",
    "pin": "",
-   "repo": "h0ffmann/ptbr-writer",
+   "repo": "h0ffmann/ww3-gpu",
    "review": "new",
    "tag": "untagged",
    "upstream": "",
    "upstream_of": ""
   },
-  "h0ffmann/ptbr-writer:skills/ptbr-routing/SKILL.md": {
-   "blob": "a1c920b22e79f9035d9d4aefb0e590049d3755f7",
-   "changed": "2026-10-29",
-   "description": "Escolhe a skill e o n\u00edvel de rigor antes de carregar uma skill de escrita em pt-BR. Use quando o pedido \u00e9 escrever, reescrever ou revisar texto em portugu\u00eas e n\u00e3o diz o n\u00edvel nem a skill.",
-   "first_seen": "2026-10-29",
+  "h0ffmann/ww3-gpu:.claude/skills/wfip/SKILL.md": {
+   "blob": "c4a85454184536473562d78f75e5af608670a673",
+   "changed": "2026-11-14",
+   "description": "Write, revise or report on a Wave Forecaster Improvement Proposal (WFIP), the numbered design doc under docs/WFIPs/ that ties a non-trivial change to a deliverable of the project proposal and carries ",
+   "first_seen": "2026-11-14",
    "group": "own",
    "hold": "",
    "kind": "skill",
    "local_edits": "",
-   "name": "ptbr-routing",
-   "path": "skills/ptbr-routing/SKILL.md",
+   "name": "wfip",
+   "path": ".claude/skills/wfip/SKILL.md",
    "pin": "",
-   "repo": "h0ffmann/ptbr-writer",
+   "repo": "h0ffmann/ww3-gpu",
    "review": "new",
    "tag": "untagged",
    "upstream": "",
    "upstream_of": ""
   },
-  "h0ffmann/ptbr-writer:skills/ptbr/SKILL.md": {
-   "blob": "4215faefef7c42813299933e45201ad9c2301681",
-   "changed": "2026-10-29",
-   "description": "",
-   "first_seen": "2026-10-29",
+  "h0ffmann/ww3-gpu:.claude/skills/ww3-port/SKILL.md": {
+   "blob": "d023db008af55df7d16d13ee23c91ee480404d4b",
+   "changed": "2026-11-14",
+   "description": "The WW3-specific traps of translating a WAVEWATCH III Fortran routine to C++/Kokkos and of claiming it regtested, learned on W3SNL1. Use while translating or reviewing a ported routine (after /port-ne",
+   "first_seen": "2026-11-14",
    "group": "own",
    "hold": "",
    "kind": "skill",
    "local_edits": "",
-   "name": "ptbr",
-   "path": "skills/ptbr/SKILL.md",
+   "name": "ww3-port",
+   "path": ".claude/skills/ww3-port/SKILL.md",
    "pin": "",
-   "repo": "h0ffmann/ptbr-writer",
+   "repo": "h0ffmann/ww3-gpu",
    "review": "new",
    "tag": "untagged",
    "upstream": "",
    "upstream_of": ""
   },
-  "h0ffmann/ptbr-writer:skills/retorica/SKILL.md": {
-   "blob": "4aaa7afd050bb992338b7738932afc658769d802",
-   "changed": "2026-10-29",
-   "description": "(em desenvolvimento) Ret\u00f3rica para texto t\u00e9cnico em portugu\u00eas. Sem regras ainda: n\u00e3o use para reescrever texto.",
-   "first_seen": "2026-10-29",
+  "h0ffmann/ww3-gpu:.claude/skills/ww4-status/SKILL.md": {
+   "blob": "2344d30e0e0a0196cff6130ca90d3fbb7297faf5",
+   "changed": "2026-11-14",
+   "description": "Check NOAA's WAVEWATCH IV (WW4) for changes since the last recorded snapshot and update this repo's research to match. Use when the user types /ww4-status, asks what WW4 has done lately, whether WW4 p",
+   "first_seen": "2026-11-14",
    "group": "own",
    "hold": "",
    "kind": "skill",
    "local_edits": "",
-   "name": "retorica",
-   "path": "skills/retorica/SKILL.md",
+   "name": "ww4-status",
+   "path": ".claude/skills/ww4-status/SKILL.md",
    "pin": "",
-   "repo": "h0ffmann/ptbr-writer",
+   "repo": "h0ffmann/ww3-gpu",
    "review": "new",
    "tag": "untagged",
    "upstream": "",
@@ -5752,7 +6363,7 @@
    "repo": "marola-dev/marola-devkit",
    "review": "changed since review",
    "tag": "research",
-   "upstream": "pinned",
+   "upstream": "behind upstream",
    "upstream_of": "blader/humanizer:SKILL.md"
   },
   "marola-dev/marola-devkit:plugins/marola-devkit/skills/mip-solve-perpetual/SKILL.md": {
@@ -6538,8 +7149,8 @@
    "upstream_of": "marola-dev/marola-devkit:skills/routing/SKILL.md"
   },
   "marola-dev/marola-site:.claude/skills/site-frontend/SKILL.md": {
-   "blob": "4e6e338cff62c4327a9b524014772dc190e54b53",
-   "changed": "2026-10-29",
+   "blob": "f2ff2df4e5729a27256a8c6e2124f9eaef388e28",
+   "changed": "2026-11-14",
    "description": "Use first for any change a visitor sees on marola.dev (site/static/*.html, app.js markup and markers, the Mapbox map and flow.js's wind and wave layers, style.css, the chat widget, 404.html, the copy)",
    "first_seen": "2026-10-15",
    "group": "own",
