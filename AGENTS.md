@@ -66,6 +66,9 @@ An agent starts work only on an issue carrying `agent-ready`, in this repo (MIP-
 Commits carry `Tested:` and `Co-Authored-By: Claude <noreply@anthropic.com>`, as in the
 umbrella.
 
+PR titles, PR descriptions and commit messages are in English only, as in the umbrella (the owner,
+3 November 2026).
+
 ## Cost & deployment safety (hard rule)
 
 As in the umbrella. Nothing here deploys or runs anything paid.
