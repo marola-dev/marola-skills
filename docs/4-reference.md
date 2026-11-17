@@ -49,6 +49,8 @@ established is in [Development](3-development.md); the ⚠ rows are explained in
 | [`mapbox-web-integration-patterns`](https://github.com/marola-dev/marola-site/blob/main/.claude/skills/mapbox-web-integration-patterns/SKILL.md) | FE | [mapbox/mapbox-agent-skills@f71cd72](https://github.com/mapbox/mapbox-agent-skills/tree/f71cd72/skills/mapbox-web-integration-patterns) | Upstream ⚠ [R8](4-reference_review.md#r8-evals-that-ship-but-have-never-been-run-here) [R10](4-reference_review.md#r10-two-mapbox-skills-that-do-not-fit-marola-site) | 3 evals, not run here |
 | [`mapbox-web-performance-patterns`](https://github.com/marola-dev/marola-site/blob/main/.claude/skills/mapbox-web-performance-patterns/SKILL.md) | FE | [mapbox/mapbox-agent-skills@f71cd72](https://github.com/mapbox/mapbox-agent-skills/tree/f71cd72/skills/mapbox-web-performance-patterns) | Upstream ⚠ [R8](4-reference_review.md#r8-evals-that-ship-but-have-never-been-run-here) | 3 evals, not run here |
 
+The new map is MapLibre GL JS; which of MapLibre's own skills fit it is [MapLibre skills](4-reference_maplibre.md).
+
 ## marola-devkit — the `marola-devkit` plugin, `plugins/marola-devkit/`
 
 The plugin as a whole passes `claude plugin validate --strict` on every devkit change, which makes
