@@ -1,22 +1,23 @@
 {
  "etags": {
-  "list:h0ffmann:1": "\"0f89f622f334272e2d0bec77a6d78f5228f67d62b68a18d1e5e8d05ef3a84947\"",
-  "list:h0ffmann:2": "\"6976d3ba355278d238b094f014a7b53afd1e1fce002ef31162dbe1b42ee13a7c\"",
-  "list:marola-dev:1": "\"15d7bb0996ff9af557f1e94e00ede11ce81e0945c434b858177c743e37c2f0e6\"",
-  "repo:Cocoon-AI/architecture-diagram-generator": "\"f4b8118c0915a3af9809720b1ecfb450b880ad55d07095c450b90dc4c7c2e897\"",
-  "repo:DietrichGebert/ponytail": "\"8587b70e5103782a2db47e93479d0ce6e4424b20b0180cc0d2c9b21968706c88\"",
-  "repo:Graphify-Labs/graphify": "\"711179cfab13b9438fd5902dd3bf3316961c4725c5defe5b56e08fcb30fdbb5c\"",
-  "repo:Leonxlnx/taste-skill": "\"37b15e2bdcc1976d72b9541113b938b1042927a426a09508472e301972c22784\"",
-  "repo:Orchestra-Research/AI-Research-SKILLs": "\"edb95e3bc9d2a8b1ddc01802ec8f84f576ba70a54fbd6fde9bbcc3813d800272\"",
-  "repo:anthropics/skills": "\"b9b86c6ef73931ffa7a28e3e3d34b8b8239b5f50ffbda424b54f99406749a108\"",
-  "repo:blader/humanizer": "\"b6fb859f789614730f16f1141c9ce3a644401a9056b5ac74ad1e4b77c6d2badc\"",
-  "repo:cloudflare/skills": "\"69ec88a284839d4aba1813bf1ddc195064301e5df5c1a8c41496ac3e90e3b83b\"",
-  "repo:duckdb/duckdb-skills": "\"68809aca83984e4615254838968fc9f1be0699357ebcad486274a969755e386d\"",
-  "repo:emilkowalski/skills": "\"77a5bce649a7d8d9a1f162bcd8edd13c885b0d6e48617519968c3b7eae8ab17f\"",
-  "repo:fabricioctelles/skills": "\"652b1ac0183d548f93af5df04e2661058de9d7ef649c70a78ffab5ee1161d552\"",
-  "repo:mapbox/mapbox-agent-skills": "\"76b481bbbd51b847c5f3da516bf1ff52f036a5195fe19b21c970688c098ec593\"",
-  "repo:multica-ai/andrej-karpathy-skills": "\"48acb76d09d4f4f7f3c64706d4bca6f49e6545573ef6e2555cb2396555ef783f\"",
-  "repo:zircote-plugins/github-social": "\"bdfc690675533de4c6fd489ad34e8bac657149ee27cc8422a2c9467189acb50a\""
+  "list:h0ffmann:1": "\"123f00966416620b7616426386e0461daab3245e8dee35ba0f6c516fc9decc3d\"",
+  "list:h0ffmann:2": "\"f39c44c20de98d02222585f5aea4fd21a72d2033609585dd145c8575f63fc67d\"",
+  "list:marola-dev:1": "\"fefb1dcd854d5ffcbf777cd403c8cd782ab7f62c35ea4581264645960663c9f8\"",
+  "repo:Cocoon-AI/architecture-diagram-generator": "\"427e86e273f87a0ae2a1ea017ff88f40426c4ff91310e091497785f12aa35ecf\"",
+  "repo:DietrichGebert/ponytail": "\"1937c57eac5a5dc44af543566e5a1396aa481c46a4533a4693d52505f5d47738\"",
+  "repo:Graphify-Labs/graphify": "\"6ee758c9f0c3517912ad9e16f4c3ff202ddf1425cc913b95cdd74fb5d5d5a69f\"",
+  "repo:Leonxlnx/taste-skill": "\"f9b1ddee285c7d1c87fa81a25ec40d56c664acdb473311c351ce58b93093ea49\"",
+  "repo:Orchestra-Research/AI-Research-SKILLs": "\"ac054ab701413624253a0ab1273c1133269987fac1a3220325def3c959bd1996\"",
+  "repo:anthropics/skills": "\"2326acbd9e6a73b306bfbdffb6937894bac24b09ba2b53e1a1251b687839dedc\"",
+  "repo:blader/humanizer": "\"4a00ea7abb216771610ec5249c4cfc7289dfeea96956c61f2852770bb30c4e9d\"",
+  "repo:cloudflare/skills": "\"eaaeddbe9c1764ca64bdbe4b2e4dec6f154e4caad88588b263bceb5b07846629\"",
+  "repo:duckdb/duckdb-skills": "\"07a470324830c7c64c34a686588538804b66feeb02af8de1ce361d66906c3cf2\"",
+  "repo:emilkowalski/skills": "\"bb21cdf7c61aefcfe430349a4e746a33178a5369e79b9f5e70b38c12fda06ccc\"",
+  "repo:fabricioctelles/skills": "\"c0a5abb6717fc1bfb36a969a4267dd937055d4ff39341babbca1f9ebf8edde3b\"",
+  "repo:mapbox/mapbox-agent-skills": "\"78e6381fd894bcd1ae48de739957dc210b0ffb19668be9daae15c13406331cc3\"",
+  "repo:maplibre/maplibre-agent-skills": "\"6ba2f15d7d411931e44d8100c3c8bed9098e41d1dd4462fb9b1b03fa33700665\"",
+  "repo:multica-ai/andrej-karpathy-skills": "\"9c3200acbe8c219ce47d9feffd12fe6d7a889f012a6b0790b23f4f036bc90a3d\"",
+  "repo:zircote-plugins/github-social": "\"6f3d923ae8c4a24b5114b3a32de48978d84345b9a4a530c5a618fc5aa9222fa4\""
  },
  "listings": {
   "h0ffmann:1": {
@@ -114,7 +115,7 @@
     },
     {
      "branch": "main",
-     "pushed_at": "2026-11-17T06:22:57Z",
+     "pushed_at": "2026-11-20T15:50:33Z",
      "repo": "h0ffmann/h0ffmann"
     },
     {
@@ -239,7 +240,7 @@
     },
     {
      "branch": "main",
-     "pushed_at": "2026-11-17T07:45:05Z",
+     "pushed_at": "2026-11-20T19:37:48Z",
      "repo": "h0ffmann/ww3-gpu"
     },
     {
@@ -264,7 +265,7 @@
     },
     {
      "branch": "main",
-     "pushed_at": "2026-11-17T14:54:51Z",
+     "pushed_at": "2026-11-21T13:00:49Z",
      "repo": "marola-dev/marola"
     },
     {
@@ -309,12 +310,12 @@
     },
     {
      "branch": "main",
-     "pushed_at": "2026-11-17T06:36:01Z",
+     "pushed_at": "2026-11-21T14:28:54Z",
      "repo": "marola-dev/marola-site"
     },
     {
      "branch": "main",
-     "pushed_at": "2026-11-16T15:39:05Z",
+     "pushed_at": "2026-11-20T15:23:33Z",
      "repo": "marola-dev/marola-skills"
     },
     {
@@ -336,7 +337,7 @@
   },
   "repo:Graphify-Labs/graphify": {
    "branch": "v8",
-   "pushed_at": "2026-11-17T15:41:40Z",
+   "pushed_at": "2026-11-20T22:49:07Z",
    "repo": "Graphify-Labs/graphify"
   },
   "repo:Leonxlnx/taste-skill": {
@@ -356,12 +357,12 @@
   },
   "repo:blader/humanizer": {
    "branch": "main",
-   "pushed_at": "2026-11-10T01:35:15Z",
+   "pushed_at": "2026-11-19T18:53:14Z",
    "repo": "blader/humanizer"
   },
   "repo:cloudflare/skills": {
    "branch": "main",
-   "pushed_at": "2026-11-10T11:41:34Z",
+   "pushed_at": "2026-11-17T15:55:50Z",
    "repo": "cloudflare/skills"
   },
   "repo:duckdb/duckdb-skills": {
@@ -376,13 +377,18 @@
   },
   "repo:fabricioctelles/skills": {
    "branch": "main",
-   "pushed_at": "2026-11-15T14:34:48Z",
+   "pushed_at": "2026-11-20T18:16:38Z",
    "repo": "fabricioctelles/skills"
   },
   "repo:mapbox/mapbox-agent-skills": {
    "branch": "main",
-   "pushed_at": "2026-11-03T17:10:33Z",
+   "pushed_at": "2026-11-20T18:37:10Z",
    "repo": "mapbox/mapbox-agent-skills"
+  },
+  "repo:maplibre/maplibre-agent-skills": {
+   "branch": "main",
+   "pushed_at": "2026-11-20T10:51:36Z",
+   "repo": "maplibre/maplibre-agent-skills"
   },
   "repo:multica-ai/andrej-karpathy-skills": {
    "branch": "main",
@@ -724,7 +730,7 @@
    "branch": "v8",
    "group": "watch",
    "owner": "Graphify-Labs",
-   "pushed_at": "2026-11-17T15:41:40Z",
+   "pushed_at": "2026-11-20T22:49:07Z",
    "repo": "Graphify-Labs/graphify"
   },
   "Leonxlnx/taste-skill": {
@@ -752,14 +758,14 @@
    "branch": "main",
    "group": "watch",
    "owner": "blader",
-   "pushed_at": "2026-11-10T01:35:15Z",
+   "pushed_at": "2026-11-19T18:53:14Z",
    "repo": "blader/humanizer"
   },
   "cloudflare/skills": {
    "branch": "main",
    "group": "watch",
    "owner": "cloudflare",
-   "pushed_at": "2026-11-10T11:41:34Z",
+   "pushed_at": "2026-11-17T15:55:50Z",
    "repo": "cloudflare/skills"
   },
   "duckdb/duckdb-skills": {
@@ -780,7 +786,7 @@
    "branch": "main",
    "group": "watch",
    "owner": "fabricioctelles",
-   "pushed_at": "2026-11-15T14:34:48Z",
+   "pushed_at": "2026-11-20T18:16:38Z",
    "repo": "fabricioctelles/skills"
   },
   "h0ffmann/astrbot_dw_ext_br_south_disaster": {
@@ -822,7 +828,7 @@
    "branch": "main",
    "group": "own",
    "owner": "h0ffmann",
-   "pushed_at": "2026-11-17T06:22:57Z",
+   "pushed_at": "2026-11-20T15:50:33Z",
    "repo": "h0ffmann/h0ffmann"
   },
   "h0ffmann/legacy-CSUB": {
@@ -857,15 +863,22 @@
    "branch": "main",
    "group": "own",
    "owner": "h0ffmann",
-   "pushed_at": "2026-11-17T07:45:05Z",
+   "pushed_at": "2026-11-20T19:37:48Z",
    "repo": "h0ffmann/ww3-gpu"
   },
   "mapbox/mapbox-agent-skills": {
    "branch": "main",
    "group": "watch",
    "owner": "mapbox",
-   "pushed_at": "2026-11-03T17:10:33Z",
+   "pushed_at": "2026-11-20T18:37:10Z",
    "repo": "mapbox/mapbox-agent-skills"
+  },
+  "maplibre/maplibre-agent-skills": {
+   "branch": "main",
+   "group": "watch",
+   "owner": "maplibre",
+   "pushed_at": "2026-11-20T10:51:36Z",
+   "repo": "maplibre/maplibre-agent-skills"
   },
   "marola-dev/.github": {
    "branch": "main",
@@ -885,7 +898,7 @@
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-11-17T14:54:51Z",
+   "pushed_at": "2026-11-21T13:00:49Z",
    "repo": "marola-dev/marola"
   },
   "marola-dev/marola-agents": {
@@ -948,14 +961,14 @@
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-11-17T06:36:01Z",
+   "pushed_at": "2026-11-21T14:28:54Z",
    "repo": "marola-dev/marola-site"
   },
   "marola-dev/marola-skills": {
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-11-16T15:39:05Z",
+   "pushed_at": "2026-11-20T15:23:33Z",
    "repo": "marola-dev/marola-skills"
   },
   "marola-dev/marola-swim": {
@@ -3226,8 +3239,8 @@
    "upstream_of": ""
   },
   "blader/humanizer:SKILL.md": {
-   "blob": "175bf05f45ae3bf566059a560467166d93a9599c",
-   "changed": "2026-11-17",
+   "blob": "bc51a89764e96c0178c707a2a7158d8dca4e6920",
+   "changed": "2026-11-21",
    "description": "Rewrite AI-sounding text so it reads like the writer without changing what it says. Use when editing or reviewing prose for AI tells: not-X-but-Y contrasts, one-line closers, staged openers, forced tr",
    "first_seen": "2026-10-15",
    "group": "watch",
@@ -4790,9 +4803,9 @@
    "upstream_of": ""
   },
   "fabricioctelles/skills:skills/pstack-skill/SKILL.md": {
-   "blob": "cf08d2df018bd85949748c1e6603a3319adf4183",
-   "changed": "2026-11-17",
-   "description": "Rigorous engineering orchestrator ported from Lauren Tan's pstack (poteto-mode): reads your task, picks one of 23 playbooks (bug fix, feature, refactoring, perf, investigation, prototype, babysit, shi",
+   "blob": "ed150dceb0e8d4c01f2cc74b57109f7a33135008",
+   "changed": "2026-11-21",
+   "description": "Rigorous engineering orchestrator ported from Lauren Tan's pstack (poteto-mode): reads your task, picks one of 22 playbooks (bug fix, feature, refactoring, perf, investigation, prototype, babysit, shi",
    "first_seen": "2026-10-15",
    "group": "watch",
    "hold": "",
@@ -5645,9 +5658,60 @@
    "upstream": "",
    "upstream_of": ""
   },
+  "mapbox/mapbox-agent-skills:skills/mapbox-android-compose-migration/SKILL.md": {
+   "blob": "0210bd01c6e9d88f7e2c9a1e97081f2382c54e74",
+   "changed": "2026-11-21",
+   "description": "Move Android Mapbox map and navigation screens from the View system (XML MapView, AndroidView-wrapped MapView, fragments) to Jetpack Compose with a coding agent. Covers the Mapbox parts of the screen ",
+   "first_seen": "2026-11-21",
+   "group": "watch",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "mapbox-android-compose-migration",
+   "path": "skills/mapbox-android-compose-migration/SKILL.md",
+   "pin": "",
+   "repo": "mapbox/mapbox-agent-skills",
+   "tag": "untagged",
+   "upstream": "",
+   "upstream_of": ""
+  },
+  "mapbox/mapbox-agent-skills:skills/mapbox-android-maps-v10-to-v11-migration/SKILL.md": {
+   "blob": "547ad5f4548c103b71f2071d027e81e6651ef6b9",
+   "changed": "2026-11-21",
+   "description": "Migrate an Android app from Mapbox Maps SDK v10 to v11 with a coding agent. Inventories v10 usage, plans the work by area with effort and blockers, migrates one area at a time to the current recommend",
+   "first_seen": "2026-11-21",
+   "group": "watch",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "mapbox-android-maps-v10-to-v11-migration",
+   "path": "skills/mapbox-android-maps-v10-to-v11-migration/SKILL.md",
+   "pin": "",
+   "repo": "mapbox/mapbox-agent-skills",
+   "tag": "untagged",
+   "upstream": "",
+   "upstream_of": ""
+  },
+  "mapbox/mapbox-agent-skills:skills/mapbox-android-navigation-v2-to-v3-migration/SKILL.md": {
+   "blob": "cc5e216c6e2fc8fe2a74f90958e966abac753078",
+   "changed": "2026-11-21",
+   "description": "Migrate an Android app from Mapbox Navigation SDK v2 to v3 with a coding agent. Inventories v2 usage, plans the work by area with effort and blockers, migrates one area at a time, and surfaces every b",
+   "first_seen": "2026-11-21",
+   "group": "watch",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "mapbox-android-navigation-v2-to-v3-migration",
+   "path": "skills/mapbox-android-navigation-v2-to-v3-migration/SKILL.md",
+   "pin": "",
+   "repo": "mapbox/mapbox-agent-skills",
+   "tag": "untagged",
+   "upstream": "",
+   "upstream_of": ""
+  },
   "mapbox/mapbox-agent-skills:skills/mapbox-android-patterns/SKILL.md": {
-   "blob": "d32ee002517e9e8058edb1ebfab0878008521d39",
-   "changed": "2026-10-15",
+   "blob": "f4b378aa43fec0956a2b6c78b628dbf5a78cb47c",
+   "changed": "2026-11-21",
    "description": "Official integration patterns for Mapbox Maps SDK on Android. Covers installation, adding markers, user location, custom data, styles, camera control, and featureset interactions. Based on official Ma",
    "first_seen": "2026-10-15",
    "group": "watch",
@@ -5656,6 +5720,23 @@
    "local_edits": "",
    "name": "mapbox-android-patterns",
    "path": "skills/mapbox-android-patterns/SKILL.md",
+   "pin": "",
+   "repo": "mapbox/mapbox-agent-skills",
+   "tag": "untagged",
+   "upstream": "",
+   "upstream_of": ""
+  },
+  "mapbox/mapbox-agent-skills:skills/mapbox-android-sdk-inventory/SKILL.md": {
+   "blob": "62d54483c0a32948dcf9a8b2ff40160619b42cbe",
+   "changed": "2026-11-21",
+   "description": "Produce a factual inventory of what an Android app currently uses from the Mapbox SDKs, with a coding agent. Reports the resolved version of every Mapbox dependency, the modules used, every Mapbox cla",
+   "first_seen": "2026-11-21",
+   "group": "watch",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "mapbox-android-sdk-inventory",
+   "path": "skills/mapbox-android-sdk-inventory/SKILL.md",
    "pin": "",
    "repo": "mapbox/mapbox-agent-skills",
    "tag": "untagged",
@@ -5747,6 +5828,40 @@
    "upstream": "",
    "upstream_of": ""
   },
+  "mapbox/mapbox-agent-skills:skills/mapbox-ios-maps-v10-to-v11-migration/SKILL.md": {
+   "blob": "01edd54dc1cfa2e90001ab6ee0353d5b8cf78156",
+   "changed": "2026-11-21",
+   "description": "Migrate an iOS app from Mapbox Maps SDK v10 to v11 with a coding agent. Inventories v10 usage, plans the work by area with effort and blockers, migrates one area at a time to the current recommended v",
+   "first_seen": "2026-11-21",
+   "group": "watch",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "mapbox-ios-maps-v10-to-v11-migration",
+   "path": "skills/mapbox-ios-maps-v10-to-v11-migration/SKILL.md",
+   "pin": "",
+   "repo": "mapbox/mapbox-agent-skills",
+   "tag": "untagged",
+   "upstream": "",
+   "upstream_of": ""
+  },
+  "mapbox/mapbox-agent-skills:skills/mapbox-ios-navigation-v2-to-v3-migration/SKILL.md": {
+   "blob": "74e2ab9f493601e7e969bd511c684acbf6c520bd",
+   "changed": "2026-11-21",
+   "description": "Migrate an iOS app from Mapbox Navigation SDK v2 to v3 with a coding agent. Inventories v2 usage, plans the work by area with effort and blockers, migrates one area at a time, and surfaces every behav",
+   "first_seen": "2026-11-21",
+   "group": "watch",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "mapbox-ios-navigation-v2-to-v3-migration",
+   "path": "skills/mapbox-ios-navigation-v2-to-v3-migration/SKILL.md",
+   "pin": "",
+   "repo": "mapbox/mapbox-agent-skills",
+   "tag": "untagged",
+   "upstream": "",
+   "upstream_of": ""
+  },
   "mapbox/mapbox-agent-skills:skills/mapbox-ios-patterns/SKILL.md": {
    "blob": "72511b5b235ae5c356e6a2fb0be9804fc430c6c9",
    "changed": "2026-10-15",
@@ -5758,6 +5873,23 @@
    "local_edits": "",
    "name": "mapbox-ios-patterns",
    "path": "skills/mapbox-ios-patterns/SKILL.md",
+   "pin": "",
+   "repo": "mapbox/mapbox-agent-skills",
+   "tag": "untagged",
+   "upstream": "",
+   "upstream_of": ""
+  },
+  "mapbox/mapbox-agent-skills:skills/mapbox-ios-swiftui-migration/SKILL.md": {
+   "blob": "5de517e14458b868302b4e3d88333cb0ac7fe5d2",
+   "changed": "2026-11-21",
+   "description": "Move iOS Mapbox map and navigation screens from UIKit (MapView in a view controller, storyboards, or UIViewRepresentable wrappers) to SwiftUI with a coding agent. Covers the Mapbox parts of the screen",
+   "first_seen": "2026-11-21",
+   "group": "watch",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "mapbox-ios-swiftui-migration",
+   "path": "skills/mapbox-ios-swiftui-migration/SKILL.md",
    "pin": "",
    "repo": "mapbox/mapbox-agent-skills",
    "tag": "untagged",
@@ -5981,6 +6113,210 @@
    "path": "skills/mapbox-web-performance-patterns/SKILL.md",
    "pin": "",
    "repo": "mapbox/mapbox-agent-skills",
+   "tag": "FE",
+   "upstream": "",
+   "upstream_of": ""
+  },
+  "maplibre/maplibre-agent-skills:skills/maplibre-cartography/SKILL.md": {
+   "blob": "be19b79bd50ec601f20547e5057d384f3954b9af",
+   "changed": "2026-11-21",
+   "description": "Cartographic principles for MapLibre GL JS \u2014 label and symbol legibility on imagery vs. vector basemaps, figure-ground for point icons, styling vector roads over aerial imagery, visual hierarchy, laye",
+   "first_seen": "2026-11-21",
+   "group": "watch",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "maplibre-cartography",
+   "path": "skills/maplibre-cartography/SKILL.md",
+   "pin": "",
+   "repo": "maplibre/maplibre-agent-skills",
+   "tag": "FE",
+   "upstream": "",
+   "upstream_of": ""
+  },
+  "maplibre/maplibre-agent-skills:skills/maplibre-fonts-glyphs/SKILL.md": {
+   "blob": "416f694391b4c284005873a6fa976b25a58c09a9",
+   "changed": "2026-11-21",
+   "description": "Configuring fonts and glyphs for MapLibre GL JS and MapLibre Native \u2014 the style's `glyphs` URL, self-hosting or generating font PBFs, the GL JS local-font fallback (omitted `glyphs` or a failed glyph ",
+   "first_seen": "2026-11-21",
+   "group": "watch",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "maplibre-fonts-glyphs",
+   "path": "skills/maplibre-fonts-glyphs/SKILL.md",
+   "pin": "",
+   "repo": "maplibre/maplibre-agent-skills",
+   "tag": "FE",
+   "upstream": "",
+   "upstream_of": ""
+  },
+  "maplibre/maplibre-agent-skills:skills/maplibre-mapbox-migration/SKILL.md": {
+   "blob": "0fb016e2da5473ef1926b1f2a2895ca87d788e92",
+   "changed": "2026-11-21",
+   "description": "Migrating from Mapbox GL JS to MapLibre GL JS \u2014 package, import and namespace changes, removing the access token, replacing mapbox:// styles, tile sources, plugin equivalents (draw, geocoder, directio",
+   "first_seen": "2026-11-21",
+   "group": "watch",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "maplibre-mapbox-migration",
+   "path": "skills/maplibre-mapbox-migration/SKILL.md",
+   "pin": "",
+   "repo": "maplibre/maplibre-agent-skills",
+   "tag": "FE",
+   "upstream": "",
+   "upstream_of": ""
+  },
+  "maplibre/maplibre-agent-skills:skills/maplibre-native-gl-js-parity/SKILL.md": {
+   "blob": "664fe5615eb83990cae20aebe44cce47eec1ac33",
+   "changed": "2026-11-21",
+   "description": "Six places where MapLibre Native (Android, iOS) and MapLibre GL JS differ, release by release \u2014 custom URL schemes (`addProtocol`), globe projection, 3D terrain, `interpolate-hcl` and `interpolate-lab",
+   "first_seen": "2026-11-21",
+   "group": "watch",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "maplibre-native-gl-js-parity",
+   "path": "skills/maplibre-native-gl-js-parity/SKILL.md",
+   "pin": "",
+   "repo": "maplibre/maplibre-agent-skills",
+   "tag": "FE",
+   "upstream": "",
+   "upstream_of": ""
+  },
+  "maplibre/maplibre-agent-skills:skills/maplibre-pmtiles-patterns/SKILL.md": {
+   "blob": "87b8daded470274500a4e6cb0f3892e5ffa7afaf",
+   "changed": "2026-11-21",
+   "description": "Serverless vector and raster tiles with PMTiles for MapLibre GL JS \u2014 single-file format, HTTP range requests, hosting on S3/R2/GitHub Pages, generating with Planetiler or tippecanoe, and the pmtiles p",
+   "first_seen": "2026-11-21",
+   "group": "watch",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "maplibre-pmtiles-patterns",
+   "path": "skills/maplibre-pmtiles-patterns/SKILL.md",
+   "pin": "",
+   "repo": "maplibre/maplibre-agent-skills",
+   "tag": "FE",
+   "upstream": "",
+   "upstream_of": ""
+  },
+  "maplibre/maplibre-agent-skills:skills/maplibre-running-evals/SKILL.md": {
+   "blob": "63e25e053030779d70d741b61bb49100706f2791",
+   "changed": "2026-11-21",
+   "description": "The step-by-step procedure for running this repo's Promptfoo evals with a generator and a judge over provider APIs. Use when starting a new skill and needing a baseline before writing content, when a ",
+   "first_seen": "2026-11-21",
+   "group": "watch",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "maplibre-running-evals",
+   "path": "skills/maplibre-running-evals/SKILL.md",
+   "pin": "",
+   "repo": "maplibre/maplibre-agent-skills",
+   "tag": "workflow",
+   "upstream": "",
+   "upstream_of": ""
+  },
+  "maplibre/maplibre-agent-skills:skills/maplibre-skill-authoring/SKILL.md": {
+   "blob": "dee466fd7d7be4e84ae43a5ecc53f29cbfa71636",
+   "changed": "2026-11-21",
+   "description": "How to turn a working session into a MapLibre agent skill \u2014 you researched something MapLibre's docs did not cover, got it wrong before you got it right, shipped it, and the session is about to end. C",
+   "first_seen": "2026-11-21",
+   "group": "watch",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "maplibre-skill-authoring",
+   "path": "skills/maplibre-skill-authoring/SKILL.md",
+   "pin": "",
+   "repo": "maplibre/maplibre-agent-skills",
+   "tag": "workflow",
+   "upstream": "",
+   "upstream_of": ""
+  },
+  "maplibre/maplibre-agent-skills:skills/maplibre-source-wiring/SKILL.md": {
+   "blob": "f904d91465c4f6cda54c6b0ebad1242d5e0eb9af",
+   "changed": "2026-11-21",
+   "description": "Getting a MapLibre GL JS source to actually render \u2014 TileJSON `url` versus hand-wired `tiles` templates, matching `source-layer` names to the tile schema, layer order and inserting below labels, `prom",
+   "first_seen": "2026-11-21",
+   "group": "watch",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "maplibre-source-wiring",
+   "path": "skills/maplibre-source-wiring/SKILL.md",
+   "pin": "",
+   "repo": "maplibre/maplibre-agent-skills",
+   "tag": "FE",
+   "upstream": "",
+   "upstream_of": ""
+  },
+  "maplibre/maplibre-agent-skills:skills/maplibre-sprites-icons/SKILL.md": {
+   "blob": "e4fe078d90489b8f8706cc8bce9b2e14374bd059",
+   "changed": "2026-11-21",
+   "description": "Sprites and icon images for MapLibre GL JS \u2014 choosing a `Marker`, a sprite, or `addImage`; the `sprite` base URL and its `{id, url}` array form for several sheets; self-hosting and building sprites; r",
+   "first_seen": "2026-11-21",
+   "group": "watch",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "maplibre-sprites-icons",
+   "path": "skills/maplibre-sprites-icons/SKILL.md",
+   "pin": "",
+   "repo": "maplibre/maplibre-agent-skills",
+   "tag": "FE",
+   "upstream": "",
+   "upstream_of": ""
+  },
+  "maplibre/maplibre-agent-skills:skills/maplibre-terrain-rendering/SKILL.md": {
+   "blob": "b4c16c33c0b45c392271356db7e5dafe50743626",
+   "changed": "2026-11-21",
+   "description": "Drawing elevation in MapLibre GL JS once a raster-dem source works \u2014 hillshade and `hillshade-method`, the `color-relief` layer and the `[\"elevation\"]` expression, runtime contours with `maplibre-cont",
+   "first_seen": "2026-11-21",
+   "group": "watch",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "maplibre-terrain-rendering",
+   "path": "skills/maplibre-terrain-rendering/SKILL.md",
+   "pin": "",
+   "repo": "maplibre/maplibre-agent-skills",
+   "tag": "FE",
+   "upstream": "",
+   "upstream_of": ""
+  },
+  "maplibre/maplibre-agent-skills:skills/maplibre-tile-sources/SKILL.md": {
+   "blob": "1d7f76ff6c9be20c7b8faae678e7c42dde6775e1",
+   "changed": "2026-11-21",
+   "description": "Choosing what form your data needs for MapLibre GL JS \u2014 GeoJSON read straight from a file versus vector or raster tiles, the feature-count and file-size thresholds where each stops working, how a base",
+   "first_seen": "2026-11-21",
+   "group": "watch",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "maplibre-tile-sources",
+   "path": "skills/maplibre-tile-sources/SKILL.md",
+   "pin": "",
+   "repo": "maplibre/maplibre-agent-skills",
+   "tag": "FE",
+   "upstream": "",
+   "upstream_of": ""
+  },
+  "maplibre/maplibre-agent-skills:skills/maplibre-v6-migration/SKILL.md": {
+   "blob": "61b70cb9db4ea6217e8a23d97ecccbeb1fa7c3d6",
+   "changed": "2026-11-21",
+   "description": "Upgrading a MapLibre GL JS app from v5 to v6 \u2014 the ESM-only build, the removed default export, CommonJS require() breakage, the styleimagemissing/setMissingStyleImageResolver change, the removal of th",
+   "first_seen": "2026-11-21",
+   "group": "watch",
+   "hold": "",
+   "kind": "skill",
+   "local_edits": "",
+   "name": "maplibre-v6-migration",
+   "path": "skills/maplibre-v6-migration/SKILL.md",
+   "pin": "",
+   "repo": "maplibre/maplibre-agent-skills",
    "tag": "FE",
    "upstream": "",
    "upstream_of": ""
