@@ -1,23 +1,23 @@
 {
  "etags": {
-  "list:h0ffmann:1": "\"b370df79287fbde05f5b7318d4617a34228be40c58d6f5810413fa8570b9530c\"",
-  "list:h0ffmann:2": "\"ed7a47232c0a7b0dea22779f65686c87f96b28607b4607d119650bbb49317391\"",
-  "list:marola-dev:1": "\"c343e4c00c75b8e234f438db719f9e6c5beaabeebdcfe49fe9fdc2551e79f1bb\"",
-  "repo:Cocoon-AI/architecture-diagram-generator": "\"330e7194cad76cb1d254199167e2e82e4d56847c8754ce65db9ee051aa80b90e\"",
-  "repo:DietrichGebert/ponytail": "\"12d44678e566e4bec0164d6efd55f7319ccb9882fbe2e13a606388a86faf7e9f\"",
-  "repo:Graphify-Labs/graphify": "\"71cd7c9dee9d8a439299d4b76e414fc454593f962285e44dc846772bf42e4827\"",
-  "repo:Leonxlnx/taste-skill": "\"d997903ed9ad5bec0b4bf261dd2275d4b830aa1e86a6609f6b233b7db20145d1\"",
-  "repo:Orchestra-Research/AI-Research-SKILLs": "\"f591dc44376ed2bb2a0272e782afb3748d58de9901f9b590836a47769d5a7eb5\"",
-  "repo:anthropics/skills": "\"1738b4217df12c94d7e54a3fa8acc9bb2a22bb0effd56ea7042e87946d948cf8\"",
-  "repo:blader/humanizer": "\"44b4d0c885c6794f44df0e4c102cf582f021299949629f1223544104f991cd6b\"",
-  "repo:cloudflare/skills": "\"8d18d63ca8960f047b768e4b0fb496a6a438866cefbc3d62a3ddde70fd7ea8d3\"",
-  "repo:duckdb/duckdb-skills": "\"149077158f4f23f65c606df6622487baa79c671335a141dbe7dc633b1681f698\"",
-  "repo:emilkowalski/skills": "\"1c1275dd0802b54fff3de46cd2249cf6400be323302244d819b82ba5ea1d3a40\"",
-  "repo:fabricioctelles/skills": "\"14010435adf17f67eba37899d36507eccaa0549d40501d8713192367f6c3767e\"",
-  "repo:mapbox/mapbox-agent-skills": "\"872b07e658b20029655f767eb68ce0490e663e8b824dc17a4380dc7d2515c300\"",
-  "repo:maplibre/maplibre-agent-skills": "\"48c7b539fbb3c3d6cb61b0cd2d4754402fd58748ed07e166e3e5ce209f05e5b0\"",
-  "repo:multica-ai/andrej-karpathy-skills": "\"ab5e17f5bc6565d58cc8d7e1f5d2933f59b58472d1b0b09722a06298910008ad\"",
-  "repo:zircote-plugins/github-social": "\"77f06b2cf2f18db49e78edeb3c1513912953edba9ef3179d34f994abe9303112\""
+  "list:h0ffmann:1": "\"f834d38060b855a5573d25c8cee03a1785cf551fa78ecce3be4a102d6be4db6d\"",
+  "list:h0ffmann:2": "\"83537ab74315e461886aac8f963afc0a728eee80406614d6abd99c4ca8b331eb\"",
+  "list:marola-dev:1": "\"3dec2a202afbfef38ef7b76ae2d992b995a3d739d384d2447e5426c7f848d6af\"",
+  "repo:Cocoon-AI/architecture-diagram-generator": "\"bb61df1a6a36f55923ccd1025bc4b04eb6f3be421843f6c13e70efa23adb821e\"",
+  "repo:DietrichGebert/ponytail": "\"ab3fad3aa8724f4748cb41289ed857010b145cda95f6d2f4c509293efa3701c6\"",
+  "repo:Graphify-Labs/graphify": "\"05a42bdf489d00de9c86d4b7fb0bb828ab5a2fe0b2c1c5afe508f90e990eedc3\"",
+  "repo:Leonxlnx/taste-skill": "\"4f9d88be44457c3ece1ee4a8a133544d39cdce9fd6111679e558b3474c61cefc\"",
+  "repo:Orchestra-Research/AI-Research-SKILLs": "\"d19d48158418fc4b5672135f6661a63646ee3375097f20bd707a962e068c7ff7\"",
+  "repo:anthropics/skills": "\"a2e25fdf2dc17d6c0af18f79e68ad7006e112935cc9a33f20ddb30b08cb4f2b4\"",
+  "repo:blader/humanizer": "\"7fac9fab87679561e0db337590183c3155590f73cdb0bb5380141636b13e392a\"",
+  "repo:cloudflare/skills": "\"cc40815a8ce8d5b7de49b225dd48c5e39ef6b4c9ade0982174bfa82038ccdcba\"",
+  "repo:duckdb/duckdb-skills": "\"b5cd82c58e643af453858eeb1e5807d7ee3058431e48a5d5e279c7fc7688bd4d\"",
+  "repo:emilkowalski/skills": "\"f39089d978fc5cc9d1cd9fcda62b64e9dc45f3bc6aec822dcd7f850cb20205ee\"",
+  "repo:fabricioctelles/skills": "\"f3595797f98f9a1cb2082e7cea32c77cacd3212049e01daef2e9098225c3644e\"",
+  "repo:mapbox/mapbox-agent-skills": "\"6e5e5d0e847c496d2e550fc8663be49f0ef26b22b955bb5f8d7c2ff1fd279af3\"",
+  "repo:maplibre/maplibre-agent-skills": "\"0448d48ff034a213e080cb457f7895a18f5ce55a0a10d9b4ce97f95ef039ebeb\"",
+  "repo:multica-ai/andrej-karpathy-skills": "\"dc0fe943ba56a8914f5ed2f6026f9cb867de0fb36b5f7de569e1e9d31acfa736\"",
+  "repo:zircote-plugins/github-social": "\"b27400b46283d67717f40507d681ddd47f0739e9f55eb3a1ad960cfeae37345c\""
  },
  "listings": {
   "h0ffmann:1": {
@@ -176,7 +176,7 @@
    ]
   },
   "h0ffmann:2": {
-   "raw": 47,
+   "raw": 48,
    "repos": [
     {
      "branch": "main",
@@ -255,7 +255,7 @@
    "repos": [
     {
      "branch": "main",
-     "pushed_at": "2026-11-25T11:47:36Z",
+     "pushed_at": "2026-11-27T11:04:01Z",
      "repo": "marola-dev/.github"
     },
     {
@@ -265,7 +265,7 @@
     },
     {
      "branch": "main",
-     "pushed_at": "2026-11-25T14:56:04Z",
+     "pushed_at": "2026-11-27T14:19:48Z",
      "repo": "marola-dev/marola"
     },
     {
@@ -310,12 +310,12 @@
     },
     {
      "branch": "main",
-     "pushed_at": "2026-11-25T13:10:38Z",
+     "pushed_at": "2026-11-27T13:03:36Z",
      "repo": "marola-dev/marola-site"
     },
     {
      "branch": "main",
-     "pushed_at": "2026-11-24T17:38:14Z",
+     "pushed_at": "2026-11-26T16:49:48Z",
      "repo": "marola-dev/marola-skills"
     },
     {
@@ -337,12 +337,12 @@
   },
   "repo:Graphify-Labs/graphify": {
    "branch": "v8",
-   "pushed_at": "2026-11-25T13:52:46Z",
+   "pushed_at": "2026-11-27T02:53:36Z",
    "repo": "Graphify-Labs/graphify"
   },
   "repo:Leonxlnx/taste-skill": {
    "branch": "main",
-   "pushed_at": "2026-11-25T16:03:21Z",
+   "pushed_at": "2026-11-26T23:58:12Z",
    "repo": "Leonxlnx/taste-skill"
   },
   "repo:Orchestra-Research/AI-Research-SKILLs": {
@@ -362,7 +362,7 @@
   },
   "repo:cloudflare/skills": {
    "branch": "main",
-   "pushed_at": "2026-11-24T17:10:13Z",
+   "pushed_at": "2026-11-25T19:35:41Z",
    "repo": "cloudflare/skills"
   },
   "repo:duckdb/duckdb-skills": {
@@ -377,7 +377,7 @@
   },
   "repo:fabricioctelles/skills": {
    "branch": "main",
-   "pushed_at": "2026-11-20T18:16:38Z",
+   "pushed_at": "2026-11-25T23:30:44Z",
    "repo": "fabricioctelles/skills"
   },
   "repo:mapbox/mapbox-agent-skills": {
@@ -387,7 +387,7 @@
   },
   "repo:maplibre/maplibre-agent-skills": {
    "branch": "main",
-   "pushed_at": "2026-11-25T11:22:42Z",
+   "pushed_at": "2026-11-27T10:54:13Z",
    "repo": "maplibre/maplibre-agent-skills"
   },
   "repo:multica-ai/andrej-karpathy-skills": {
@@ -730,14 +730,14 @@
    "branch": "v8",
    "group": "watch",
    "owner": "Graphify-Labs",
-   "pushed_at": "2026-11-25T13:52:46Z",
+   "pushed_at": "2026-11-27T02:53:36Z",
    "repo": "Graphify-Labs/graphify"
   },
   "Leonxlnx/taste-skill": {
    "branch": "main",
    "group": "watch",
    "owner": "Leonxlnx",
-   "pushed_at": "2026-11-25T16:03:21Z",
+   "pushed_at": "2026-11-26T23:58:12Z",
    "repo": "Leonxlnx/taste-skill"
   },
   "Orchestra-Research/AI-Research-SKILLs": {
@@ -765,7 +765,7 @@
    "branch": "main",
    "group": "watch",
    "owner": "cloudflare",
-   "pushed_at": "2026-11-24T17:10:13Z",
+   "pushed_at": "2026-11-25T19:35:41Z",
    "repo": "cloudflare/skills"
   },
   "duckdb/duckdb-skills": {
@@ -786,7 +786,7 @@
    "branch": "main",
    "group": "watch",
    "owner": "fabricioctelles",
-   "pushed_at": "2026-11-20T18:16:38Z",
+   "pushed_at": "2026-11-25T23:30:44Z",
    "repo": "fabricioctelles/skills"
   },
   "h0ffmann/astrbot_dw_ext_br_south_disaster": {
@@ -809,13 +809,6 @@
    "owner": "h0ffmann",
    "pushed_at": "2026-11-12T16:59:00Z",
    "repo": "h0ffmann/boat-tracker"
-  },
-  "h0ffmann/chaceon": {
-   "branch": "main",
-   "group": "own",
-   "owner": "h0ffmann",
-   "pushed_at": "2026-11-11T05:13:28Z",
-   "repo": "h0ffmann/chaceon"
   },
   "h0ffmann/closed-source": {
    "branch": "main",
@@ -845,13 +838,6 @@
    "pushed_at": "2026-11-17T00:03:04Z",
    "repo": "h0ffmann/proof"
   },
-  "h0ffmann/ww3-dia-gpu-v2": {
-   "branch": "main",
-   "group": "own",
-   "owner": "h0ffmann",
-   "pushed_at": "2026-11-11T15:11:37Z",
-   "repo": "h0ffmann/ww3-dia-gpu-v2"
-  },
   "h0ffmann/ww3-gpu": {
    "branch": "main",
    "group": "own",
@@ -870,14 +856,14 @@
    "branch": "main",
    "group": "watch",
    "owner": "maplibre",
-   "pushed_at": "2026-11-25T11:22:42Z",
+   "pushed_at": "2026-11-27T10:54:13Z",
    "repo": "maplibre/maplibre-agent-skills"
   },
   "marola-dev/.github": {
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-11-25T11:47:36Z",
+   "pushed_at": "2026-11-27T11:04:01Z",
    "repo": "marola-dev/.github"
   },
   "marola-dev/awesome-ocean-sciences": {
@@ -891,7 +877,7 @@
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-11-25T14:56:04Z",
+   "pushed_at": "2026-11-27T14:19:48Z",
    "repo": "marola-dev/marola"
   },
   "marola-dev/marola-agents": {
@@ -954,14 +940,14 @@
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-11-25T13:10:38Z",
+   "pushed_at": "2026-11-27T13:03:36Z",
    "repo": "marola-dev/marola-site"
   },
   "marola-dev/marola-skills": {
    "branch": "main",
    "group": "own",
    "owner": "marola-dev",
-   "pushed_at": "2026-11-24T17:38:14Z",
+   "pushed_at": "2026-11-26T16:49:48Z",
    "repo": "marola-dev/marola-skills"
   },
   "marola-dev/marola-swim": {
@@ -4694,8 +4680,8 @@
    "upstream_of": ""
   },
   "fabricioctelles/skills:skills/design-md-validator/SKILL.md": {
-   "blob": "fa1a33b4b93c4b54a1b8c0823b5f5e864b1386b6",
-   "changed": "2026-10-29",
+   "blob": "8432217c8c75cf6ecafc6cb5710ad907ab8bb054",
+   "changed": "2026-11-27",
    "description": "Validate DESIGN.md files against the official Google specification using the `@google/design.md` CLI linter. Works with local files. Use when the user wants to lint a DESIGN.md, check spec compliance,",
    "first_seen": "2026-10-15",
    "group": "watch",
@@ -5012,24 +4998,6 @@
    "path": ".agents/skills/asd-ste100/SKILL.md",
    "pin": "",
    "repo": "h0ffmann/astrbot_dw_ext_br_south_disaster",
-   "review": "new",
-   "tag": "untagged",
-   "upstream": "",
-   "upstream_of": ""
-  },
-  "h0ffmann/chaceon:.agents/skills/ww3-port/SKILL.md": {
-   "blob": "ab4dad468673892d2846529a036b98f6459824a7",
-   "changed": "2026-11-17",
-   "description": "The traps of translating a WAVEWATCH III Fortran routine to no_std Rust for Rust-CUDA and rust-gpu. Use while translating or reviewing a routine, when a Rust result differs from the Fortran reference ",
-   "first_seen": "2026-11-17",
-   "group": "own",
-   "hold": "",
-   "kind": "skill",
-   "local_edits": "",
-   "name": "ww3-port",
-   "path": ".agents/skills/ww3-port/SKILL.md",
-   "pin": "",
-   "repo": "h0ffmann/chaceon",
    "review": "new",
    "tag": "untagged",
    "upstream": "",
@@ -6145,8 +6113,8 @@
    "upstream_of": ""
   },
   "maplibre/maplibre-agent-skills:skills/maplibre-cartography/SKILL.md": {
-   "blob": "be19b79bd50ec601f20547e5057d384f3954b9af",
-   "changed": "2026-11-25",
+   "blob": "1c868f11c3874309d4f917e89d8da1bcace750d8",
+   "changed": "2026-11-27",
    "description": "Cartographic principles for MapLibre GL JS \u2014 label and symbol legibility on imagery vs. vector basemaps, figure-ground for point icons, styling vector roads over aerial imagery, visual hierarchy, laye",
    "first_seen": "2026-11-25",
    "group": "watch",
@@ -6230,8 +6198,8 @@
    "upstream_of": ""
   },
   "maplibre/maplibre-agent-skills:skills/maplibre-running-evals/SKILL.md": {
-   "blob": "63e25e053030779d70d741b61bb49100706f2791",
-   "changed": "2026-11-25",
+   "blob": "dfc3857e2383e3ae310a161812effa776e9cea82",
+   "changed": "2026-11-27",
    "description": "The step-by-step procedure for running this repo's Promptfoo evals with a generator and a judge over provider APIs. Use when starting a new skill and needing a baseline before writing content, when a ",
    "first_seen": "2026-11-25",
    "group": "watch",
@@ -6298,8 +6266,8 @@
    "upstream_of": ""
   },
   "maplibre/maplibre-agent-skills:skills/maplibre-terrain-rendering/SKILL.md": {
-   "blob": "062fca3a69d2fea0f824332ff0883243318eedc4",
-   "changed": "2026-11-25",
+   "blob": "b4c16c33c0b45c392271356db7e5dafe50743626",
+   "changed": "2026-11-27",
    "description": "Drawing elevation in MapLibre GL JS once a raster-dem source works \u2014 hillshade and `hillshade-method`, the `color-relief` layer and the `[\"elevation\"]` expression, runtime contours with `maplibre-cont",
    "first_seen": "2026-11-25",
    "group": "watch",
